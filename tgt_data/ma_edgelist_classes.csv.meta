@@ -1,0 +1,3 @@
+Monoamine edge list using neurone classes.
+
+Headers are (src_node, tgt_node, monoamine, receptor).

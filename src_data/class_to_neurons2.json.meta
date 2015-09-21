@@ -1,0 +1,2 @@
+Mappings from neurone classes to neurone names (without zero-padding).
+Singleton classes are represented as {'name': 'name'}.

@@ -56,7 +56,7 @@ def rec_cell_sheet_to_dict(sheet):
     return transmitter_to_rec, rec_to_cell
 
 
-def main(include_weak=False):
+def main(include_weak):
     wb = load_workbook(LATEST_DATA, read_only=True)
     ma_sht = wb.get_sheet_by_name(ma_sht_name)
     ma_sht.calculate_dimension(force=True)
@@ -73,6 +73,7 @@ def main(include_weak=False):
                     yield Edge(src, tgt, ma, rec)
 
     with open(join(tgt_root, 'ma_edgelist_classes{}.csv'.format('_include-weak' if include_weak else '')), 'w') as f:
+        print('writing class edges: include weak is {}'.format(str(include_weak)))
         for edge in generate_edges():
             f.write('{},{},{},{}\n'.format(edge.src, edge.tgt, edge.transmitter, edge.receptor))
 

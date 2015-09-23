@@ -25,17 +25,14 @@ def edge_gen_from_file(path):
                 raise StopIteration
 
 
-def main(include_weak=False):
+def main(include_weak):
     with open(join(src_root, 'class_to_neurons3.json')) as f:
         class_to_neurons = json.load(f)
-
-    with open(join(src_root, 'dist_info.json')) as f:
-        dist_info = json.load(f)
 
     for etype in etypes:
         edges = []
         for edge in edge_gen_from_file(
-                join(tgt_root, '{}_edgelist_classes{}.csv'.format(etype, '_include_weak' if include_weak else ''))
+                join(tgt_root, '{}_edgelist_classes{}.csv'.format(etype, '_include-weak' if include_weak else ''))
         ):
             sources = class_to_neurons[edge.src]  # , [edge.src])
             targets = class_to_neurons[edge.tgt]  # , [edge.tgt])
@@ -43,13 +40,10 @@ def main(include_weak=False):
                 edges.append(Edge(src, tgt, edge.transmitter, edge.receptor))
 
         with open(join(
-                tgt_root, '{}_edgelist{}.csv'.format(etype, '_include_weak' if include_weak else '')
+                tgt_root, '{}_edgelist{}.csv'.format(etype, '_include-weak' if include_weak else '')
         ), 'w') as f:
             for edge in edges:
-                f.write('{},{},{},{},{}\n'.format(edge.src, edge.tgt, edge.transmitter, edge.receptor,
-                                                  dist_info[' '.join(sorted([edge.src, edge.tgt]))])
-                )
-
+                f.write('{},{},{},{}\n'.format(edge.src, edge.tgt, edge.transmitter, edge.receptor))
 
 if __name__ == '__main__':
     for include_weak in [True, False]:

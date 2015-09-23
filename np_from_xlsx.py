@@ -1,3 +1,8 @@
+"""
+NOTE: This is well out of date!
+"""
+
+
 from openpyxl import load_workbook
 from collections import defaultdict, namedtuple
 from itertools import product

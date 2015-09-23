@@ -12,49 +12,38 @@ def key_it(start=0):
         start += 1
 
 
-def serialise(G, filename):
-    nx.write_graphml(G, filename)
-    sort_graph(filename, filename)
+def json_serialise(G, filename=None):
+    d = dict()
+    d['nodes'] = dict(G.node)
+    d['edges'] = dict(G.edge)
+
+    if filename:
+        with open(filename, 'w') as f:
+            json.dump(d, f, indent=2, sort_keys=True)
+    else:
+        return json.dumps(d, indent=2, sort_keys=True)
 
 
-def deserialise(filename):
-    return nx.read_graphml(filename)
+def json_deserialise(filename):
+    G = nx.MultiDiGraph()
+    try:
+        with open(filename) as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        try:
+            json.loads(filename)
+        except ValueError:
+            raise ValueError('Argument is neither a file path nor valid JSON')
 
+    for node, node_data in data['nodes'].items():
+        G.add_node(node, node_data)
 
-def sort_graph(in_path, out_path=None):
-    if out_path is None:
-        out_path = in_path
+    for src, tgt_dict in data['edges'].items():
+        for tgt, key_dict in tgt_dict.items():
+            for key, edge_data in key_dict.items():
+                G.add_edge(src, tgt, int(key), edge_data)
 
-    STEM = "{http://graphml.graphdrawing.org/xmlns}"
-
-    tree = ET.parse(in_path)
-
-    for elem in tree.findall(STEM + 'key'):
-        if elem.attrib['attr.name'] == 'key' and elem.attrib['for'] == 'edge':
-            key_id = elem.attrib['id']
-            break
-
-    container = tree.find(STEM + "graph")
-
-    node_data = []
-    edge_data = []
-    for elem in container:
-        if elem.tag == STEM + 'node':
-            key = elem.attrib['id']
-            node_data.append((key, elem))
-        elif elem.tag == STEM + 'edge':
-            for data_elem in elem.findall(STEM + 'data'):
-                if data_elem.attrib['key'] == key_id:
-                    key = int(data_elem.text)
-                    edge_data.append((key, elem))
-                    break
-
-    data = sorted(node_data) + sorted(edge_data)
-
-    # insert the last item from each tuple
-    container[:] = [item[-1] for item in data]
-
-    tree.write(out_path)
+    return G
 
 
 def ma_edge_iter(path):
@@ -64,7 +53,7 @@ def ma_edge_iter(path):
 
 
 def add_ma_to_graph(G, ma_csv_path):
-    max_key = max([key for node, key in G.edges_iter(keys=True)])
+    max_key = max([key for src, tgt, key in G.edges_iter(keys=True)])
     key_gen = key_it(max_key + 1)
     for src, tgt, trans, rec in ma_edge_iter(ma_csv_path):
         G.add_edge(src, tgt, key=next(key_gen), transmitter=trans, receptor=rec)
@@ -79,7 +68,7 @@ def add_node_metadata(G):
 
 
 def add_edge_lengths(G):
-    with open(join(meta_root, 'node_data.json')) as f:
+    with open(join(meta_root, 'dist_info.json')) as f:
         edge_lengths = json.load(f)
 
     for src, tgt, data in G.edges_iter(data=True):
@@ -89,13 +78,13 @@ def add_edge_lengths(G):
 phys = dict()
 
 for source in ['ac', 'ww']:
-    G = deserialise(join(phys_root, 'physical_{}.graphml'.format(source)))
+    G = json_deserialise(join(phys_root, 'physical_{}.json'.format(source)))
 
     for include_weak in ['including_weak', 'strong_only']:
-        ma_path = join(extrasyn_root, 'ma_edgelist{}.csv'.format('include-weak' if include_weak == 'including_weak' else ''))
+        ma_path = join(extrasyn_root, 'ma_edgelist{}.csv'.format('_include-weak' if include_weak == 'including_weak' else ''))
 
         add_ma_to_graph(G, ma_path)
         add_node_metadata(G)
         add_edge_lengths(G)
 
-        serialise(G, join(tgt_root, include_weak, source, 'complete.graphml'))
+        json_serialise(G, join(tgt_root, include_weak, source, 'complete.json'))

@@ -45,15 +45,6 @@ def edge_lists_to_graph(source):
     return G
 
 
-def serialise(G, filename):
-    nx.write_graphml(G, filename)
-    sort_graph(filename, filename)
-
-
-def deserialise(filename):
-    return nx.read_graphml(filename)
-
-
 def json_serialise(G, filename=None):
     d = dict()
     d['nodes'] = dict(G.node)
@@ -83,45 +74,9 @@ def json_deserialise(filename):
     for src, tgt_dict in data['edges'].items():
         for tgt, key_dict in tgt_dict.items():
             for key, edge_data in key_dict.items():
-                key = edge_data.pop('key')
-                G.add_edge(src, tgt, key, edge_data)
+                G.add_edge(src, tgt, int(key), edge_data)
 
     return G
-
-# def sort_graph(in_path, out_path=None):
-#     if out_path is None:
-#         out_path = in_path
-#
-#     STEM = "{http://graphml.graphdrawing.org/xmlns}"
-#
-#     tree = ET.parse(in_path)
-#
-#     for elem in tree.findall(STEM + 'key'):
-#         if elem.attrib['attr.name'] == 'key' and elem.attrib['for'] == 'edge':
-#             key_id = elem.attrib['id']
-#             break
-#
-#     container = tree.find(STEM + "graph")
-#
-#     node_data = []
-#     edge_data = []
-#     for elem in container:
-#         if elem.tag == STEM + 'node':
-#             key = elem.attrib['id']
-#             node_data.append((key, elem))
-#         elif elem.tag == STEM + 'edge':
-#             for data_elem in elem.findall(STEM + 'data'):
-#                 if data_elem.attrib['key'] == key_id:
-#                     key = int(data_elem.text)
-#                     edge_data.append((key, elem))
-#                     break
-#
-#     data = sorted(node_data) + sorted(edge_data)
-#
-#     # insert the last item from each tuple
-#     container[:] = [item[-1] for item in data]
-#
-#     tree.write(out_path)
 
 
 def main():

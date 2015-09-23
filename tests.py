@@ -44,20 +44,23 @@ class MetadataIntegrity(unittest.TestCase):
 
 
 class DataIntegrity(unittest.TestCase):
-    var = dict()
-
     @classmethod
     def setUp(cls):
+        cls.var = dict()
         with open(os.path.join(src_root, 'nodelist.txt')) as f:
-            DataIntegrity.var['nodeset'] = set(f.read().splitlines())
+            cls.var['nodeset'] = set(f.read().splitlines())
 
         with open(os.path.join(tgt_root, 'ma_edgelist.csv')) as f:
             reader = csv.reader(f)
-            DataIntegrity.var['ma_edgelist'] = [tuple(row[:2]) for row in reader]
+            cls.var['ma_edgelist'] = [tuple(row[:2]) for row in reader]
+
+    def test_fixtures(self):
+        self.assertTrue(self.var['nodeset'])
+        self.assertTrue(self.var['ma_edgelist'])
 
     def test_validate_nodes_are_neurons(self):
-        vertex_set = {node for edge in DataIntegrity.var['ma_edgelist'] for node in edge}
-        diff = vertex_set - DataIntegrity.var['nodeset']
+        vertex_set = {node for edge in self.var['ma_edgelist'] for node in edge}
+        diff = vertex_set - self.var['nodeset']
         self.assertEqual(len(diff), 0, 'The below vertices are not real neurons:\n\t{}'.format(str(diff)))
 
 

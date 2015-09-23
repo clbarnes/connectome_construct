@@ -19,25 +19,18 @@ ma_sht_name = 'Monoamine Expr'
 rec_sht_name = 'Receptor Expr'
 
 
-def val(cell):
-    try:
-        return cell.value.strip().decode("utf-8", "replace")
-    except AttributeError:
-        return None
-
-
 def ma_cell_sheet_to_dict(sheet, include_weak=False):
     mol_to_cell = defaultdict(set)
     for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):
         if not row:
             continue
-        if val(row[0]):
-            if '*' in val(row[2]):
+        if row[0].value:
+            if '*' in row[2].value:
                 continue
-            if '?' in val(row[2]) and not include_weak:
+            if '?' in row[2].value and not include_weak:
                 continue
 
-            mol_to_cell[val(row[0])].add(val(row[2]).replace('?', ''))
+            mol_to_cell[row[0].value.strip()].add(row[2].value.strip().replace('?', ''))
 
     mol_to_cell = {mol: sorted(cell_set) for mol, cell_set in mol_to_cell.items()}
 
@@ -51,8 +44,8 @@ def rec_cell_sheet_to_dict(sheet):
         if not row:
             continue
 
-        if val(row[0]):
-            transmitter, receptor, cell = [val(item) for item in row[:3]]
+        if row[0].value:
+            transmitter, receptor, cell = [item.value.strip() for item in row[:3]]
 
             transmitter_to_rec[transmitter].add(receptor)
             rec_to_cell[receptor].add(cell)

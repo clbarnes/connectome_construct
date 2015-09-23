@@ -31,6 +31,10 @@
     "AIML",
     "AIMR"
   ],
+  "AIN": [
+    "AINL",
+    "AINR"
+  ],
   "AIY": [
     "AIYL",
     "AIYR"
@@ -353,6 +357,9 @@
   ],
   "PVP": [
     "PVPL",
+    "PVPR"
+  ],
+  "PVPR": [
     "PVPR"
   ],
   "PVQ": [

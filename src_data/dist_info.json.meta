@@ -1,0 +1,7 @@
+Minimum distance between all pairs of neurones, in the format
+
+{' '.join(sorted([src, tgt])): distance_in_um}
+
+NOTE that the worm is in a normal s-bend posture, and so distances are not necessarily representative of the distance monoamines need to travel
+
+Morphology data from CElegansNeuroML-SNAPSHOT_030213 ( https://github.com/openworm/CElegansNeuroML/archive/SNAPSHOT_030213.zip )

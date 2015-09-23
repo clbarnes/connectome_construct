@@ -1,6 +1,6 @@
 import unittest
 import os
-from construct2.paths import src_root, tgt_root
+from paths import src_root, tgt_root
 
 
 class DataIntegrity(unittest.TestCase):

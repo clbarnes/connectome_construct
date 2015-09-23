@@ -1,2 +1,2 @@
-src_root = '/home/cbarnes/code/connectome/construct2/src_data'
-tgt_root = '/home/cbarnes/code/connectome/construct2/tgt_data'
+src_root = '/home/cbarnes/code/connectome/construct_extrasyn/src_data'
+tgt_root = '/home/cbarnes/code/connectome/construct_extrasyn/tgt_data'

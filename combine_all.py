@@ -56,7 +56,7 @@ def add_ma_to_graph(G, ma_csv_path):
     max_key = max([key for src, tgt, key in G.edges_iter(keys=True)])
     key_gen = key_it(max_key + 1)
     for src, tgt, trans, rec in ma_edge_iter(ma_csv_path):
-        G.add_edge(src, tgt, key=next(key_gen), transmitter=trans, receptor=rec)
+        G.add_edge(src, tgt, key=next(key_gen), transmitter=trans, receptor=rec, etype='Monoamine')
 
 
 def add_node_metadata(G):
@@ -75,16 +75,23 @@ def add_edge_lengths(G):
         data['min_distance'] = edge_lengths[' '.join(sorted([src, tgt]))]
 
 
-phys = dict()
+def main():
+    for source in ['ac', 'ww']:
+        G = json_deserialise(join(phys_root, 'physical_{}.json'.format(source)))
 
-for source in ['ac', 'ww']:
-    G = json_deserialise(join(phys_root, 'physical_{}.json'.format(source)))
+        for include_weak in ['including_weak', 'strong_only']:
+            ma_path = join(extrasyn_root,
+                           'ma_edgelist{}.csv'.format('_include-weak' if include_weak == 'including_weak' else ''))
 
-    for include_weak in ['including_weak', 'strong_only']:
-        ma_path = join(extrasyn_root, 'ma_edgelist{}.csv'.format('_include-weak' if include_weak == 'including_weak' else ''))
+            add_ma_to_graph(G, ma_path)
+            add_node_metadata(G)
+            add_edge_lengths(G)
 
-        add_ma_to_graph(G, ma_path)
-        add_node_metadata(G)
-        add_edge_lengths(G)
+            json_serialise(G, join(tgt_root, include_weak, source, 'complete.json'))
 
-        json_serialise(G, join(tgt_root, include_weak, source, 'complete.json'))
+
+main()
+
+
+if __name__ == '__main__':
+    main()

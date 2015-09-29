@@ -1,0 +1,12 @@
+[submodule "construct_physical"]
+	path = construct_physical
+	url = ./construct_physical/
+[submodule "construct_extrasyn"]
+	path = construct_extrasyn
+	url = ./construct_extrasyn/
+[submodule "construct_metadata"]
+	path = construct_metadata
+	url = ./construct_metadata/
+[submodule "combine"]
+	path = combine
+	url = ./combine/

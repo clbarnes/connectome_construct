@@ -1,0 +1,3 @@
+Neuropeptide edge list using individual neurons.
+
+Headers are (src_node, tgt_node, neuropeptide, receptor).

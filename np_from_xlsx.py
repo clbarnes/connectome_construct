@@ -1,76 +1,120 @@
 """
-NOTE: This is well out of date!
+Convert the neuropeptide connectivity spreadsheet into an edge list between neuron classes
 """
 
 
 from openpyxl import load_workbook
 from collections import defaultdict, namedtuple
-from itertools import product
+from os.path import join
+from construct_extrasyn.paths import src_root, tgt_root
+# from paths import src_root, tgt_root
+
+
+LATEST_DATA = join(src_root, 'neuropeptide_spreadsheet.xlsx')
+
+Edge = namedtuple('Edge', ['src', 'tgt', 'transmitter', 'receptor'])
+
+pep_sht_name = 'Peptide Expr'
+rec_sht_name = 'Receptor Expr'
+mapping_sht_name = 'Peptides'
+
+
+def val(cell):
+    try:
+        return cell.value.strip()
+    except AttributeError as e:
+        if 'NoneType' in str(e):
+            return ''
+        else:
+            raise e
+
+
+def peptide_expr_from_sheet(sheet):
+    mol_to_cell = defaultdict(set)
+    for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):
+        if not row:
+            continue
+        if val(row[0]):
+            if '?' in val(row[1]):
+                continue
+
+            peptide = val(row[0])
+            if 'nlp-37' in peptide:
+                peptide = 'pdf-2'
+
+            mol_to_cell[peptide].add(val(row[1]))
+
+    mol_to_cell = {mol: sorted(cell_set) for mol, cell_set in mol_to_cell.items()}
+
+    return mol_to_cell
+
+
+def receptor_expr_from_sheet(sheet):
+    mol_to_cell = defaultdict(set)
+    for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):
+        if not row:
+            continue
+        if val(row[0]):
+            if '?' in val(row[1]):
+                continue
+
+            mol = val(row[0])
+
+            mol_to_cell[mol].add(val(row[1]))
+
+    mol_to_cell = {mol: sorted(cell_set) for mol, cell_set in mol_to_cell.items()}
+
+    return mol_to_cell
+
+
+def ligand_mapping_from_sheet(sheet):
+    pep_to_rec = defaultdict(set)
+    for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):
+        if not row:
+            continue
+        if val(row[0]) and val(row[1]):
+            if '?' in val(row[1]):
+                continue
+
+            pep = val(row[0])
+
+            if 'nlp-37' in pep:
+                pep = 'pdf-2'
+
+            for rec_cell in row[1:]:
+                if not rec_cell or not val(rec_cell):
+                    break
+
+                pep_to_rec[pep].add(val(rec_cell))
+
+    pep_to_rec = {mol: sorted(cell_set) for mol, cell_set in pep_to_rec.items()}
+
+    return pep_to_rec
 
 
 def main():
-    path = '/home/cbarnes/data/connectome/Neuropeptide_2015-04-20.xlsx'
-    pep_sht_name = 'Peptide Expr'
-    rec_sht_name = 'Receptor Expr'
-    pep_to_rec_name = 'Peptides'
-    rec_to_pep_name = 'Receptors'
-    wb = load_workbook(path, read_only=True)
-    pep_expr_sht = wb.get_sheet_by_name(pep_sht_name)
-    rec_expr_sht = wb.get_sheet_by_name(rec_sht_name)
-    pep_to_rec_sht = wb.get_sheet_by_name(pep_to_rec_name)
-    rec_to_pep_sht = wb.get_sheet_by_name(rec_to_pep_name)
+    wb = load_workbook(LATEST_DATA, read_only=True)
 
-    def gene_cell_sheet_to_dict(sheet):
-        gene_to_cell = defaultdict(list)
-        last_gene = ''
-        for row in sheet.iter_rows('A3:B{}'.format(sheet.get_highest_row())):
-            if not row:
-                continue
-            if row[0].value:
-                val = row[0].value.strip() if 'nlp-37' not in row[0].value else 'pdf-2'
-                last_gene = val
-            if row[1].value:
-                if '?' in row[1].value:
-                    continue
+    pep_sht = wb.get_sheet_by_name(pep_sht_name)
+    pep_sht.calculate_dimension(force=True)
+    peptide_expr = peptide_expr_from_sheet(pep_sht)
 
-                gene_to_cell[last_gene].append(row[1].value.strip())
+    rec_sht = wb.get_sheet_by_name(rec_sht_name)
+    rec_sht.calculate_dimension(force=True)
+    rec_expr = receptor_expr_from_sheet(rec_sht)
 
-        return gene_to_cell
-
-    pep_expr = gene_cell_sheet_to_dict(pep_expr_sht)
-    rec_expr = gene_cell_sheet_to_dict(rec_expr_sht)
-
-    def pep_rec_sheet_to_dict(sheet):
-        d = defaultdict(list)
-        for row in sheet.iter_rows('A3:M{}'.format(sheet.get_highest_row())):
-
-            try:
-                if row[0].value and row[1].value:
-                    pass
-                else:
-                    continue
-            except IndexError:
-                continue
-
-            head, *tail = [cell.value.strip() for cell in row if cell.value is not None and '?' not in cell.value]
-            if 'nlp-37' in head:
-                head = 'pdf-2'
-
-            d[head] = tail
-
-        return d
-
-    pep_to_rec = pep_rec_sheet_to_dict(pep_to_rec_sht)
-    rec_to_pep = pep_rec_sheet_to_dict(rec_to_pep_sht)
+    mapping_sht = wb.get_sheet_by_name(mapping_sht_name)
+    mapping_sht.calculate_dimension(force=True)
+    ligand_mapping = ligand_mapping_from_sheet(mapping_sht)
 
     def generate_edges():
-        Edge = namedtuple('Edge', ['src', 'tgt', 'transmitter', 'receptor'])
-        for transmitter, src_nodes in pep_expr.items():
-            for receptor in pep_to_rec[transmitter]:
-                for src, tgt in product(src_nodes, rec_expr[receptor]):
-                    yield Edge(src, tgt, transmitter, receptor)
+        for transmitter in sorted(peptide_expr):
+            for src in peptide_expr[transmitter]:
+                for receptor in ligand_mapping[transmitter]:
+                    for tgt in rec_expr.get(receptor, []):
+                        yield Edge(src, tgt, transmitter, receptor)
 
-    with open('np_edgelist_classes.csv', 'w') as f:
+    with open(join(tgt_root, 'np_edgelist_classes.csv'), 'w') as f:
         for edge in generate_edges():
             f.write('{},{},{},{}\n'.format(edge.src, edge.tgt, edge.transmitter, edge.receptor))
 

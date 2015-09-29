@@ -19,6 +19,16 @@ ma_sht_name = 'Monoamine Expr'
 rec_sht_name = 'Receptor Expr'
 
 
+def val(cell):
+    try:
+        return cell.value.strip()
+    except AttributeError as e:
+        if 'NoneType' in str(e):
+            return ''
+        else:
+            raise e
+
+
 def ma_cell_sheet_to_dict(sheet, include_weak=False):
     mol_to_cell = defaultdict(set)
     for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):

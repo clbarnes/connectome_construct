@@ -1,6 +1,5 @@
-from paths import phys_root, extrasyn_root, meta_root, tgt_root
+from combine.paths import phys_root, extrasyn_root, meta_root, tgt_root
 import networkx as nx
-from xml.etree import ElementTree as ET
 from os.path import join
 import csv
 import json
@@ -59,6 +58,13 @@ def add_ma_to_graph(G, ma_csv_path):
         G.add_edge(src, tgt, key=next(key_gen), transmitter=trans, receptor=rec, etype='Monoamine')
 
 
+def add_np_to_graph(G, np_csv_path):
+    max_key = max([key for src, tgt, key in G.edges_iter(keys=True)])
+    key_gen = key_it(max_key + 1)
+    for src, tgt, trans, rec in ma_edge_iter(np_csv_path):
+        G.add_edge(src, tgt, key=next(key_gen), transmitter=trans, receptor=rec, etype='Neuropeptide')
+
+
 def add_node_metadata(G):
     with open(join(meta_root, 'node_data.json')) as f:
         node_data = json.load(f)
@@ -82,15 +88,14 @@ def main():
         for include_weak in ['including_weak', 'strong_only']:
             ma_path = join(extrasyn_root,
                            'ma_edgelist{}.csv'.format('_include-weak' if include_weak == 'including_weak' else ''))
+            np_path = join(extrasyn_root, 'np_edgelist.csv')
 
             add_ma_to_graph(G, ma_path)
+            add_np_to_graph(G, np_path)
             add_node_metadata(G)
             add_edge_lengths(G)
 
             json_serialise(G, join(tgt_root, include_weak, source, 'complete.json'))
-
-
-main()
 
 
 if __name__ == '__main__':

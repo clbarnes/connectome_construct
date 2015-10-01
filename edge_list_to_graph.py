@@ -24,7 +24,6 @@ def edge_iter(etype, source):
 
 def edge_lists_to_graph(source):
     G = nx.MultiDiGraph()
-    keys = key_it()
 
     with open(join(src_root, 'nodelist.txt')) as f:
         nodelist = f.read().splitlines()
@@ -34,11 +33,9 @@ def edge_lists_to_graph(source):
 
     n_nodes = G.number_of_nodes()
 
-    for edge in edge_iter('gap', source):
-        G.add_edge(edge[0], edge[1], key=next(keys), weight=int(edge[2]), etype='GapJunction')
-
-    for edge in edge_iter('syn', source):
-        G.add_edge(edge[0], edge[1], key=next(keys), weight=int(edge[2]), etype='Synapse')
+    for etype, edge_file_prefix in [('GapJunction', 'gap'), ('Synapse', 'syn')]:
+        for src, tgt, weight_str in edge_iter(edge_file_prefix, source):
+            G.add_edge(src, tgt, key='{}_{}->{}'.format(etype, src, tgt), weight=int(weight_str), etype=etype)
 
     assert n_nodes == G.number_of_nodes()
 

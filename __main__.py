@@ -1,5 +1,5 @@
 """
-Constructs extrasynaptic edge lists, including minimum edge lengths
+Constructs complete graphs, using physical graphs, monoamine and neuropeptide edgelists, and various metadata
 """
 
 from combine import combine_all

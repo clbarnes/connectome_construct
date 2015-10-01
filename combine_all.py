@@ -40,7 +40,7 @@ def json_deserialise(filename):
     for src, tgt_dict in data['edges'].items():
         for tgt, key_dict in tgt_dict.items():
             for key, edge_data in key_dict.items():
-                G.add_edge(src, tgt, int(key), edge_data)
+                G.add_edge(src, tgt, key, edge_data)
 
     return G
 
@@ -51,18 +51,10 @@ def ma_edge_iter(path):
         yield from reader
 
 
-def add_ma_to_graph(G, ma_csv_path):
-    max_key = max([key for src, tgt, key in G.edges_iter(keys=True)])
-    key_gen = key_it(max_key + 1)
-    for src, tgt, trans, rec in ma_edge_iter(ma_csv_path):
-        G.add_edge(src, tgt, key=next(key_gen), transmitter=trans, receptor=rec, etype='Monoamine')
-
-
-def add_np_to_graph(G, np_csv_path):
-    max_key = max([key for src, tgt, key in G.edges_iter(keys=True)])
-    key_gen = key_it(max_key + 1)
+def add_extrasyn_to_graph(G, np_csv_path, etype):
     for src, tgt, trans, rec in ma_edge_iter(np_csv_path):
-        G.add_edge(src, tgt, key=next(key_gen), transmitter=trans, receptor=rec, etype='Neuropeptide')
+        G.add_edge(src, tgt, key='{}_{}->{}_{}->{}'.format(etype, src, tgt, trans, rec),
+                   transmitter=trans, receptor=rec, etype=etype)
 
 
 def add_node_metadata(G):
@@ -86,12 +78,15 @@ def main():
         G = json_deserialise(join(phys_root, 'physical_{}.json'.format(source)))
 
         for include_weak in ['including_weak', 'strong_only']:
-            ma_path = join(extrasyn_root,
-                           'ma_edgelist{}.csv'.format('_include-weak' if include_weak == 'including_weak' else ''))
-            np_path = join(extrasyn_root, 'np_edgelist.csv')
+            csv_paths = {
+                'Monoamine': join(extrasyn_root,
+                           'ma_edgelist{}.csv'.format('_include-weak' if include_weak == 'including_weak' else '')),
+                'Neuropeptide': join(extrasyn_root, 'np_edgelist.csv')
+            }
 
-            add_ma_to_graph(G, ma_path)
-            add_np_to_graph(G, np_path)
+            for etype in ['Monoamine', 'Neuropeptide']:
+                add_extrasyn_to_graph(G, csv_paths[etype], etype)
+
             add_node_metadata(G)
             add_edge_lengths(G)
 

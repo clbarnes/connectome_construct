@@ -1,5 +1,5 @@
 """
-Constructs extrasynaptic edge lists, including minimum edge lengths
+Constructs monoamine and neuropeptide edge lists from gene expression spreadsheets
 """
 
 from construct_extrasyn import np_from_xlsx

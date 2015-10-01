@@ -10,3 +10,6 @@
 [submodule "combine"]
 	path = combine
 	url = ./combine/
+[submodule "connectome_utils"]
+	path = connectome_utils
+	url = ../connectome_utils/.git

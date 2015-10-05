@@ -1,5 +1,5 @@
 import networkx as nx
-from construct_physical.paths import src_root, tgt_root
+from physical.paths import src_root, tgt_root
 # from paths import src_root, tgt_root
 from os.path import join
 import csv

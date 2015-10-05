@@ -47,17 +47,13 @@ def add_edge_lengths(G):
 
 
 def main():
-    commit_extrasyn = get_commit_hash(extrasyn_root)
-    commit_phys = get_commit_hash(phys_root)
-    commit_metadata = get_commit_hash(meta_root)
+    commit_hash = get_commit_hash('.')
     date_str = datetime.now().isoformat()
 
     for source in ['ac', 'ww']:
         G = json_deserialise(join(phys_root, 'physical_{}.json'.format(source)))
-        G.graph['commit_phys'] = commit_phys
-        G.graph['commit_extrasyn'] = commit_extrasyn
-        G.graph['commit_metadata'] = commit_metadata
-        G.graph['date_created'] = date_str
+        G.graph['commit_hash'] = commit_hash
+        G.graph['created'] = date_str
 
         for include_weak in ['including_weak', 'strong_only']:
             G2 = G.copy()

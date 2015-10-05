@@ -6,7 +6,7 @@ from openpyxl import load_workbook
 from collections import defaultdict, namedtuple
 from itertools import product
 from os.path import join
-from construct_extrasyn.paths import src_root, tgt_root
+from extrasyn.paths import src_root, tgt_root
 
 
 LATEST_DATA = join(src_root, 'monoamine_spreadsheet.xlsx')

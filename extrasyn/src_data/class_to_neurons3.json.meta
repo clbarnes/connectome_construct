@@ -1,0 +1,5 @@
+Mappings from neurone classes to neurone names (without zero-padding).
+Singleton classes are represented as {'name': 'name'}.
+
+Note that the below neurones are missing.
+['ALA', 'PDB', 'RIPL', 'RIPR', 'RIR', 'SMBVL', 'SMBVR']

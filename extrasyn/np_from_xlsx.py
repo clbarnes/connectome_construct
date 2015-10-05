@@ -6,7 +6,7 @@ Convert the neuropeptide connectivity spreadsheet into an edge list between neur
 from openpyxl import load_workbook
 from collections import defaultdict, namedtuple
 from os.path import join
-from construct_extrasyn.paths import src_root, tgt_root
+from extrasyn.paths import src_root, tgt_root
 # from paths import src_root, tgt_root
 
 

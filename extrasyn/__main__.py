@@ -2,9 +2,9 @@
 Constructs monoamine and neuropeptide edge lists from gene expression spreadsheets
 """
 
-from construct_extrasyn import np_from_xlsx
-from construct_extrasyn import ma_from_xlsx
-from construct_extrasyn import class_edgelist_to_edgelist
+from extrasyn import np_from_xlsx
+from extrasyn import ma_from_xlsx
+from extrasyn import class_edgelist_to_edgelist
 
 
 for include_weak in [True, False]:

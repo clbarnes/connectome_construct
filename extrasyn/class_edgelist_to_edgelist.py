@@ -6,7 +6,7 @@ import json
 from collections import namedtuple
 from itertools import product
 from os.path import join
-from construct_extrasyn.paths import src_root, tgt_root
+from extrasyn.paths import src_root, tgt_root
 # from paths import src_root, tgt_root
 
 etypes = ['ma', 'np']

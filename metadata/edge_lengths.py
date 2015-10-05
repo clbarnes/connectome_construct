@@ -2,7 +2,7 @@ import numpy as np
 from scipy.spatial.distance import cdist
 import json
 import networkx as nx
-from paths import src_root, tgt_root
+from metadata.paths import src_root, tgt_root
 from os.path import join
 
 node_morphs = json.load(open(join(src_root, 'morphologies.json'), 'r'))

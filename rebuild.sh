@@ -1,10 +1,10 @@
 #!/bin/bash
 echo Constructing physical network...
-python3 -m construct_physical
+python3 -m physical
 echo Constructing extrasynaptic network...
-python3 -m construct_extrasyn
+python3 -m extrasyn
 echo Constructing metadata...
-python3 -m construct_metadata
+python3 -m metadata
 echo Combining...
 python3 -m combine
 echo Finished! Output in ./combine/tgt_data

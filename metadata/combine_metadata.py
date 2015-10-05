@@ -1,5 +1,5 @@
 import json
-from paths import src_root, tgt_root
+from metadata.paths import src_root, tgt_root
 from os.path import join
 import numpy as np
 from scipy.spatial.distance import cdist

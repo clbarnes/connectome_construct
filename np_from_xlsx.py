@@ -110,7 +110,7 @@ def main():
     def generate_edges():
         for transmitter in sorted(peptide_expr):
             for src in peptide_expr[transmitter]:
-                for receptor in ligand_mapping[transmitter]:
+                for receptor in ligand_mapping.get(transmitter, []):
                     for tgt in rec_expr.get(receptor, []):
                         yield Edge(src, tgt, transmitter, receptor)
 

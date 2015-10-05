@@ -35,7 +35,7 @@ def get_commit_hash(path, check_clean=True):
     if check_clean and sp.check_output(['git', '-C', path, 'status', '--porcelain']).strip():
         warn('Source data directory {} has uncommitted changes'.format(path))
 
-    return sp.check_output(['git', '-C', path, 'rev-parse', '--short', 'HEAD']).strip()
+    return sp.check_output(['git', '-C', path, 'rev-parse', '--short', 'HEAD']).decode('utf-8').strip()
 
 
 def add_edge_lengths(G):
@@ -57,7 +57,7 @@ def main():
         G.graph['commit_phys'] = commit_phys
         G.graph['commit_extrasyn'] = commit_extrasyn
         G.graph['commit_metadata'] = commit_metadata
-        G.date_created = date_str
+        G.graph['date_created'] = date_str
 
         for include_weak in ['including_weak', 'strong_only']:
             G2 = G.copy()
@@ -68,7 +68,7 @@ def main():
             }
 
             for etype in ['Monoamine', 'Neuropeptide']:
-                add_extrasyn_to_graph(G, csv_paths[etype], etype)
+                add_extrasyn_to_graph(G2, csv_paths[etype], etype)
 
             add_node_metadata(G2)
             add_edge_lengths(G2)

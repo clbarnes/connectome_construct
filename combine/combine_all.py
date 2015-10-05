@@ -32,8 +32,8 @@ def get_commit_hash(path, check_clean=True):
     """
     Checks that git repo is up to date in target directory and gets the commit hash
     """
-    if check_clean and sp.check_output(['git', '-C', path, 'status', '--porcelain']).strip():
-        warn('Source data directory {} has uncommitted changes'.format(path))
+    # if check_clean and sp.check_output(['git', '-C', path, 'status', '--porcelain']).strip():
+    #     warn('Source data directory {} has uncommitted changes'.format(path))
 
     return sp.check_output(['git', '-C', path, 'rev-parse', '--short', 'HEAD']).decode('utf-8').strip()
 

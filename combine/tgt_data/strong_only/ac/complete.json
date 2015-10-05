@@ -305,7 +305,7 @@
       "PVM": {
         "Neuropeptide_ADAL->PVM_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 105.35651562595125,
+          "min_distance": 105.35651562595123,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -511,7 +511,7 @@
       "ALML": {
         "Neuropeptide_ADAR->ALML_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 6.949731201135288,
+          "min_distance": 6.949731201135287,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -1461,7 +1461,7 @@
       "BDUR": {
         "Monoamine_ADEL->BDUR_dopamine->dop-5": {
           "etype": "Monoamine",
-          "min_distance": 1.8355212567916586,
+          "min_distance": 1.835521256791659,
           "receptor": "dop-5",
           "transmitter": "dopamine"
         }
@@ -1841,7 +1841,7 @@
       "HSNL": {
         "Monoamine_ADEL->HSNL_dopamine->lgc-53": {
           "etype": "Monoamine",
-          "min_distance": 0.354272690269927,
+          "min_distance": 0.35427269026992714,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -1893,7 +1893,7 @@
       "I2R": {
         "Monoamine_ADEL->I2R_dopamine->dop-4": {
           "etype": "Monoamine",
-          "min_distance": 7.343705221529641,
+          "min_distance": 7.34370522152964,
           "receptor": "dop-4",
           "transmitter": "dopamine"
         }
@@ -1955,13 +1955,13 @@
       "IL2R": {
         "Monoamine_ADEL->IL2R_dopamine->dop-6": {
           "etype": "Monoamine",
-          "min_distance": 11.6033314729951,
+          "min_distance": 11.603331472995103,
           "receptor": "dop-6",
           "transmitter": "dopamine"
         },
         "Monoamine_ADEL->IL2R_dopamine->lgc-53": {
           "etype": "Monoamine",
-          "min_distance": 11.6033314729951,
+          "min_distance": 11.603331472995103,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -2663,13 +2663,13 @@
       "SIBDR": {
         "Monoamine_ADEL->SIBDR_dopamine->dop-2": {
           "etype": "Monoamine",
-          "min_distance": 0.32744881588682895,
+          "min_distance": 0.32744881588682884,
           "receptor": "dop-2",
           "transmitter": "dopamine"
         },
         "Synapse_ADEL->SIBDR": {
           "etype": "Synapse",
-          "min_distance": 0.32744881588682895,
+          "min_distance": 0.32744881588682884,
           "weight": 1
         }
       },
@@ -2692,7 +2692,7 @@
       "SMBDR": {
         "Synapse_ADEL->SMBDR": {
           "etype": "Synapse",
-          "min_distance": 2.086142674633582,
+          "min_distance": 2.0861426746335825,
           "weight": 1
         }
       },
@@ -2994,13 +2994,13 @@
       "VB1": {
         "Monoamine_ADEL->VB1_dopamine->dop-1": {
           "etype": "Monoamine",
-          "min_distance": 1.0797717870988892,
+          "min_distance": 1.079771787098889,
           "receptor": "dop-1",
           "transmitter": "dopamine"
         },
         "Monoamine_ADEL->VB1_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 1.0797717870988892,
+          "min_distance": 1.079771787098889,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -3050,13 +3050,13 @@
       "VB3": {
         "Monoamine_ADEL->VB3_dopamine->dop-1": {
           "etype": "Monoamine",
-          "min_distance": 9.970211443660189,
+          "min_distance": 9.970211443660187,
           "receptor": "dop-1",
           "transmitter": "dopamine"
         },
         "Monoamine_ADEL->VB3_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 9.970211443660189,
+          "min_distance": 9.970211443660187,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -3220,7 +3220,7 @@
       "VD6": {
         "Monoamine_ADEL->VD6_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 178.68576932523402,
+          "min_distance": 178.68576932523405,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -3326,13 +3326,13 @@
       "AIMR": {
         "Monoamine_ADER->AIMR_dopamine->dop-5": {
           "etype": "Monoamine",
-          "min_distance": 1.1243291540586422,
+          "min_distance": 1.1243291540586424,
           "receptor": "dop-5",
           "transmitter": "dopamine"
         },
         "Monoamine_ADER->AIMR_dopamine->lgc-53": {
           "etype": "Monoamine",
-          "min_distance": 1.1243291540586422,
+          "min_distance": 1.1243291540586424,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -3348,7 +3348,7 @@
       "AINR": {
         "Monoamine_ADER->AINR_dopamine->dop-5": {
           "etype": "Monoamine",
-          "min_distance": 1.5147822463373546,
+          "min_distance": 1.5147822463373544,
           "receptor": "dop-5",
           "transmitter": "dopamine"
         }
@@ -3723,26 +3723,26 @@
       "AVJR": {
         "Synapse_ADER->AVJR": {
           "etype": "Synapse",
-          "min_distance": 0.22782000552025708,
+          "min_distance": 0.2278200055202572,
           "weight": 1
         }
       },
       "AVKL": {
         "GapJunction_ADER->AVKL": {
           "etype": "GapJunction",
-          "min_distance": 0.2264476876874207,
+          "min_distance": 0.2264476876874206,
           "weight": 1
         },
         "Synapse_ADER->AVKL": {
           "etype": "Synapse",
-          "min_distance": 0.2264476876874207,
+          "min_distance": 0.2264476876874206,
           "weight": 2
         }
       },
       "AVKR": {
         "Synapse_ADER->AVKR": {
           "etype": "Synapse",
-          "min_distance": 0.5483344361010388,
+          "min_distance": 0.5483344361010387,
           "weight": 1
         }
       },
@@ -4082,7 +4082,7 @@
       "DD1": {
         "Monoamine_ADER->DD1_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 1.630955666524064,
+          "min_distance": 1.6309556665240637,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -4266,13 +4266,13 @@
       "IL2R": {
         "Monoamine_ADER->IL2R_dopamine->dop-6": {
           "etype": "Monoamine",
-          "min_distance": 0.9238609264801249,
+          "min_distance": 0.9238609264801246,
           "receptor": "dop-6",
           "transmitter": "dopamine"
         },
         "Monoamine_ADER->IL2R_dopamine->lgc-53": {
           "etype": "Monoamine",
-          "min_distance": 0.9238609264801249,
+          "min_distance": 0.9238609264801246,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -4937,7 +4937,7 @@
       "SIBDL": {
         "Monoamine_ADER->SIBDL_dopamine->dop-2": {
           "etype": "Monoamine",
-          "min_distance": 0.32744881588682895,
+          "min_distance": 0.32744881588682884,
           "receptor": "dop-2",
           "transmitter": "dopamine"
         }
@@ -4961,7 +4961,7 @@
       "SIBVR": {
         "Monoamine_ADER->SIBVR_dopamine->dop-2": {
           "etype": "Monoamine",
-          "min_distance": 1.1243291540586422,
+          "min_distance": 1.1243291540586424,
           "receptor": "dop-2",
           "transmitter": "dopamine"
         }
@@ -5341,13 +5341,13 @@
       "VB5": {
         "Monoamine_ADER->VB5_dopamine->dop-1": {
           "etype": "Monoamine",
-          "min_distance": 91.08154274602664,
+          "min_distance": 91.08154274602666,
           "receptor": "dop-1",
           "transmitter": "dopamine"
         },
         "Monoamine_ADER->VB5_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 91.08154274602664,
+          "min_distance": 91.08154274602666,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -5411,7 +5411,7 @@
       "VD1": {
         "Monoamine_ADER->VD1_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 1.4685494659266793,
+          "min_distance": 1.4685494659266791,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -6117,13 +6117,13 @@
       "M3L": {
         "Monoamine_ADFL->M3L_serotonin->ser-7": {
           "etype": "Monoamine",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "ser-7",
           "transmitter": "serotonin"
         },
         "Neuropeptide_ADFL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -6131,13 +6131,13 @@
       "M3R": {
         "Monoamine_ADFL->M3R_serotonin->ser-7": {
           "etype": "Monoamine",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "ser-7",
           "transmitter": "serotonin"
         },
         "Neuropeptide_ADFL->M3R_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -6169,7 +6169,7 @@
       "MCR": {
         "Monoamine_ADFL->MCR_serotonin->ser-7": {
           "etype": "Monoamine",
-          "min_distance": 4.723927012175291,
+          "min_distance": 4.72392701217529,
           "receptor": "ser-7",
           "transmitter": "serotonin"
         }
@@ -6185,7 +6185,7 @@
       "NSMR": {
         "Monoamine_ADFL->NSMR_serotonin->ser-4": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-4",
           "transmitter": "serotonin"
         }
@@ -6708,13 +6708,13 @@
       "VD1": {
         "Monoamine_ADFL->VD1_serotonin->mod-1": {
           "etype": "Monoamine",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "mod-1",
           "transmitter": "serotonin"
         },
         "Neuropeptide_ADFL->VD1_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -7556,7 +7556,7 @@
       "MCL": {
         "Monoamine_ADFR->MCL_serotonin->ser-7": {
           "etype": "Monoamine",
-          "min_distance": 4.9097140788015405,
+          "min_distance": 4.90971407880154,
           "receptor": "ser-7",
           "transmitter": "serotonin"
         }
@@ -8681,7 +8681,7 @@
       "DD3": {
         "Neuropeptide_ADLL->DD3_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 157.01569130610108,
+          "min_distance": 157.01569130610105,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -8773,7 +8773,7 @@
       "M3L": {
         "Neuropeptide_ADLL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -8781,7 +8781,7 @@
       "M3R": {
         "Neuropeptide_ADLL->M3R_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -9503,7 +9503,7 @@
       "DD3": {
         "Neuropeptide_ADLR->DD3_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 157.1408153189142,
+          "min_distance": 157.14081531891418,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -10317,7 +10317,7 @@
       "PVM": {
         "Neuropeptide_AFDL->PVM_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 132.46568516498346,
+          "min_distance": 132.46568516498348,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -10673,7 +10673,7 @@
       "FLPL": {
         "Neuropeptide_AFDR->FLPL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -10847,7 +10847,7 @@
       "PVM": {
         "Neuropeptide_AFDR->PVM_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 132.4898743530614,
+          "min_distance": 132.48987435306142,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -12646,13 +12646,13 @@
       "FLPR": {
         "Neuropeptide_AIMR->FLPR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 3.3163809388705743,
+          "min_distance": 3.316380938870574,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         },
         "Neuropeptide_AIMR->FLPR_pdf-2->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 3.3163809388705743,
+          "min_distance": 3.316380938870574,
           "receptor": "pdfr-1",
           "transmitter": "pdf-2"
         }
@@ -13672,7 +13672,7 @@
       "M3R": {
         "Neuropeptide_AIYL->M3R_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -13921,7 +13921,7 @@
       "VD1": {
         "Neuropeptide_AIYL->VD1_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -15217,7 +15217,7 @@
       "AVEL": {
         "Synapse_ALA->AVEL": {
           "etype": "Synapse",
-          "min_distance": 0.40955322902912394,
+          "min_distance": 0.40955322902912406,
           "weight": 2
         }
       },
@@ -15261,7 +15261,7 @@
       "AVM": {
         "GapJunction_ALML->AVM": {
           "etype": "GapJunction",
-          "min_distance": 0.049445345333766266,
+          "min_distance": 0.049445345333766155,
           "weight": 1
         }
       },
@@ -16758,7 +16758,7 @@
       "M3L": {
         "Neuropeptide_ASEL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -17007,7 +17007,7 @@
       "VD1": {
         "Neuropeptide_ASEL->VD1_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -17544,7 +17544,7 @@
       "M3R": {
         "Neuropeptide_ASER->M3R_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.665836789633747,
+          "min_distance": 2.6658367896337465,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -17760,7 +17760,7 @@
       "VD1": {
         "Neuropeptide_ASER->VD1_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -18314,7 +18314,7 @@
       "M3L": {
         "Neuropeptide_ASGL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -19945,7 +19945,7 @@
       "M3L": {
         "Neuropeptide_ASHL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -19953,7 +19953,7 @@
       "M3R": {
         "Neuropeptide_ASHL->M3R_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -20202,7 +20202,7 @@
       "VD1": {
         "Neuropeptide_ASHL->VD1_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -21614,7 +21614,7 @@
       "M3L": {
         "Neuropeptide_ASIL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -21622,7 +21622,7 @@
       "M3R": {
         "Neuropeptide_ASIL->M3R_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -21828,7 +21828,7 @@
       "PVM": {
         "Neuropeptide_ASIL->PVM_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 132.46568516498346,
+          "min_distance": 132.46568516498348,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -22616,7 +22616,7 @@
       "FLPL": {
         "Neuropeptide_ASIR->FLPL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -22938,7 +22938,7 @@
       "PVM": {
         "Neuropeptide_ASIR->PVM_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 132.4898743530614,
+          "min_distance": 132.48987435306142,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -23652,7 +23652,7 @@
       "M3L": {
         "Neuropeptide_ASJL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -23660,7 +23660,7 @@
       "M3R": {
         "Neuropeptide_ASJL->M3R_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -23883,7 +23883,7 @@
       "VD1": {
         "Neuropeptide_ASJL->VD1_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -25119,7 +25119,7 @@
       "M3L": {
         "Neuropeptide_ASKL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -25127,7 +25127,7 @@
       "M3R": {
         "Neuropeptide_ASKL->M3R_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -25333,7 +25333,7 @@
       "PVM": {
         "Neuropeptide_ASKL->PVM_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 132.46568516498346,
+          "min_distance": 132.46568516498348,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -25587,7 +25587,7 @@
       "VD1": {
         "Neuropeptide_ASKL->VD1_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -26059,7 +26059,7 @@
       "FLPL": {
         "Neuropeptide_ASKR->FLPL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -26365,7 +26365,7 @@
       "PVM": {
         "Neuropeptide_ASKR->PVM_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 132.4898743530614,
+          "min_distance": 132.48987435306142,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -29789,7 +29789,7 @@
       "ALMR": {
         "Neuropeptide_AVBR->ALMR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.42013344000058195,
+          "min_distance": 0.42013344000058206,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -32416,7 +32416,7 @@
       "OLQDL": {
         "Neuropeptide_AVG->OLQDL_pdf-2->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 50.16956186400832,
+          "min_distance": 50.169561864008315,
           "receptor": "pdfr-1",
           "transmitter": "pdf-2"
         }
@@ -32424,7 +32424,7 @@
       "OLQDR": {
         "Neuropeptide_AVG->OLQDR_pdf-2->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 50.2193887048359,
+          "min_distance": 50.21938870483589,
           "receptor": "pdfr-1",
           "transmitter": "pdf-2"
         }
@@ -33215,7 +33215,7 @@
       "ADER": {
         "GapJunction_AVKL->ADER": {
           "etype": "GapJunction",
-          "min_distance": 0.2264476876874207,
+          "min_distance": 0.2264476876874206,
           "weight": 1
         }
       },
@@ -34166,7 +34166,7 @@
       "ALML": {
         "GapJunction_AVM->ALML": {
           "etype": "GapJunction",
-          "min_distance": 0.049445345333766266,
+          "min_distance": 0.049445345333766155,
           "weight": 1
         }
       },
@@ -38892,7 +38892,7 @@
       "DD2": {
         "Monoamine_CEPDR->DD2_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 95.23490366314286,
+          "min_distance": 95.23490366314284,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -41041,7 +41041,7 @@
       "MI": {
         "Monoamine_CEPVL->MI_dopamine->dop-5": {
           "etype": "Monoamine",
-          "min_distance": 3.6302586177434377,
+          "min_distance": 3.6302586177434386,
           "receptor": "dop-5",
           "transmitter": "dopamine"
         }
@@ -41049,7 +41049,7 @@
       "NSML": {
         "Monoamine_CEPVL->NSML_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 4.735169119789634,
+          "min_distance": 4.735169119789633,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -41057,7 +41057,7 @@
       "NSMR": {
         "Monoamine_CEPVL->NSMR_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 4.234539603817412,
+          "min_distance": 4.234539603817413,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -41078,7 +41078,7 @@
       "OLLR": {
         "Monoamine_CEPVL->OLLR_dopamine->dop-6": {
           "etype": "Monoamine",
-          "min_distance": 2.861339871815101,
+          "min_distance": 2.8613398718151015,
           "receptor": "dop-6",
           "transmitter": "dopamine"
         }
@@ -41852,13 +41852,13 @@
       "VB5": {
         "Monoamine_CEPVL->VB5_dopamine->dop-1": {
           "etype": "Monoamine",
-          "min_distance": 129.94807211394948,
+          "min_distance": 129.94807211394945,
           "receptor": "dop-1",
           "transmitter": "dopamine"
         },
         "Monoamine_CEPVL->VB5_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 129.94807211394948,
+          "min_distance": 129.94807211394945,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -41978,7 +41978,7 @@
       "VD4": {
         "Monoamine_CEPVL->VD4_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 109.5655919465504,
+          "min_distance": 109.56559194655041,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -42584,13 +42584,13 @@
       "DA6": {
         "Monoamine_CEPVR->DA6_dopamine->dop-1": {
           "etype": "Monoamine",
-          "min_distance": 128.29637884159865,
+          "min_distance": 128.29637884159862,
           "receptor": "dop-1",
           "transmitter": "dopamine"
         },
         "Monoamine_CEPVR->DA6_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 128.29637884159865,
+          "min_distance": 128.29637884159862,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -42654,13 +42654,13 @@
       "DB2": {
         "Monoamine_CEPVR->DB2_dopamine->dop-1": {
           "etype": "Monoamine",
-          "min_distance": 36.200588576163696,
+          "min_distance": 36.2005885761637,
           "receptor": "dop-1",
           "transmitter": "dopamine"
         },
         "Monoamine_CEPVR->DB2_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 36.200588576163696,
+          "min_distance": 36.2005885761637,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -43304,7 +43304,7 @@
       "RIPR": {
         "Synapse_CEPVR->RIPR": {
           "etype": "Synapse",
-          "min_distance": 0.21001809269392605,
+          "min_distance": 0.21001809269392593,
           "weight": 1
         }
       },
@@ -43874,7 +43874,7 @@
       "VD2": {
         "Monoamine_CEPVR->VD2_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 38.31383230918852,
+          "min_distance": 38.31383230918853,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -43890,7 +43890,7 @@
       "VD4": {
         "Monoamine_CEPVR->VD4_dopamine->dop-3": {
           "etype": "Monoamine",
-          "min_distance": 109.61699127556966,
+          "min_distance": 109.61699127556967,
           "receptor": "dop-3",
           "transmitter": "dopamine"
         }
@@ -45018,7 +45018,7 @@
       "BDUL": {
         "Neuropeptide_DD2->BDUL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 25.167965776156457,
+          "min_distance": 25.16796577615646,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -45119,7 +45119,7 @@
       "RICL": {
         "Neuropeptide_DD2->RICL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 78.06773963282767,
+          "min_distance": 78.06773963282768,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -45172,7 +45172,7 @@
       "ADLL": {
         "Neuropeptide_DD3->ADLL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 157.01569130610108,
+          "min_distance": 157.01569130610105,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -45180,7 +45180,7 @@
       "ADLR": {
         "Neuropeptide_DD3->ADLR_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 157.1408153189142,
+          "min_distance": 157.14081531891418,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -46979,7 +46979,7 @@
       "ADFR": {
         "Neuropeptide_FLPL->ADFR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -47067,13 +47067,13 @@
       "ASGR": {
         "Neuropeptide_FLPL->ASGR_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         },
         "Neuropeptide_FLPL->ASGR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -47089,7 +47089,7 @@
       "ASHR": {
         "Neuropeptide_FLPL->ASHR_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -47105,7 +47105,7 @@
       "ASIR": {
         "Neuropeptide_FLPL->ASIR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -47121,7 +47121,7 @@
       "ASJR": {
         "Neuropeptide_FLPL->ASJR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -47137,7 +47137,7 @@
       "ASKR": {
         "Neuropeptide_FLPL->ASKR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -47145,13 +47145,13 @@
       "AUAL": {
         "Neuropeptide_FLPL->AUAL_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.1225543868172192,
+          "min_distance": 0.12255438681721909,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         },
         "Neuropeptide_FLPL->AUAL_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 0.1225543868172192,
+          "min_distance": 0.12255438681721909,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -47245,7 +47245,7 @@
       "AWAR": {
         "Neuropeptide_FLPL->AWAR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -47261,7 +47261,7 @@
       "AWBR": {
         "Neuropeptide_FLPL->AWBR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 0.2883699658877506,
+          "min_distance": 0.2883699658877507,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -47428,7 +47428,7 @@
       "M3L": {
         "Neuropeptide_FLPL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -47725,7 +47725,7 @@
       "VD3": {
         "Neuropeptide_FLPL->VD3_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 23.48361753982543,
+          "min_distance": 23.483617539825435,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -47971,13 +47971,13 @@
       "AUAR": {
         "Neuropeptide_FLPR->AUAR_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.13449067420167,
+          "min_distance": 0.13449067420166988,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         },
         "Neuropeptide_FLPR->AUAR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 0.13449067420167,
+          "min_distance": 0.13449067420166988,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -48142,7 +48142,7 @@
       "DD2": {
         "Neuropeptide_FLPR->DD2_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 47.97244749743393,
+          "min_distance": 47.972447497433926,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -48182,7 +48182,7 @@
       "DVA": {
         "Synapse_FLPR->DVA": {
           "etype": "Synapse",
-          "min_distance": 0.7351900186605415,
+          "min_distance": 0.7351900186605417,
           "weight": 1
         }
       },
@@ -48269,7 +48269,7 @@
       "M3R": {
         "Neuropeptide_FLPR->M3R_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.665836789633747,
+          "min_distance": 2.6658367896337465,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -48557,7 +48557,7 @@
       "VD2": {
         "Neuropeptide_FLPR->VD2_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.8674364120088293,
+          "min_distance": 0.867436412008829,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -49039,7 +49039,7 @@
       "MCR": {
         "Monoamine_HSNL->MCR_serotonin->ser-7": {
           "etype": "Monoamine",
-          "min_distance": 10.443381719629107,
+          "min_distance": 10.443381719629105,
           "receptor": "ser-7",
           "transmitter": "serotonin"
         }
@@ -49055,7 +49055,7 @@
       "NSMR": {
         "Monoamine_HSNL->NSMR_serotonin->ser-4": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-4",
           "transmitter": "serotonin"
         }
@@ -50536,7 +50536,7 @@
       "M1": {
         "Synapse_I1R->M1": {
           "etype": "Synapse",
-          "min_distance": 2.231181786950979,
+          "min_distance": 2.2311817869509785,
           "weight": 1
         }
       },
@@ -50585,7 +50585,7 @@
       "MI": {
         "GapJunction_I1R->MI": {
           "etype": "GapJunction",
-          "min_distance": 0.07510928829182609,
+          "min_distance": 0.07510928829182598,
           "weight": 1
         }
       },
@@ -50891,7 +50891,7 @@
       "I6": {
         "Synapse_I2L->I6": {
           "etype": "Synapse",
-          "min_distance": 5.639817471738743,
+          "min_distance": 5.639817471738742,
           "weight": 1
         }
       },
@@ -51067,7 +51067,7 @@
       "VB4": {
         "Neuropeptide_I2L->VB4_flp-15->npr-3": {
           "etype": "Neuropeptide",
-          "min_distance": 99.07820802326137,
+          "min_distance": 99.07820802326138,
           "receptor": "npr-3",
           "transmitter": "flp-15"
         }
@@ -51466,7 +51466,7 @@
       "VA3": {
         "Neuropeptide_I2R->VA3_flp-15->npr-3": {
           "etype": "Neuropeptide",
-          "min_distance": 11.999549627347426,
+          "min_distance": 11.999549627347427,
           "receptor": "npr-3",
           "transmitter": "flp-15"
         }
@@ -51506,7 +51506,7 @@
       "VA8": {
         "Neuropeptide_I2R->VA8_flp-15->npr-3": {
           "etype": "Neuropeptide",
-          "min_distance": 266.57485769118756,
+          "min_distance": 266.5748576911875,
           "receptor": "npr-3",
           "transmitter": "flp-15"
         }
@@ -51669,7 +51669,7 @@
       "M3L": {
         "Synapse_I3->M3L": {
           "etype": "Synapse",
-          "min_distance": 1.2422447253904516,
+          "min_distance": 1.2422447253904514,
           "weight": 1
         }
       },
@@ -51832,7 +51832,7 @@
       "BAGR": {
         "Neuropeptide_I5->BAGR_flp-4->npr-4": {
           "etype": "Neuropeptide",
-          "min_distance": 3.1251961649971314,
+          "min_distance": 3.125196164997132,
           "receptor": "npr-4",
           "transmitter": "flp-4"
         }
@@ -52038,7 +52038,7 @@
       "M5": {
         "GapJunction_I6->M5": {
           "etype": "GapJunction",
-          "min_distance": 1.0516827061327603,
+          "min_distance": 1.0516827061327607,
           "weight": 1
         }
       },
@@ -52690,7 +52690,7 @@
       "ADER": {
         "Synapse_IL2R->ADER": {
           "etype": "Synapse",
-          "min_distance": 0.9238609264801249,
+          "min_distance": 0.9238609264801246,
           "weight": 2
         }
       },
@@ -53893,7 +53893,7 @@
       "AIAR": {
         "Neuropeptide_M2L->AIAR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 7.66163842341455,
+          "min_distance": 7.661638423414548,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -55721,19 +55721,19 @@
       "RIVL": {
         "Neuropeptide_M2R->RIVL_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 7.542588499129745,
+          "min_distance": 7.542588499129743,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         },
         "Neuropeptide_M2R->RIVL_flp-18->npr-4": {
           "etype": "Neuropeptide",
-          "min_distance": 7.542588499129745,
+          "min_distance": 7.542588499129743,
           "receptor": "npr-4",
           "transmitter": "flp-18"
         },
         "Neuropeptide_M2R->RIVL_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 7.542588499129745,
+          "min_distance": 7.542588499129743,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -56093,7 +56093,7 @@
       "ASEL": {
         "Neuropeptide_M3L->ASEL_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56109,7 +56109,7 @@
       "ASGL": {
         "Neuropeptide_M3L->ASGL_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56125,7 +56125,7 @@
       "ASHL": {
         "Neuropeptide_M3L->ASHL_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56173,7 +56173,7 @@
       "BAGL": {
         "Neuropeptide_M3L->BAGL_flp-18->npr-4": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-4",
           "transmitter": "flp-18"
         }
@@ -56213,7 +56213,7 @@
       "DD2": {
         "Neuropeptide_M3L->DD2_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 101.48607327020075,
+          "min_distance": 101.48607327020076,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56253,7 +56253,7 @@
       "IL2L": {
         "Neuropeptide_M3L->IL2L_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.7622642982324717,
+          "min_distance": 2.762264298232471,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56504,7 +56504,7 @@
       "URXL": {
         "Neuropeptide_M3L->URXL_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 4.204729222852477,
+          "min_distance": 4.204729222852476,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56560,7 +56560,7 @@
       "VD2": {
         "Neuropeptide_M3L->VD2_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 49.90461056974324,
+          "min_distance": 49.90461056974325,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56642,7 +56642,7 @@
       "ASER": {
         "Neuropeptide_M3R->ASER_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.665836789633747,
+          "min_distance": 2.6658367896337465,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56666,7 +56666,7 @@
       "ASHL": {
         "Neuropeptide_M3R->ASHL_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56937,7 +56937,7 @@
       "RIGL": {
         "Neuropeptide_M3R->RIGL_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -56967,13 +56967,13 @@
       "RIVR": {
         "Neuropeptide_M3R->RIVR_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 8.745984220985099,
+          "min_distance": 8.745984220985097,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         },
         "Neuropeptide_M3R->RIVR_flp-18->npr-4": {
           "etype": "Neuropeptide",
-          "min_distance": 8.745984220985099,
+          "min_distance": 8.745984220985097,
           "receptor": "npr-4",
           "transmitter": "flp-18"
         }
@@ -57101,7 +57101,7 @@
       "VD2": {
         "Neuropeptide_M3R->VD2_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 49.97002244753121,
+          "min_distance": 49.970022447531214,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -57133,7 +57133,7 @@
       "VD6": {
         "Neuropeptide_M3R->VD6_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 225.7740357577881,
+          "min_distance": 225.77403575778808,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -57478,7 +57478,7 @@
       "IL2DR": {
         "Neuropeptide_M4->IL2DR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 3.3716321389054826,
+          "min_distance": 3.371632138905482,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -58103,7 +58103,7 @@
       "I6": {
         "GapJunction_M5->I6": {
           "etype": "GapJunction",
-          "min_distance": 1.0516827061327603,
+          "min_distance": 1.0516827061327607,
           "weight": 1
         }
       },
@@ -58257,7 +58257,7 @@
       "ADFR": {
         "Neuropeptide_MCL->ADFR_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 4.9097140788015405,
+          "min_distance": 4.90971407880154,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -58938,7 +58938,7 @@
       "ADFL": {
         "Neuropeptide_MCR->ADFL_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 4.723927012175291,
+          "min_distance": 4.72392701217529,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -58954,7 +58954,7 @@
       "AIAL": {
         "Neuropeptide_MCR->AIAL_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 10.443381719629107,
+          "min_distance": 10.443381719629105,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -58970,7 +58970,7 @@
       "AQR": {
         "Neuropeptide_MCR->AQR_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 10.443381719629107,
+          "min_distance": 10.443381719629105,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -59006,13 +59006,13 @@
       "ASGL": {
         "Neuropeptide_MCR->ASGL_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 4.432313909744765,
+          "min_distance": 4.432313909744764,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         },
         "Neuropeptide_MCR->ASGL_flp-21->npr-5": {
           "etype": "Neuropeptide",
-          "min_distance": 4.432313909744765,
+          "min_distance": 4.432313909744764,
           "receptor": "npr-5",
           "transmitter": "flp-21"
         }
@@ -59425,7 +59425,7 @@
       "RIVL": {
         "Neuropeptide_MCR->RIVL_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 10.900352852782142,
+          "min_distance": 10.90035285278214,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -59441,7 +59441,7 @@
       "RMGL": {
         "Neuropeptide_MCR->RMGL_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 10.443381719629107,
+          "min_distance": 10.443381719629105,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -59489,7 +59489,7 @@
       "SMBDL": {
         "Neuropeptide_MCR->SMBDL_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 10.443381719629107,
+          "min_distance": 10.443381719629105,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -59634,7 +59634,7 @@
       "I1R": {
         "GapJunction_MI->I1R": {
           "etype": "GapJunction",
-          "min_distance": 0.07510928829182609,
+          "min_distance": 0.07510928829182598,
           "weight": 1
         }
       },
@@ -59859,7 +59859,7 @@
       "ASER": {
         "Neuropeptide_NSML->ASER_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 4.072418318647525,
+          "min_distance": 4.072418318647524,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -59903,7 +59903,7 @@
       "AVAR": {
         "Neuropeptide_NSML->AVAR_flp-4->npr-4": {
           "etype": "Neuropeptide",
-          "min_distance": 3.9683190281921576,
+          "min_distance": 3.9683190281921568,
           "receptor": "npr-4",
           "transmitter": "flp-4"
         }
@@ -59927,7 +59927,7 @@
       "AVJL": {
         "Monoamine_NSML->AVJL_serotonin->ser-5": {
           "etype": "Monoamine",
-          "min_distance": 4.450317882027716,
+          "min_distance": 4.450317882027715,
           "receptor": "ser-5",
           "transmitter": "serotonin"
         }
@@ -59967,7 +59967,7 @@
       "BAGR": {
         "Neuropeptide_NSML->BAGR_flp-4->npr-4": {
           "etype": "Neuropeptide",
-          "min_distance": 4.125614856234991,
+          "min_distance": 4.125614856234992,
           "receptor": "npr-4",
           "transmitter": "flp-4"
         }
@@ -60051,7 +60051,7 @@
       "DVA": {
         "Monoamine_NSML->DVA_serotonin->ser-4": {
           "etype": "Monoamine",
-          "min_distance": 4.1203218031547975,
+          "min_distance": 4.120321803154798,
           "receptor": "ser-4",
           "transmitter": "serotonin"
         }
@@ -60059,13 +60059,13 @@
       "DVC": {
         "Monoamine_NSML->DVC_serotonin->ser-1": {
           "etype": "Monoamine",
-          "min_distance": 4.1203218031547975,
+          "min_distance": 4.120321803154798,
           "receptor": "ser-1",
           "transmitter": "serotonin"
         },
         "Monoamine_NSML->DVC_serotonin->ser-4": {
           "etype": "Monoamine",
-          "min_distance": 4.1203218031547975,
+          "min_distance": 4.120321803154798,
           "receptor": "ser-4",
           "transmitter": "serotonin"
         }
@@ -60167,13 +60167,13 @@
       "M3R": {
         "Monoamine_NSML->M3R_serotonin->ser-7": {
           "etype": "Monoamine",
-          "min_distance": 1.5643950759289371,
+          "min_distance": 1.5643950759289376,
           "receptor": "ser-7",
           "transmitter": "serotonin"
         },
         "Synapse_NSML->M3R": {
           "etype": "Synapse",
-          "min_distance": 1.5643950759289371,
+          "min_distance": 1.5643950759289376,
           "weight": 1
         }
       },
@@ -60695,7 +60695,7 @@
       "ADFL": {
         "Neuropeptide_NSMR->ADFL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -60727,7 +60727,7 @@
       "AIAL": {
         "Monoamine_NSMR->AIAL_serotonin->mod-1": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "mod-1",
           "transmitter": "serotonin"
         }
@@ -60771,7 +60771,7 @@
       "AIYL": {
         "Monoamine_NSMR->AIYL_serotonin->mod-1": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "mod-1",
           "transmitter": "serotonin"
         }
@@ -60787,7 +60787,7 @@
       "AIZL": {
         "Monoamine_NSMR->AIZL_serotonin->mod-1": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "mod-1",
           "transmitter": "serotonin"
         }
@@ -60811,7 +60811,7 @@
       "ASER": {
         "Neuropeptide_NSMR->ASER_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 1.3610874580006636,
+          "min_distance": 1.361087458000663,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -60819,13 +60819,13 @@
       "ASHL": {
         "Monoamine_NSMR->ASHL_serotonin->ser-5": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-5",
           "transmitter": "serotonin"
         },
         "Neuropeptide_NSMR->ASHL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -60847,7 +60847,7 @@
       "AVAL": {
         "Neuropeptide_NSMR->AVAL_flp-4->npr-4": {
           "etype": "Neuropeptide",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "npr-4",
           "transmitter": "flp-4"
         }
@@ -60855,7 +60855,7 @@
       "AVAR": {
         "Neuropeptide_NSMR->AVAR_flp-4->npr-4": {
           "etype": "Neuropeptide",
-          "min_distance": 3.8819171492843734,
+          "min_distance": 3.8819171492843725,
           "receptor": "npr-4",
           "transmitter": "flp-4"
         }
@@ -60863,7 +60863,7 @@
       "AVFL": {
         "Monoamine_NSMR->AVFL_serotonin->ser-4": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-4",
           "transmitter": "serotonin"
         }
@@ -60887,7 +60887,7 @@
       "AVJR": {
         "Monoamine_NSMR->AVJR_serotonin->ser-5": {
           "etype": "Monoamine",
-          "min_distance": 3.7651057992864434,
+          "min_distance": 3.7651057992864425,
           "receptor": "ser-5",
           "transmitter": "serotonin"
         }
@@ -60895,7 +60895,7 @@
       "AWBL": {
         "Monoamine_NSMR->AWBL_serotonin->ser-5": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-5",
           "transmitter": "serotonin"
         }
@@ -61199,13 +61199,13 @@
       "PVQL": {
         "Monoamine_NSMR->PVQL_serotonin->ser-1": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-1",
           "transmitter": "serotonin"
         },
         "Neuropeptide_NSMR->PVQL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -61227,7 +61227,7 @@
       "PVR": {
         "Neuropeptide_NSMR->PVR_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 3.7651057992864434,
+          "min_distance": 3.7651057992864425,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -61373,7 +61373,7 @@
       "RIS": {
         "Monoamine_NSMR->RIS_serotonin->ser-4": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-4",
           "transmitter": "serotonin"
         }
@@ -61397,7 +61397,7 @@
       "RMDDL": {
         "Monoamine_NSMR->RMDDL_serotonin->ser-1": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-1",
           "transmitter": "serotonin"
         }
@@ -61469,7 +61469,7 @@
       "RMEV": {
         "Monoamine_NSMR->RMEV_serotonin->mod-1": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "mod-1",
           "transmitter": "serotonin"
         }
@@ -61477,7 +61477,7 @@
       "RMFL": {
         "Monoamine_NSMR->RMFL_serotonin->ser-1": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-1",
           "transmitter": "serotonin"
         }
@@ -61493,7 +61493,7 @@
       "RMHL": {
         "Monoamine_NSMR->RMHL_serotonin->ser-1": {
           "etype": "Monoamine",
-          "min_distance": 3.732484434286443,
+          "min_distance": 3.7324844342864423,
           "receptor": "ser-1",
           "transmitter": "serotonin"
         }
@@ -62696,13 +62696,13 @@
       "CANR": {
         "Monoamine_PDEL->CANR_dopamine->dop-4": {
           "etype": "Monoamine",
-          "min_distance": 19.904404056714316,
+          "min_distance": 19.904404056714313,
           "receptor": "dop-4",
           "transmitter": "dopamine"
         },
         "Monoamine_PDEL->CANR_dopamine->lgc-53": {
           "etype": "Monoamine",
-          "min_distance": 19.904404056714316,
+          "min_distance": 19.904404056714313,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -63051,7 +63051,7 @@
       "I1R": {
         "Monoamine_PDEL->I1R_dopamine->dop-4": {
           "etype": "Monoamine",
-          "min_distance": 52.72352015372406,
+          "min_distance": 52.72352015372407,
           "receptor": "dop-4",
           "transmitter": "dopamine"
         }
@@ -63103,13 +63103,13 @@
       "IL2L": {
         "Monoamine_PDEL->IL2L_dopamine->dop-6": {
           "etype": "Monoamine",
-          "min_distance": 38.711301711750494,
+          "min_distance": 38.71130171175049,
           "receptor": "dop-6",
           "transmitter": "dopamine"
         },
         "Monoamine_PDEL->IL2L_dopamine->lgc-53": {
           "etype": "Monoamine",
-          "min_distance": 38.711301711750494,
+          "min_distance": 38.71130171175049,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -63117,13 +63117,13 @@
       "IL2R": {
         "Monoamine_PDEL->IL2R_dopamine->dop-6": {
           "etype": "Monoamine",
-          "min_distance": 38.957110928416014,
+          "min_distance": 38.95711092841601,
           "receptor": "dop-6",
           "transmitter": "dopamine"
         },
         "Monoamine_PDEL->IL2R_dopamine->lgc-53": {
           "etype": "Monoamine",
-          "min_distance": 38.957110928416014,
+          "min_distance": 38.95711092841601,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -63167,7 +63167,7 @@
       "MI": {
         "Monoamine_PDEL->MI_dopamine->dop-5": {
           "etype": "Monoamine",
-          "min_distance": 49.95781768481491,
+          "min_distance": 49.957817684814906,
           "receptor": "dop-5",
           "transmitter": "dopamine"
         }
@@ -63199,7 +63199,7 @@
       "OLLR": {
         "Monoamine_PDEL->OLLR_dopamine->dop-6": {
           "etype": "Monoamine",
-          "min_distance": 31.810000250744846,
+          "min_distance": 31.810000250744853,
           "receptor": "dop-6",
           "transmitter": "dopamine"
         }
@@ -63527,7 +63527,7 @@
       "RIS": {
         "Monoamine_PDEL->RIS_dopamine->dop-1": {
           "etype": "Monoamine",
-          "min_distance": 14.879983083592872,
+          "min_distance": 14.879983083592874,
           "receptor": "dop-1",
           "transmitter": "dopamine"
         }
@@ -64923,7 +64923,7 @@
       "I1R": {
         "Monoamine_PDER->I1R_dopamine->dop-4": {
           "etype": "Monoamine",
-          "min_distance": 52.72352015372406,
+          "min_distance": 52.72352015372407,
           "receptor": "dop-4",
           "transmitter": "dopamine"
         }
@@ -64975,13 +64975,13 @@
       "IL2L": {
         "Monoamine_PDER->IL2L_dopamine->dop-6": {
           "etype": "Monoamine",
-          "min_distance": 38.711301711750494,
+          "min_distance": 38.71130171175049,
           "receptor": "dop-6",
           "transmitter": "dopamine"
         },
         "Monoamine_PDER->IL2L_dopamine->lgc-53": {
           "etype": "Monoamine",
-          "min_distance": 38.711301711750494,
+          "min_distance": 38.71130171175049,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -64989,13 +64989,13 @@
       "IL2R": {
         "Monoamine_PDER->IL2R_dopamine->dop-6": {
           "etype": "Monoamine",
-          "min_distance": 38.957110928416014,
+          "min_distance": 38.95711092841601,
           "receptor": "dop-6",
           "transmitter": "dopamine"
         },
         "Monoamine_PDER->IL2R_dopamine->lgc-53": {
           "etype": "Monoamine",
-          "min_distance": 38.957110928416014,
+          "min_distance": 38.95711092841601,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -65039,7 +65039,7 @@
       "MI": {
         "Monoamine_PDER->MI_dopamine->dop-5": {
           "etype": "Monoamine",
-          "min_distance": 49.95781768481491,
+          "min_distance": 49.957817684814906,
           "receptor": "dop-5",
           "transmitter": "dopamine"
         }
@@ -65071,7 +65071,7 @@
       "OLLR": {
         "Monoamine_PDER->OLLR_dopamine->dop-6": {
           "etype": "Monoamine",
-          "min_distance": 31.810000250744846,
+          "min_distance": 31.810000250744853,
           "receptor": "dop-6",
           "transmitter": "dopamine"
         }
@@ -65389,7 +65389,7 @@
       "RIS": {
         "Monoamine_PDER->RIS_dopamine->dop-1": {
           "etype": "Monoamine",
-          "min_distance": 14.879983083592872,
+          "min_distance": 14.879983083592874,
           "receptor": "dop-1",
           "transmitter": "dopamine"
         }
@@ -68126,7 +68126,7 @@
       "VA12": {
         "Neuropeptide_PHAR->VA12_flp-15->npr-3": {
           "etype": "Neuropeptide",
-          "min_distance": 0.6725781486910213,
+          "min_distance": 0.6725781486910215,
           "receptor": "npr-3",
           "transmitter": "flp-15"
         }
@@ -70079,7 +70079,7 @@
       "PVR": {
         "GapJunction_PLMR->PVR": {
           "etype": "GapJunction",
-          "min_distance": 1.3121822295865828,
+          "min_distance": 1.312182229586583,
           "weight": 2
         }
       }
@@ -74565,7 +74565,7 @@
       "PLMR": {
         "GapJunction_PVR->PLMR": {
           "etype": "GapJunction",
-          "min_distance": 1.3121822295865828,
+          "min_distance": 1.312182229586583,
           "weight": 2
         }
       },
@@ -78289,7 +78289,7 @@
       "M3R": {
         "Neuropeptide_RIGL->M3R_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.692352730049905,
+          "min_distance": 9.692352730049906,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -78593,7 +78593,7 @@
       "VB2": {
         "GapJunction_RIGL->VB2": {
           "etype": "GapJunction",
-          "min_distance": 5.021144632319574,
+          "min_distance": 5.021144632319575,
           "weight": 1
         }
       },
@@ -78661,7 +78661,7 @@
       "VD4": {
         "Neuropeptide_RIGL->VD4_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 62.31080293753184,
+          "min_distance": 62.310802937531854,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -81309,7 +81309,7 @@
       "VD1": {
         "Neuropeptide_RIML->VD1_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -83009,7 +83009,7 @@
       "SIAVL": {
         "Monoamine_RIMR->SIAVL_tyramine->ser-2": {
           "etype": "Monoamine",
-          "min_distance": 0.12683330631692935,
+          "min_distance": 0.1268333063169294,
           "receptor": "ser-2",
           "transmitter": "tyramine"
         }
@@ -83143,7 +83143,7 @@
       "VD1": {
         "Neuropeptide_RIMR->VD1_flp-18->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "npr-1",
           "transmitter": "flp-18"
         }
@@ -84702,7 +84702,7 @@
       "PVM": {
         "Neuropeptide_RMED->PVM_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 57.91887540528223,
+          "min_distance": 57.918875405282236,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -86547,7 +86547,7 @@
       "DD2": {
         "Neuropeptide_RMGL->DD2_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 51.22086003797863,
+          "min_distance": 51.22086003797864,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -87280,7 +87280,7 @@
       "VD2": {
         "Neuropeptide_RMGL->VD2_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.6517775738226641,
+          "min_distance": 0.6517775738226639,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -88508,7 +88508,7 @@
       "VD2": {
         "Neuropeptide_RMGR->VD2_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 2.010179267932694,
+          "min_distance": 2.0101792679326937,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -88524,7 +88524,7 @@
       "VD4": {
         "Neuropeptide_RMGR->VD4_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 71.0482548931701,
+          "min_distance": 71.04825489317008,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -89533,7 +89533,7 @@
       "I1R": {
         "Neuropeptide_SAAVL->I1R_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 6.541641489883046,
+          "min_distance": 6.541641489883047,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -89901,7 +89901,7 @@
       "AVM": {
         "Neuropeptide_SAAVR->AVM_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.44608232589293395,
+          "min_distance": 0.44608232589293384,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -90261,7 +90261,7 @@
       "VA3": {
         "GapJunction_SABD->VA3": {
           "etype": "GapJunction",
-          "min_distance": 5.735654041780649,
+          "min_distance": 5.7356540417806485,
           "weight": 2
         }
       },
@@ -90642,7 +90642,7 @@
       "PHAL": {
         "Neuropeptide_SIADL->PHAL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.096782819425986,
+          "min_distance": 11.096782819425984,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -90690,7 +90690,7 @@
       "PQR": {
         "Neuropeptide_SIADL->PQR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.501091381421583,
+          "min_distance": 11.501091381421581,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -90923,7 +90923,7 @@
       "FLPL": {
         "Neuropeptide_SIADR->FLPL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 5.105164976402268,
+          "min_distance": 5.105164976402269,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -91653,7 +91653,7 @@
       "FLPR": {
         "Neuropeptide_SIAVR->FLPR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 4.53457985903797,
+          "min_distance": 4.534579859037969,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -91781,7 +91781,7 @@
       "PVCL": {
         "Neuropeptide_SIAVR->PVCL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 5.114208799078254,
+          "min_distance": 5.114208799078253,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
         }
@@ -92992,7 +92992,7 @@
       "SDQR": {
         "Neuropeptide_URADL->SDQR_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 6.247772134239295,
+          "min_distance": 6.247772134239294,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -93677,7 +93677,7 @@
       "SDQL": {
         "Neuropeptide_URADR->SDQL_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 7.02270897655163,
+          "min_distance": 7.0227089765516295,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -94768,7 +94768,7 @@
       "DD4": {
         "Neuropeptide_URAVR->DD4_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 256.1154522285975,
+          "min_distance": 256.11545222859746,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -95338,7 +95338,7 @@
       "RICR": {
         "Synapse_URBR->RICR": {
           "etype": "Synapse",
-          "min_distance": 0.5613283758782536,
+          "min_distance": 0.5613283758782538,
           "weight": 1
         }
       },
@@ -95772,7 +95772,7 @@
       "M3L": {
         "Neuropeptide_URXL->M3L_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 4.204729222852477,
+          "min_distance": 4.204729222852476,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -96350,7 +96350,7 @@
       "AVER": {
         "Synapse_URXR->AVER": {
           "etype": "Synapse",
-          "min_distance": 1.2511059416738979,
+          "min_distance": 1.251105941673898,
           "weight": 2
         }
       },
@@ -96826,7 +96826,7 @@
       "VD11": {
         "Neuropeptide_URXR->VD11_flp-21->npr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 513.2339446739078,
+          "min_distance": 513.2339446739077,
           "receptor": "npr-1",
           "transmitter": "flp-21"
         }
@@ -97507,7 +97507,7 @@
       "SABD": {
         "GapJunction_VA3->SABD": {
           "etype": "GapJunction",
-          "min_distance": 5.735654041780649,
+          "min_distance": 5.7356540417806485,
           "weight": 2
         }
       },
@@ -98205,7 +98205,7 @@
       "RIGL": {
         "GapJunction_VB2->RIGL": {
           "etype": "GapJunction",
-          "min_distance": 5.021144632319574,
+          "min_distance": 5.021144632319575,
           "weight": 1
         }
       },
@@ -98672,7 +98672,7 @@
       "ADLL": {
         "Neuropeptide_VC1->ADLL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 9.727863977714337,
+          "min_distance": 9.727863977714335,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -99214,7 +99214,7 @@
       "ADFR": {
         "Neuropeptide_VC3->ADFR_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 31.949495525023817,
+          "min_distance": 31.949495525023824,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -99246,7 +99246,7 @@
       "ASER": {
         "Neuropeptide_VC3->ASER_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 31.949495525023817,
+          "min_distance": 31.949495525023824,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -99262,7 +99262,7 @@
       "ASHR": {
         "Neuropeptide_VC3->ASHR_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 31.949495525023817,
+          "min_distance": 31.949495525023824,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -99277,7 +99277,7 @@
       "BDUL": {
         "Neuropeptide_VC3->BDUL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 5.179299598255925,
+          "min_distance": 5.179299598255926,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -99348,7 +99348,7 @@
       "I2R": {
         "Neuropeptide_VC3->I2R_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 61.29202135036504,
+          "min_distance": 61.29202135036503,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -100139,7 +100139,7 @@
       "ADFL": {
         "Neuropeptide_VD1->ADFL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -100171,7 +100171,7 @@
       "ASEL": {
         "Neuropeptide_VD1->ASEL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -100179,7 +100179,7 @@
       "ASER": {
         "Neuropeptide_VD1->ASER_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -100187,7 +100187,7 @@
       "ASHL": {
         "Neuropeptide_VD1->ASHL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -100211,7 +100211,7 @@
       "BDUR": {
         "Neuropeptide_VD1->BDUR_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 0.055782359718852204,
+          "min_distance": 0.055782359718852315,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -100302,7 +100302,7 @@
       "RICL": {
         "Neuropeptide_VD1->RICL_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 11.338373165729207,
+          "min_distance": 11.338373165729209,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -101248,7 +101248,7 @@
       "I2R": {
         "Neuropeptide_VD2->I2R_ntc-1->ntr-1": {
           "etype": "Neuropeptide",
-          "min_distance": 55.915054917785575,
+          "min_distance": 55.91505491778558,
           "receptor": "ntr-1",
           "transmitter": "ntc-1"
         }
@@ -102679,14 +102679,14 @@
     }
   },
   "graph": {
-    "commit_hash": "9c49a0b",
-    "created": "2015-10-05T17:28:58.876738"
+    "commit_hash": "0854f7f",
+    "created": "2015-10-05T17:30:33.212205"
   },
   "nodes": {
     "ADAL": {
       "birthtime": 438.938053,
       "description": "Ring interneurons",
-      "direct_length": 50.52256816661344,
+      "direct_length": 50.522568166613446,
       "mean_loc": [
         2.9829545500000005,
         -258.1102286363637,
@@ -102743,7 +102743,7 @@
     "ADER": {
       "birthtime": 440.21164,
       "description": "Anterior deirid, sensory neuron, dopaminergic",
-      "direct_length": 50.231452549672525,
+      "direct_length": 50.23145254967252,
       "mean_loc": [
         -10.455921184210519,
         -254.5269742105262,
@@ -103085,7 +103085,7 @@
     "AIZR": {
       "birthtime": 438.800705,
       "description": "Amphid interneuron",
-      "direct_length": 28.191596042083344,
+      "direct_length": 28.19159604208334,
       "mean_loc": [
         -6.324999995833331,
         -268.39791749999995,
@@ -105297,7 +105297,7 @@
     "LUAL": {
       "birthtime": 448.680352,
       "description": "Interneuron, short process in post ventral cord",
-      "direct_length": 59.63685623371173,
+      "direct_length": 59.63685623371174,
       "mean_loc": [
         1.342187525,
         390.23125375,
@@ -105316,7 +105316,7 @@
     "LUAR": {
       "birthtime": 450.9375,
       "description": "Interneuron, short process in post ventral cord",
-      "direct_length": 59.61941481162325,
+      "direct_length": 59.61941481162326,
       "mean_loc": [
         -3.9578124562500006,
         390.23125375,
@@ -106299,7 +106299,7 @@
     "RIBL": {
       "birthtime": 307.038123,
       "description": "Ring interneuron",
-      "direct_length": 23.88051067607227,
+      "direct_length": 23.880510676072266,
       "mean_loc": [
         2.3255434621739126,
         -272.3793482608696,
@@ -106489,7 +106489,7 @@
     "RIML": {
       "birthtime": 322.8739,
       "description": "Ring motor neuron",
-      "direct_length": 28.153515999782503,
+      "direct_length": 28.1535159997825,
       "mean_loc": [
         -0.8034091104545453,
         -269.9346604545454,
@@ -106508,7 +106508,7 @@
     "RIMR": {
       "birthtime": 331.875,
       "description": "Ring motor neuron",
-      "direct_length": 28.153515999782503,
+      "direct_length": 28.1535159997825,
       "mean_loc": [
         -3.388068186818181,
         -269.9346604545454,
@@ -106909,7 +106909,7 @@
     "RMHL": {
       "birthtime": 1590.588235,
       "description": "Ring motor neuron/interneuron",
-      "direct_length": 21.64047497330891,
+      "direct_length": 21.640474973308912,
       "mean_loc": [
         -3.0867188656249995,
         -272.50859374999993,

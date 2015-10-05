@@ -1,0 +1,9 @@
+General node metadata:
+
+birthtime
+description
+direct_length (the maximum distance between two sections of the neuron)
+mean_loc (the mean location of the neuron)
+soma_loc (the location of the soma of the neuron)
+ntypes (openworm's classification of the neurons)
+ntype (a single neuron type: motor > interneuron > sensory (default interneuron))

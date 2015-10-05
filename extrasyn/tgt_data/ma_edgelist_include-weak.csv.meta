@@ -1,0 +1,5 @@
+Monoamine edge list using (non zero-padded) individual neurones.
+
+Headers are (src_node, tgt_node, monoamine, receptor, minimum_length).
+
+Includes conditional serotoninergic edges.

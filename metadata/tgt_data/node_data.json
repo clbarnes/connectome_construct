@@ -2,7 +2,7 @@
   "ADAL": {
     "birthtime": 438.938053,
     "description": "Ring interneurons",
-    "direct_length": 50.522568166613446,
+    "direct_length": 50.52256816661344,
     "mean_loc": [
       2.9829545500000005,
       -258.1102286363637,
@@ -59,7 +59,7 @@
   "ADER": {
     "birthtime": 440.21164,
     "description": "Anterior deirid, sensory neuron, dopaminergic",
-    "direct_length": 50.23145254967252,
+    "direct_length": 50.231452549672525,
     "mean_loc": [
       -10.455921184210519,
       -254.5269742105262,
@@ -401,7 +401,7 @@
   "AIZR": {
     "birthtime": 438.800705,
     "description": "Amphid interneuron",
-    "direct_length": 28.19159604208334,
+    "direct_length": 28.191596042083344,
     "mean_loc": [
       -6.324999995833331,
       -268.39791749999995,
@@ -2613,7 +2613,7 @@
   "LUAL": {
     "birthtime": 448.680352,
     "description": "Interneuron, short process in post ventral cord",
-    "direct_length": 59.63685623371174,
+    "direct_length": 59.63685623371173,
     "mean_loc": [
       1.342187525,
       390.23125375,
@@ -2632,7 +2632,7 @@
   "LUAR": {
     "birthtime": 450.9375,
     "description": "Interneuron, short process in post ventral cord",
-    "direct_length": 59.61941481162326,
+    "direct_length": 59.61941481162325,
     "mean_loc": [
       -3.9578124562500006,
       390.23125375,
@@ -3615,7 +3615,7 @@
   "RIBL": {
     "birthtime": 307.038123,
     "description": "Ring interneuron",
-    "direct_length": 23.880510676072266,
+    "direct_length": 23.88051067607227,
     "mean_loc": [
       2.3255434621739126,
       -272.3793482608696,
@@ -3805,7 +3805,7 @@
   "RIML": {
     "birthtime": 322.8739,
     "description": "Ring motor neuron",
-    "direct_length": 28.1535159997825,
+    "direct_length": 28.153515999782503,
     "mean_loc": [
       -0.8034091104545453,
       -269.9346604545454,
@@ -3824,7 +3824,7 @@
   "RIMR": {
     "birthtime": 331.875,
     "description": "Ring motor neuron",
-    "direct_length": 28.1535159997825,
+    "direct_length": 28.153515999782503,
     "mean_loc": [
       -3.388068186818181,
       -269.9346604545454,
@@ -4225,7 +4225,7 @@
   "RMHL": {
     "birthtime": 1590.588235,
     "description": "Ring motor neuron/interneuron",
-    "direct_length": 21.640474973308912,
+    "direct_length": 21.64047497330891,
     "mean_loc": [
       -3.0867188656249995,
       -272.50859374999993,

@@ -82705,6 +82705,12 @@
         }
       },
       "VD1": {
+        "Monoamine_RIML->VD1_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 11.338373165729207,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD1_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 11.338373165729207,
@@ -82713,6 +82719,12 @@
         }
       },
       "VD10": {
+        "Monoamine_RIML->VD10_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 457.72880309275394,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD10_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 457.72880309275394,
@@ -82721,6 +82733,12 @@
         }
       },
       "VD11": {
+        "Monoamine_RIML->VD11_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 502.9687186356233,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD11_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 502.9687186356233,
@@ -82729,6 +82747,12 @@
         }
       },
       "VD12": {
+        "Monoamine_RIML->VD12_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 548.4813247807139,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD12_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 548.4813247807139,
@@ -82737,6 +82761,12 @@
         }
       },
       "VD13": {
+        "Monoamine_RIML->VD13_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 605.5122736099639,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD13_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 605.5122736099639,
@@ -82745,6 +82775,12 @@
         }
       },
       "VD2": {
+        "Monoamine_RIML->VD2_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 26.446284662300194,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD2_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 26.446284662300194,
@@ -82753,6 +82789,12 @@
         }
       },
       "VD3": {
+        "Monoamine_RIML->VD3_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 50.810541158597964,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD3_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 50.810541158597964,
@@ -82761,6 +82803,12 @@
         }
       },
       "VD4": {
+        "Monoamine_RIML->VD4_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 97.76414903836417,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD4_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 97.76414903836417,
@@ -82769,6 +82817,12 @@
         }
       },
       "VD5": {
+        "Monoamine_RIML->VD5_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 154.65627438754683,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD5_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 154.65627438754683,
@@ -82777,6 +82831,12 @@
         }
       },
       "VD6": {
+        "Monoamine_RIML->VD6_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 202.35397312268967,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD6_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 202.35397312268967,
@@ -82785,6 +82845,12 @@
         }
       },
       "VD7": {
+        "Monoamine_RIML->VD7_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 250.1738595835918,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD7_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 250.1738595835918,
@@ -82793,6 +82859,12 @@
         }
       },
       "VD8": {
+        "Monoamine_RIML->VD8_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 299.5299566261681,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD8_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 299.5299566261681,
@@ -82801,6 +82873,12 @@
         }
       },
       "VD9": {
+        "Monoamine_RIML->VD9_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 398.5222993156038,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIML->VD9_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 398.5222993156038,
@@ -84539,6 +84617,12 @@
         }
       },
       "VD1": {
+        "Monoamine_RIMR->VD1_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 11.338373165729207,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD1_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 11.338373165729207,
@@ -84547,6 +84631,12 @@
         }
       },
       "VD10": {
+        "Monoamine_RIMR->VD10_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 457.74454936166785,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD10_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 457.74454936166785,
@@ -84555,6 +84645,12 @@
         }
       },
       "VD11": {
+        "Monoamine_RIMR->VD11_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 502.98305116934455,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD11_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 502.98305116934455,
@@ -84563,6 +84659,12 @@
         }
       },
       "VD12": {
+        "Monoamine_RIMR->VD12_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 548.5096310532266,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD12_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 548.5096310532266,
@@ -84571,6 +84673,12 @@
         }
       },
       "VD13": {
+        "Monoamine_RIMR->VD13_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 605.5379163209428,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD13_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 605.5379163209428,
@@ -84579,6 +84687,12 @@
         }
       },
       "VD2": {
+        "Monoamine_RIMR->VD2_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 26.523544237365275,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD2_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 26.523544237365275,
@@ -84587,6 +84701,12 @@
         }
       },
       "VD3": {
+        "Monoamine_RIMR->VD3_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 50.851112166015945,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD3_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 50.851112166015945,
@@ -84595,6 +84715,12 @@
         }
       },
       "VD4": {
+        "Monoamine_RIMR->VD4_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 97.7853277039437,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD4_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 97.7853277039437,
@@ -84603,6 +84729,12 @@
         }
       },
       "VD5": {
+        "Monoamine_RIMR->VD5_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 154.7563995619501,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD5_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 154.7563995619501,
@@ -84611,6 +84743,12 @@
         }
       },
       "VD6": {
+        "Monoamine_RIMR->VD6_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 202.43056572301617,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD6_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 202.43056572301617,
@@ -84619,6 +84757,12 @@
         }
       },
       "VD7": {
+        "Monoamine_RIMR->VD7_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 250.2358460542089,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD7_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 250.2358460542089,
@@ -84627,6 +84771,12 @@
         }
       },
       "VD8": {
+        "Monoamine_RIMR->VD8_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 299.5817448821204,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD8_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 299.5817448821204,
@@ -84635,6 +84785,12 @@
         }
       },
       "VD9": {
+        "Monoamine_RIMR->VD9_tyramine->ser-2": {
+          "etype": "Monoamine",
+          "min_distance": 398.5612430912154,
+          "receptor": "ser-2",
+          "transmitter": "tyramine"
+        },
         "Neuropeptide_RIMR->VD9_flp-18->npr-1": {
           "etype": "Neuropeptide",
           "min_distance": 398.5612430912154,
@@ -104077,8 +104233,8 @@
     }
   },
   "graph": {
-    "commit_hash": "8e2615c",
-    "created": "2015-11-17T10:23:45.588606"
+    "commit_hash": "0f5b94f",
+    "created": "2015-12-14T17:03:47.655118"
   },
   "nodes": {
     "ADAL": {

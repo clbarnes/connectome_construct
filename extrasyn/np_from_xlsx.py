@@ -69,7 +69,7 @@ def receptor_expr_from_sheet(sheet):
 
 def ligand_mapping_from_sheet(sheet):
     pep_to_rec = defaultdict(set)
-    for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:J{}'.format(sheet.get_highest_row())):
         if not row:
             continue
         if val(row[0]) and val(row[1]):

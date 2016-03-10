@@ -41,6 +41,9 @@ def main():
     with open(join(src_root, 'morphologies.json')) as f:
         morphologies = json.load(f)
 
+    with open(join(tgt_root, 'sensorimotoy_connections.json')) as f:
+        sensmo_conn = json.load(f)
+
     for node in set(birthtimes) | set(descs) | set(ntypes):
         out[node] = {
             'birthtime': birthtimes.get(node, None),
@@ -49,7 +52,11 @@ def main():
             'ntype': collapse_ntype(ntypes.get(node, None)),
             'soma_loc': morphologies[node]['soma'][:3],
             'mean_loc': morphologies[node]['mean'][:3],
-            'direct_length': get_length(morphologies[node]['neurone'])
+            'direct_length': get_length(morphologies[node]['neurone']),
+            'sensory_connections': sensmo_conn[node]['sensory_connections'] if node in sensmo_conn else 0,
+            'sensory_weight': sensmo_conn[node]['sensory_weight'] if node in sensmo_conn else 0,
+            'motor_connections': sensmo_conn[node]['motor_connections'] if node in sensmo_conn else 0,
+            'motor_weight': sensmo_conn[node]['motor_weight'] if node in sensmo_conn else 0,
         }
 
     assert len(out) == 302

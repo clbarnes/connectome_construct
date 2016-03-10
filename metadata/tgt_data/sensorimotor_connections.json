@@ -1,0 +1,1202 @@
+{
+  "ADEL": {
+    "motor_connections": 1,
+    "motor_weight": 1.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ADER": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ADFL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ADFR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ADLL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ADLR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AFDL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AFDR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ALML": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ALMR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ALNL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ALNR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AQR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AS1": {
+    "motor_connections": 4,
+    "motor_weight": 13.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS10": {
+    "motor_connections": 4,
+    "motor_weight": 10.833333332,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS11": {
+    "motor_connections": 8,
+    "motor_weight": 21.666666663999997,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS2": {
+    "motor_connections": 4,
+    "motor_weight": 11.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS3": {
+    "motor_connections": 4,
+    "motor_weight": 12.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS4": {
+    "motor_connections": 4,
+    "motor_weight": 9.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS5": {
+    "motor_connections": 4,
+    "motor_weight": 10.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS6": {
+    "motor_connections": 4,
+    "motor_weight": 10.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS7": {
+    "motor_connections": 4,
+    "motor_weight": 10.833333332,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS8": {
+    "motor_connections": 4,
+    "motor_weight": 10.833333332,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AS9": {
+    "motor_connections": 4,
+    "motor_weight": 10.833333332,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "ASEL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASER": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASGL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASGR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASHL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASHR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASIL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASIR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASJL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASJR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASKL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "ASKR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AVFL": {
+    "motor_connections": 2,
+    "motor_weight": 2.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AVFR": {
+    "motor_connections": 2,
+    "motor_weight": 4.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AVG": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AVKR": {
+    "motor_connections": 1,
+    "motor_weight": 2.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AVL": {
+    "motor_connections": 2,
+    "motor_weight": 10.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "AVM": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AWAL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AWAR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AWBL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AWBR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AWCL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "AWCR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "BAGL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "BAGR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "CEPDL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "CEPDR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "CEPVL": {
+    "motor_connections": 1,
+    "motor_weight": 1.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "CEPVR": {
+    "motor_connections": 1,
+    "motor_weight": 1.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "DA1": {
+    "motor_connections": 2,
+    "motor_weight": 16.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DA2": {
+    "motor_connections": 8,
+    "motor_weight": 15.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DA3": {
+    "motor_connections": 6,
+    "motor_weight": 30.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DA4": {
+    "motor_connections": 6,
+    "motor_weight": 25.999999997999996,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DA5": {
+    "motor_connections": 4,
+    "motor_weight": 17.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DA6": {
+    "motor_connections": 10,
+    "motor_weight": 40.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DA7": {
+    "motor_connections": 6,
+    "motor_weight": 24.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DA8": {
+    "motor_connections": 6,
+    "motor_weight": 24.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DA9": {
+    "motor_connections": 10,
+    "motor_weight": 40.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DB1": {
+    "motor_connections": 4,
+    "motor_weight": 3.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DB2": {
+    "motor_connections": 8,
+    "motor_weight": 24.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DB3": {
+    "motor_connections": 8,
+    "motor_weight": 25.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DB4": {
+    "motor_connections": 6,
+    "motor_weight": 15.6,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DB5": {
+    "motor_connections": 6,
+    "motor_weight": 15.6,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DB6": {
+    "motor_connections": 6,
+    "motor_weight": 15.6,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DB7": {
+    "motor_connections": 10,
+    "motor_weight": 26.000000000000004,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DD1": {
+    "motor_connections": 8,
+    "motor_weight": 34.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DD2": {
+    "motor_connections": 6,
+    "motor_weight": 28.000000002000004,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DD3": {
+    "motor_connections": 6,
+    "motor_weight": 31.999999997999996,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DD4": {
+    "motor_connections": 6,
+    "motor_weight": 28.2,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DD5": {
+    "motor_connections": 6,
+    "motor_weight": 28.2,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DD6": {
+    "motor_connections": 10,
+    "motor_weight": 47.00000000000001,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "DVB": {
+    "motor_connections": 1,
+    "motor_weight": 5.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "FLPL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "FLPR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "HSNL": {
+    "motor_connections": 1,
+    "motor_weight": 7.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "HSNR": {
+    "motor_connections": 1,
+    "motor_weight": 6.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "IL1DL": {
+    "motor_connections": 3,
+    "motor_weight": 5.000000001,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL1DR": {
+    "motor_connections": 2,
+    "motor_weight": 7.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL1L": {
+    "motor_connections": 5,
+    "motor_weight": 13.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL1R": {
+    "motor_connections": 4,
+    "motor_weight": 13.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL1VL": {
+    "motor_connections": 2,
+    "motor_weight": 9.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL1VR": {
+    "motor_connections": 2,
+    "motor_weight": 10.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL2DL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL2DR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL2L": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL2R": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL2VL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "IL2VR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "OLLL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "OLLR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "OLQDL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "OLQDR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "OLQVL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "OLQVR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PDA": {
+    "motor_connections": 1,
+    "motor_weight": 2.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "PDB": {
+    "motor_connections": 2,
+    "motor_weight": 2.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "PDEL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PDER": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PHAL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PHAR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PHBL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PHBR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PHCL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PHCR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PLML": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PLMR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PLNL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PLNR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PQR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PVM": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "PVNL": {
+    "motor_connections": 1,
+    "motor_weight": 3.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "PVNR": {
+    "motor_connections": 2,
+    "motor_weight": 3.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "PVR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "RID": {
+    "motor_connections": 2,
+    "motor_weight": 3.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RIML": {
+    "motor_connections": 2,
+    "motor_weight": 4.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RIMR": {
+    "motor_connections": 4,
+    "motor_weight": 4.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RIVL": {
+    "motor_connections": 3,
+    "motor_weight": 3.999999999,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RIVR": {
+    "motor_connections": 5,
+    "motor_weight": 5.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMDDL": {
+    "motor_connections": 6,
+    "motor_weight": 7.999999997999999,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMDDR": {
+    "motor_connections": 7,
+    "motor_weight": 10.000000003,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMDL": {
+    "motor_connections": 9,
+    "motor_weight": 10.999999998,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMDR": {
+    "motor_connections": 5,
+    "motor_weight": 4.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMDVL": {
+    "motor_connections": 9,
+    "motor_weight": 9.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMDVR": {
+    "motor_connections": 11,
+    "motor_weight": 8.999999998,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMED": {
+    "motor_connections": 5,
+    "motor_weight": 10.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMEL": {
+    "motor_connections": 4,
+    "motor_weight": 12.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMER": {
+    "motor_connections": 3,
+    "motor_weight": 15.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMEV": {
+    "motor_connections": 5,
+    "motor_weight": 5.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMFL": {
+    "motor_connections": 3,
+    "motor_weight": 3.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMGL": {
+    "motor_connections": 2,
+    "motor_weight": 4.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMGR": {
+    "motor_connections": 3,
+    "motor_weight": 3.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMHL": {
+    "motor_connections": 3,
+    "motor_weight": 8.000000001,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "RMHR": {
+    "motor_connections": 4,
+    "motor_weight": 7.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "SMBDL": {
+    "motor_connections": 5,
+    "motor_weight": 8.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "SMBDR": {
+    "motor_connections": 6,
+    "motor_weight": 10.000000002,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "SMBVL": {
+    "motor_connections": 7,
+    "motor_weight": 5.999999999000001,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "SMBVR": {
+    "motor_connections": 6,
+    "motor_weight": 6.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "SMDDL": {
+    "motor_connections": 11,
+    "motor_weight": 5.0000000049999995,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "SMDDR": {
+    "motor_connections": 7,
+    "motor_weight": 3.0000000029999994,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "SMDVL": {
+    "motor_connections": 6,
+    "motor_weight": 3.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "SMDVR": {
+    "motor_connections": 4,
+    "motor_weight": 4.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "URADL": {
+    "motor_connections": 3,
+    "motor_weight": 6.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URADR": {
+    "motor_connections": 3,
+    "motor_weight": 6.999999999,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URAVL": {
+    "motor_connections": 4,
+    "motor_weight": 9.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URAVR": {
+    "motor_connections": 4,
+    "motor_weight": 8.0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URBL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URBR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URXL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URXR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URYDL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URYDR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URYVL": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "URYVR": {
+    "motor_connections": 0,
+    "motor_weight": 0,
+    "sensory_connections": 1,
+    "sensory_weight": 1.0
+  },
+  "VA1": {
+    "motor_connections": 4,
+    "motor_weight": 11.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA10": {
+    "motor_connections": 4,
+    "motor_weight": 18.702702704,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA11": {
+    "motor_connections": 4,
+    "motor_weight": 18.702702704,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA12": {
+    "motor_connections": 7,
+    "motor_weight": 32.729729732,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA2": {
+    "motor_connections": 4,
+    "motor_weight": 19.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA3": {
+    "motor_connections": 6,
+    "motor_weight": 28.999999997999996,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA4": {
+    "motor_connections": 4,
+    "motor_weight": 25.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA5": {
+    "motor_connections": 4,
+    "motor_weight": 19.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA6": {
+    "motor_connections": 4,
+    "motor_weight": 20.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA7": {
+    "motor_connections": 7,
+    "motor_weight": 26.999999999,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA8": {
+    "motor_connections": 4,
+    "motor_weight": 23.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VA9": {
+    "motor_connections": 4,
+    "motor_weight": 18.702702704,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB1": {
+    "motor_connections": 4,
+    "motor_weight": 5.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB10": {
+    "motor_connections": 4,
+    "motor_weight": 18.731707316,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB11": {
+    "motor_connections": 7,
+    "motor_weight": 32.780487803,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB2": {
+    "motor_connections": 8,
+    "motor_weight": 26.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB3": {
+    "motor_connections": 6,
+    "motor_weight": 34.999999998,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB4": {
+    "motor_connections": 4,
+    "motor_weight": 20.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB5": {
+    "motor_connections": 4,
+    "motor_weight": 22.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB6": {
+    "motor_connections": 5,
+    "motor_weight": 28.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB7": {
+    "motor_connections": 2,
+    "motor_weight": 9.365853658,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB8": {
+    "motor_connections": 6,
+    "motor_weight": 31.999999997999996,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VB9": {
+    "motor_connections": 4,
+    "motor_weight": 24.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VC1": {
+    "motor_connections": 1,
+    "motor_weight": 6.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VC2": {
+    "motor_connections": 1,
+    "motor_weight": 10.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VC3": {
+    "motor_connections": 1,
+    "motor_weight": 11.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VC4": {
+    "motor_connections": 1,
+    "motor_weight": 7.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VC5": {
+    "motor_connections": 1,
+    "motor_weight": 2.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VC6": {
+    "motor_connections": 1,
+    "motor_weight": 1.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD1": {
+    "motor_connections": 4,
+    "motor_weight": 12.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD10": {
+    "motor_connections": 4,
+    "motor_weight": 22.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD11": {
+    "motor_connections": 4,
+    "motor_weight": 22.976744188,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD12": {
+    "motor_connections": 4,
+    "motor_weight": 13.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD13": {
+    "motor_connections": 7,
+    "motor_weight": 40.209302329,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD2": {
+    "motor_connections": 4,
+    "motor_weight": 22.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD3": {
+    "motor_connections": 4,
+    "motor_weight": 23.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD4": {
+    "motor_connections": 4,
+    "motor_weight": 25.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD5": {
+    "motor_connections": 2,
+    "motor_weight": 26.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD6": {
+    "motor_connections": 6,
+    "motor_weight": 27.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD7": {
+    "motor_connections": 5,
+    "motor_weight": 24.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD8": {
+    "motor_connections": 2,
+    "motor_weight": 25.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  },
+  "VD9": {
+    "motor_connections": 4,
+    "motor_weight": 28.0,
+    "sensory_connections": 0,
+    "sensory_weight": 0
+  }
+}

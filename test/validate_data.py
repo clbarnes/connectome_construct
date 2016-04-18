@@ -69,8 +69,8 @@ def check_identical(name):
 
 def get_diff(name):
     tst, ref = [set(data) for data in load_data(name)]
-    
 
+    return sorted(tst - ref), sorted(ref - tst)
 
 
 class EdgeListTests(unittest.TestCase):
@@ -85,3 +85,8 @@ class EdgeListTests(unittest.TestCase):
 
     def test_same_np(self):
         check_identical('np')
+
+
+if __name__ == '__main__':
+    print(get_diff('ma'))
+    print(get_diff('np'))

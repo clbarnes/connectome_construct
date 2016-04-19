@@ -1,0 +1,9 @@
+'+' in the first column signifies edges which Chris has and Barry doesn't
+'-' in the first column signifies edges which Barry has and Chris doesn't
+
+No changes in gap and syn
+
+In MA, Chris has 40 extra edges, all of which are dop-5 and I believe are implied by the spreadsheet
+
+In NP, Chris' extra edges are all flp-13 to frpr-4, which I believe are implied by the spreadsheet
+    Chris is missing 123 edges - are these implied by the spreadsheet

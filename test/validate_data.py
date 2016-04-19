@@ -4,7 +4,11 @@ import re
 import os
 import unittest
 
-BARRY_DATA_DIR = 'barry_data'
+TEST_ROOT = os.path.dirname(os.path.realpath(__file__))
+CONSTRUCT_ROOT = os.path.join(TEST_ROOT, '..')
+DIFF_DIR = os.path.join(TEST_ROOT, 'diffs')
+
+BARRY_DATA_DIR = os.path.join(TEST_ROOT, 'barry_data')
 BARRY_DATA = {
     'gap': os.path.join(BARRY_DATA_DIR, 'edgeL_AC_gap.txt'),
     'syn': os.path.join(BARRY_DATA_DIR, 'edgeL_AC_syn.txt'),
@@ -13,10 +17,10 @@ BARRY_DATA = {
 }
 
 MY_DATA = {
-    'gap': os.path.join('..', 'physical', 'src_data', 'gap_edgelist_ac.csv'),
-    'syn': os.path.join('..', 'physical', 'src_data', 'syn_edgelist_ac.csv'),
-    'ma': os.path.join('..', 'extrasyn', 'tgt_data', 'ma_edgelist.csv'),
-    'np': os.path.join('..', 'extrasyn', 'tgt_data', 'np_edgelist.csv')
+    'gap': os.path.join(CONSTRUCT_ROOT, 'physical', 'src_data', 'gap_edgelist_ac.csv'),
+    'syn': os.path.join(CONSTRUCT_ROOT, 'physical', 'src_data', 'syn_edgelist_ac.csv'),
+    'ma': os.path.join(CONSTRUCT_ROOT, 'extrasyn', 'tgt_data', 'ma_edgelist.csv'),
+    'np': os.path.join(CONSTRUCT_ROOT, 'extrasyn', 'tgt_data', 'np_edgelist.csv')
 }
 
 zero_re = re.compile('(?<=[A-Z])0(?=[1-9])')
@@ -73,6 +77,27 @@ def get_diff(name):
     return sorted(tst - ref), sorted(ref - tst)
 
 
+def write_diff_csv(name, filename):
+    tst, ref = load_data(name)
+    added, subtracted = sorted(set(tst) - set(ref)), sorted(set(ref) - set(tst))
+    with open(filename, 'w') as f:
+        writer = csv.writer(f)
+        for item in added:
+            writer.writerow(['+'] + list(item) + tst[item])
+        for item in subtracted:
+            writer.writerow(['-'] + list(item) + ['?', '?'])
+
+
+def find_extra(name):
+    tst, ref = load_data(name)
+    return {key: value for key, value in tst.items() if key not in ref}
+
+
+def find_missing(name):
+    tst, ref = load_data(name)
+    return {key: value for key, value in ref.items() if key not in tst}
+
+
 class EdgeListTests(unittest.TestCase):
     def test_same_gaps(self):
         check_identical('gap')
@@ -80,6 +105,7 @@ class EdgeListTests(unittest.TestCase):
     def test_same_syns(self):
         check_identical('syn')
 
+    # @unittest.skipIf(get_diff('ma') == MA_DIFF, 'MA diff is as discussed with Barry')
     def test_same_ma(self):
         check_identical('ma')
 
@@ -88,5 +114,7 @@ class EdgeListTests(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    print(get_diff('ma'))
-    print(get_diff('np'))
+    # ma_diff = get_diff('ma')
+    # np_diff = get_diff('np')
+    for etype in ['gap', 'syn', 'ma', 'np']:
+        write_diff_csv(etype, os.path.join(DIFF_DIR, 'diff_{}.csv'.format(etype)))

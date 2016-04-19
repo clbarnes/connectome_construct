@@ -31,7 +31,7 @@ def val(cell):
 
 def peptide_expr_from_sheet(sheet):
     mol_to_cell = defaultdict(set)
-    for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:C{}'.format(sheet.max_row)):
         if not row:
             continue
         if val(row[0]):
@@ -51,7 +51,7 @@ def peptide_expr_from_sheet(sheet):
 
 def receptor_expr_from_sheet(sheet):
     mol_to_cell = defaultdict(set)
-    for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:C{}'.format(sheet.max_row)):
         if not row:
             continue
         if val(row[0]):
@@ -69,7 +69,7 @@ def receptor_expr_from_sheet(sheet):
 
 def ligand_mapping_from_sheet(sheet):
     pep_to_rec = defaultdict(set)
-    for row in sheet.iter_rows('A3:J{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:J{}'.format(sheet.max_row)):
         if not row:
             continue
         if val(row[0]) and val(row[1]):
@@ -93,18 +93,18 @@ def ligand_mapping_from_sheet(sheet):
 
 
 def main():
-    wb = load_workbook(LATEST_DATA, read_only=True)
+    wb = load_workbook(LATEST_DATA)
 
     pep_sht = wb.get_sheet_by_name(pep_sht_name)
-    pep_sht.calculate_dimension(force=True)
+    pep_sht.calculate_dimension()
     peptide_expr = peptide_expr_from_sheet(pep_sht)
 
     rec_sht = wb.get_sheet_by_name(rec_sht_name)
-    rec_sht.calculate_dimension(force=True)
+    rec_sht.calculate_dimension()
     rec_expr = receptor_expr_from_sheet(rec_sht)
 
     mapping_sht = wb.get_sheet_by_name(mapping_sht_name)
-    mapping_sht.calculate_dimension(force=True)
+    mapping_sht.calculate_dimension()
     ligand_mapping = ligand_mapping_from_sheet(mapping_sht)
 
     def generate_edges():

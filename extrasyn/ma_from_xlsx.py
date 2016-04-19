@@ -31,7 +31,7 @@ def val(cell):
 
 def ma_cell_sheet_to_dict(sheet, include_weak=False):
     mol_to_cell = defaultdict(set)
-    for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:C{}'.format(sheet.max_row)):
         if not row:
             continue
         if row[0].value:
@@ -50,7 +50,7 @@ def ma_cell_sheet_to_dict(sheet, include_weak=False):
 def rec_cell_sheet_to_dict(sheet):
     transmitter_to_rec = defaultdict(set)
     rec_to_cell = defaultdict(set)
-    for row in sheet.iter_rows('A3:C{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:C{}'.format(sheet.max_row)):
         if not row:
             continue
 
@@ -67,11 +67,11 @@ def rec_cell_sheet_to_dict(sheet):
 
 
 def main(include_weak):
-    wb = load_workbook(LATEST_DATA, read_only=True)
+    wb = load_workbook(LATEST_DATA)
     ma_sht = wb.get_sheet_by_name(ma_sht_name)
-    ma_sht.calculate_dimension(force=True)
+    ma_sht.calculate_dimension()
     rec_sht = wb.get_sheet_by_name(rec_sht_name)
-    rec_sht.calculate_dimension(force=True)
+    rec_sht.calculate_dimension()
 
     ma_expr = ma_cell_sheet_to_dict(ma_sht, include_weak=include_weak)
     ma_to_rec, rec_expr = rec_cell_sheet_to_dict(rec_sht)

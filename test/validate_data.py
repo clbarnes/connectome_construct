@@ -105,7 +105,6 @@ class EdgeListTests(unittest.TestCase):
     def test_same_syns(self):
         check_identical('syn')
 
-    # @unittest.skipIf(get_diff('ma') == MA_DIFF, 'MA diff is as discussed with Barry')
     def test_same_ma(self):
         check_identical('ma')
 
@@ -114,7 +113,5 @@ class EdgeListTests(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    # ma_diff = get_diff('ma')
-    # np_diff = get_diff('np')
     for etype in ['gap', 'syn', 'ma', 'np']:
         write_diff_csv(etype, os.path.join(DIFF_DIR, 'diff_{}.csv'.format(etype)))

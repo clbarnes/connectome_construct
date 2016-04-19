@@ -8,10 +8,14 @@
       -258.1102286363637,
       32.82045404545455
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       8.65,
       -239.25,
@@ -27,10 +31,14 @@
       -258.1102286363637,
       32.82045404545455
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -12.9,
       -239.25,
@@ -46,10 +54,14 @@
       -254.5269742105262,
       34.150658026315796
     ],
+    "motor_connections": 1,
+    "motor_weight": 1.0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       11.0,
       -242.375,
@@ -65,10 +77,14 @@
       -254.5269742105262,
       34.150658026315796
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -15.299999,
       -242.375,
@@ -84,10 +100,14 @@
       -285.3033772972973,
       44.97905413513513
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       3.7250001,
       -267.9,
@@ -103,10 +123,14 @@
       -285.3033772972973,
       44.97905413513513
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.0,
       -267.9,
@@ -122,10 +146,14 @@
       -284.713124,
       48.676874924999986
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       2.7,
       -265.75,
@@ -141,10 +169,14 @@
       -284.713124,
       48.676874924999986
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -6.95,
       -265.75,
@@ -160,10 +192,14 @@
       -285.4168924324324,
       45.46351340540539
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       4.5,
       -268.375,
@@ -179,10 +215,14 @@
       -285.4168924324324,
       45.46351340540539
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.75,
       -268.375,
@@ -198,10 +238,14 @@
       -270.23125125,
       40.92031275
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.8,
       -264.15,
@@ -217,10 +261,14 @@
       -270.23125125,
       40.92031275
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -5.1,
       -264.15,
@@ -236,10 +284,14 @@
       -272.1404417647059,
       41.40220564705882
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       2.7,
       -266.19998,
@@ -255,10 +307,14 @@
       -272.1397070588235,
       41.40220564705882
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -6.8999996,
       -266.19998,
@@ -274,10 +330,14 @@
       -267.3367611764706,
       38.286764705882355
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       9.25,
       -253.44998,
@@ -293,10 +353,14 @@
       -267.3367611764706,
       38.286764705882355
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -13.500001,
       -253.44998,
@@ -312,10 +376,14 @@
       -272.01000095238095,
       44.01142766666666
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.4499999,
       -269.542,
@@ -331,10 +399,14 @@
       -272.01000095238095,
       44.01142766666666
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.067,
       -269.542,
@@ -350,10 +422,14 @@
       -267.04531875000004,
       38.8374993125
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       7.4500003,
       -252.50002,
@@ -369,10 +445,14 @@
       -267.04531875000004,
       38.8374993125
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -11.7,
       -252.50002,
@@ -388,10 +468,14 @@
       -268.39791749999995,
       37.341666541666676
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       5.6000004,
       -258.75,
@@ -407,10 +491,14 @@
       -268.39791749999995,
       37.341666541666676
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -9.95,
       -258.75,
@@ -426,10 +514,14 @@
       -79.59071525714292,
       16.510714352571437
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.35,
       -271.0,
@@ -445,10 +537,14 @@
       -199.079999375,
       17.752500500000004
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       22.675,
       -60.75,
@@ -464,10 +560,14 @@
       -199.079999375,
       17.752500500000004
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -24.15,
       -60.75,
@@ -483,8 +583,12 @@
       106.38801816666665,
       19.485416804166665
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       0.32500002,
       406.69998,
@@ -500,8 +604,12 @@
       106.39843524999998,
       19.485416804166665
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -2.925,
       406.69998,
@@ -517,10 +625,14 @@
       -260.63631119047614,
       36.525595
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -14.8,
       -243.05,
@@ -536,10 +648,14 @@
       -233.92612375000002,
       26.921958333333336
     ],
+    "motor_connections": 4,
+    "motor_weight": 13.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.275,
       -229.038,
@@ -555,10 +671,14 @@
       266.25769153846153,
       -2.4153844999999996
     ],
+    "motor_connections": 4,
+    "motor_weight": 10.833333332,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.9,
       278.25,
@@ -574,10 +694,14 @@
       300.85185333333334,
       -6.620370038888889
     ],
+    "motor_connections": 8,
+    "motor_weight": 21.666666663999997,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8750001,
       315.7,
@@ -593,10 +717,14 @@
       -204.0799984,
       7.406000040000002
     ],
+    "motor_connections": 4,
+    "motor_weight": 11.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8750001,
       -203.875,
@@ -612,10 +740,14 @@
       -153.71979374999998,
       -24.794791125000003
     ],
+    "motor_connections": 4,
+    "motor_weight": 12.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.9,
       -151.40001,
@@ -631,10 +763,14 @@
       -103.43240755555554,
       -39.602778629629626
     ],
+    "motor_connections": 4,
+    "motor_weight": 9.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8750001,
       -90.200005,
@@ -650,10 +786,14 @@
       -35.2312504,
       -32.083928664285715
     ],
+    "motor_connections": 4,
+    "motor_weight": 10.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8750001,
       -3.7500002,
@@ -669,10 +809,14 @@
       1.4605767653846147,
       -20.66826926923077
     ],
+    "motor_connections": 4,
+    "motor_weight": 10.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.9,
       28.25,
@@ -688,10 +832,14 @@
       91.7500005172414,
       18.81120706896552
     ],
+    "motor_connections": 4,
+    "motor_weight": 10.833333332,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.9,
       119.9,
@@ -707,10 +855,14 @@
       147.55161341935482,
       21.71129059677419
     ],
+    "motor_connections": 4,
+    "motor_weight": 10.833333332,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.9,
       181.85,
@@ -726,10 +878,14 @@
       212.24999755555558,
       11.51481474074074
     ],
+    "motor_connections": 4,
+    "motor_weight": 10.833333332,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8750001,
       228.92499,
@@ -745,10 +901,14 @@
       -282.05380347826076,
       44.682065108695646
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       4.125,
       -263.675,
@@ -764,10 +924,14 @@
       -282.05380347826076,
       44.682065108695646
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.375,
       -263.675,
@@ -783,10 +947,14 @@
       -285.8454545454546,
       45.21818193939394
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       3.7,
       -265.35,
@@ -802,10 +970,14 @@
       -285.8454545454546,
       45.21818193939394
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.0,
       -265.35,
@@ -821,10 +993,14 @@
       -284.3296047368421,
       44.75789463157895
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       5.55,
       -265.625,
@@ -840,10 +1016,14 @@
       -284.3296047368421,
       44.75789463157895
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -9.8,
       -265.625,
@@ -859,10 +1039,14 @@
       -282.56036487804874,
       46.05304875609755
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       2.6499999,
       -263.7,
@@ -878,10 +1062,14 @@
       -282.56036487804874,
       46.05304875609755
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -6.8999996,
       -263.7,
@@ -897,10 +1085,14 @@
       -282.80437349999994,
       43.7337499
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       2.9750001,
       -263.0,
@@ -916,10 +1108,14 @@
       -282.8043735,
       43.73374990000001
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -7.25,
       -263.0,
@@ -935,10 +1131,14 @@
       -284.8868405263158,
       46.0578944736842
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       3.7,
       -268.025,
@@ -954,10 +1154,14 @@
       -284.8868405263158,
       46.0578944736842
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.0,
       -268.025,
@@ -973,10 +1177,14 @@
       -276.26418918918927,
       41.79864862162162
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       4.5,
       -263.975,
@@ -992,10 +1200,14 @@
       -276.26418918918927,
       41.79864862162162
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.8,
       -263.975,
@@ -1011,10 +1223,14 @@
       -54.688934993442615,
       0.903934296721311
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.55,
       -271.5,
@@ -1030,10 +1246,14 @@
       -54.68729564918032,
       0.9031146573770494
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.5,
       -271.5,
@@ -1049,10 +1269,14 @@
       -84.71216964225349,
       5.383140916901411
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.225,
       -269.794,
@@ -1068,10 +1292,14 @@
       -84.71357795211264,
       5.382788804225354
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.581,
       -269.794,
@@ -1087,10 +1315,14 @@
       -54.33893499344263,
       0.9598359688524571
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.167,
       -268.7,
@@ -1106,10 +1338,14 @@
       -54.33672187868852,
       0.9576228540983617
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.033,
       -268.683,
@@ -1125,10 +1361,14 @@
       -199.13680473888894,
       7.694444388888893
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       2.75,
       -269.35,
@@ -1144,10 +1384,14 @@
       -199.1506936555556,
       7.684722111111114
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.4,
       -269.35,
@@ -1163,10 +1407,14 @@
       -73.83566227352941,
       1.7930145602941154
     ],
+    "motor_connections": 2,
+    "motor_weight": 2.0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       2.1,
       -246.4,
@@ -1182,10 +1430,14 @@
       -76.24311615362318,
       1.9663042043478236
     ],
+    "motor_connections": 2,
+    "motor_weight": 4.0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -6.5,
       -246.4,
@@ -1201,10 +1453,14 @@
       121.95518934716982,
       -14.359433862264154
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -2.0,
       -237.1,
@@ -1220,10 +1476,14 @@
       -46.87372906101695,
       0.24322042542373176
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       4.1499996,
       -264.4,
@@ -1239,10 +1499,14 @@
       -46.87372906101695,
       0.24322042542373176
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.900001,
       -264.4,
@@ -1258,10 +1522,14 @@
       -50.431249743333346,
       0.8408332350000023
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.2,
       -264.9,
@@ -1277,10 +1545,14 @@
       -46.7622880440678,
       0.343220238983052
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.75,
       -264.9,
@@ -1296,10 +1568,14 @@
       -74.71397145,
       2.0761027897058826
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       1.65,
       -255.0,
@@ -1315,10 +1591,14 @@
       -73.94191345000002,
       1.8893380308823524
     ],
+    "motor_connections": 1,
+    "motor_weight": 2.0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.583,
       -246.95001,
@@ -1334,11 +1614,15 @@
       -73.44440409850746,
       3.7791042253731395
     ],
+    "motor_connections": 2,
+    "motor_weight": 10.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -7.5000005,
       -263.45,
@@ -1354,10 +1638,14 @@
       -203.17398020408166,
       1.0438776326530603
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -20.5,
       -55.65,
@@ -1373,10 +1661,14 @@
       -284.46512894736844,
       45.21381563157894
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       3.9,
       -265.875,
@@ -1392,10 +1684,14 @@
       -284.46512894736844,
       45.21381563157894
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.2,
       -265.875,
@@ -1411,10 +1707,14 @@
       -284.5631563157895,
       45.26842092105262
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       5.5,
       -266.225,
@@ -1430,10 +1730,14 @@
       -284.5631563157895,
       45.26842092105262
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -9.75,
       -266.225,
@@ -1449,10 +1753,14 @@
       -284.40914682926825,
       44.70975597560976
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       3.8,
       -267.95,
@@ -1468,10 +1776,14 @@
       -284.40914682926825,
       44.70975597560976
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.1,
       -267.95,
@@ -1487,10 +1799,14 @@
       -290.5287848484849,
       49.52499996969697
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       4.675,
       -277.09998,
@@ -1506,10 +1822,14 @@
       -290.5287848484849,
       49.52499996969697
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -9.0,
       -277.09998,
@@ -1525,10 +1845,14 @@
       -239.66304260869563,
       24.589130434782607
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       15.35,
       -187.15,
@@ -1544,10 +1868,14 @@
       -239.66304260869563,
       24.589130434782607
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -19.65,
       -187.15,
@@ -1563,8 +1891,12 @@
       31.313157473684214,
       1.8302629521052625
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       25.350002,
       47.95,
@@ -1580,8 +1912,12 @@
       31.313157473684214,
       1.8302629521052625
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -27.25,
       47.95,
@@ -1597,10 +1933,14 @@
       -286.51892000000004,
       53.38986518918919
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       1.35,
       -275.02502,
@@ -1616,10 +1956,14 @@
       -286.51892000000004,
       53.38986518918919
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -5.625,
       -275.02502,
@@ -1635,10 +1979,14 @@
       -287.5294123529412,
       43.988970676470586
     ],
+    "motor_connections": 1,
+    "motor_weight": 1.0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       0.70000005,
       -277.125,
@@ -1654,10 +2002,14 @@
       -287.5294123529412,
       43.988970676470586
     ],
+    "motor_connections": 1,
+    "motor_weight": 1.0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -4.95,
       -277.125,
@@ -1673,10 +2025,14 @@
       -238.40859625000007,
       24.114062778125
     ],
+    "motor_connections": 2,
+    "motor_weight": 16.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.75,
       -227.07501,
@@ -1692,10 +2048,14 @@
       -200.57357171428578,
       -0.10571436342856982
     ],
+    "motor_connections": 8,
+    "motor_weight": 15.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.9,
       -190.75,
@@ -1711,10 +2071,14 @@
       -146.28257624242426,
       -24.62424285757576
     ],
+    "motor_connections": 6,
+    "motor_weight": 30.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.65,
       -123.65,
@@ -1730,10 +2094,14 @@
       -87.190000175,
       -32.830624675
     ],
+    "motor_connections": 6,
+    "motor_weight": 25.999999997999996,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.7,
       -32.4,
@@ -1749,10 +2117,14 @@
       12.980612028571445,
       -6.221428528571428
     ],
+    "motor_connections": 4,
+    "motor_weight": 17.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.65,
       84.2,
@@ -1768,10 +2140,14 @@
       93.96166579000003,
       2.118333284999999
     ],
+    "motor_connections": 10,
+    "motor_weight": 40.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.65,
       198.675,
@@ -1787,10 +2163,14 @@
       187.90104183333344,
       4.175520887500003
     ],
+    "motor_connections": 6,
+    "motor_weight": 24.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.65,
       281.6,
@@ -1806,10 +2186,14 @@
       367.7080864705882,
       1.673529499411763
     ],
+    "motor_connections": 6,
+    "motor_weight": 24.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       1.275,
       376.8,
@@ -1825,10 +2209,14 @@
       367.70661588235293,
       1.673529499411763
     ],
+    "motor_connections": 10,
+    "motor_weight": 40.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.6,
       376.8,
@@ -1844,10 +2232,14 @@
       -102.90984830303037,
       25.834848522727263
     ],
+    "motor_connections": 4,
+    "motor_weight": 3.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.9,
       -230.34999,
@@ -1863,10 +2255,14 @@
       -54.6039476842105,
       15.92540366666667
     ],
+    "motor_connections": 8,
+    "motor_weight": 24.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.2,
       -244.5,
@@ -1882,10 +2278,14 @@
       -25.34259329629629,
       2.488888981481481
     ],
+    "motor_connections": 8,
+    "motor_weight": 25.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       -195.275,
@@ -1901,10 +2301,14 @@
       38.023015593650776,
       -15.46031723968254
     ],
+    "motor_connections": 6,
+    "motor_weight": 15.6,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8750001,
       -96.275,
@@ -1920,10 +2324,14 @@
       119.59727257272728,
       1.162272634545458
     ],
+    "motor_connections": 6,
+    "motor_weight": 15.6,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.05,
       35.25,
@@ -1939,10 +2347,14 @@
       223.3974346153846,
       9.957692510256411
     ],
+    "motor_connections": 6,
+    "motor_weight": 15.6,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8249999,
       178.1,
@@ -1958,10 +2370,14 @@
       291.04714114285713,
       -7.53928564857143
     ],
+    "motor_connections": 10,
+    "motor_weight": 26.000000000000004,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       267.75,
@@ -1977,10 +2393,14 @@
       -226.62714200000005,
       23.823571342857143
     ],
+    "motor_connections": 8,
+    "motor_weight": 34.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.9,
       -231.95,
@@ -1996,10 +2416,14 @@
       -166.86062465000006,
       -15.9443747075
     ],
+    "motor_connections": 6,
+    "motor_weight": 28.000000002000004,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       -156.47499,
@@ -2015,10 +2439,14 @@
       -78.66823025000001,
       -42.25729120833334
     ],
+    "motor_connections": 6,
+    "motor_weight": 31.999999997999996,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.9,
       -28.600002,
@@ -2034,10 +2462,14 @@
       62.55603405689655,
       0.24482751379310536
     ],
+    "motor_connections": 6,
+    "motor_weight": 28.2,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8750001,
       122.899994,
@@ -2053,10 +2485,14 @@
       208.58500088888897,
       11.105555826666667
     ],
+    "motor_connections": 6,
+    "motor_weight": 28.2,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8750001,
       234.05002,
@@ -2072,10 +2508,14 @@
       319.55104,
       -6.480208352083333
     ],
+    "motor_connections": 10,
+    "motor_weight": 47.00000000000001,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.9,
       365.775,
@@ -2091,11 +2531,15 @@
       -7.0650763984615255,
       -0.36178463538461525
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron",
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.345,
       394.6,
@@ -2111,11 +2555,15 @@
       296.299999,
       -6.9697915833333335
     ],
+    "motor_connections": 1,
+    "motor_weight": 5.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.75,
       394.5,
@@ -2131,10 +2579,14 @@
       13.259552570769246,
       -1.3809230096923069
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.116,
       395.43298,
@@ -2150,10 +2602,14 @@
       -258.355644516129,
       38.415322870967735
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       10.875,
       -246.3,
@@ -2169,10 +2625,14 @@
       -258.355644516129,
       38.415322870967735
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -15.05,
       -246.3,
@@ -2188,10 +2648,14 @@
       -135.43229230416665,
       4.253645597916665
     ],
+    "motor_connections": 1,
+    "motor_weight": 7.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       17.45,
       61.05,
@@ -2207,10 +2671,14 @@
       -135.41041726249998,
       4.252083077083333
     ],
+    "motor_connections": 1,
+    "motor_weight": 6.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -21.65,
       61.05,
@@ -2226,10 +2694,14 @@
       -310.026666,
       55.66416576666668
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       2.8999999,
       -300.35,
@@ -2245,10 +2717,14 @@
       -310.026666,
       55.66416576666668
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -7.1500006,
       -300.35,
@@ -2264,10 +2740,14 @@
       -311.48970647058826,
       55.1860295
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       1.55,
       -311.65,
@@ -2283,10 +2763,14 @@
       -311.48970647058826,
       55.1860295
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -5.7999997,
       -311.65,
@@ -2302,10 +2786,14 @@
       -303.27000200000003,
       58.395000550000006
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.05,
       -296.55002,
@@ -2321,10 +2809,14 @@
       -273.08806954545463,
       45.03068206818181
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.05,
       -253.90001,
@@ -2340,11 +2832,15 @@
       -260.9100910091745,
       41.35688052293578
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron",
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.1,
       -247.84999,
@@ -2360,10 +2856,14 @@
       -258.9774177419355,
       45.084677225806445
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       1.7,
       -251.65,
@@ -2379,12 +2879,16 @@
       -288.0250649999999,
       54.07896884374998
     ],
+    "motor_connections": 3,
+    "motor_weight": 5.000000001,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       2.825,
       -282.763,
@@ -2400,12 +2904,16 @@
       -286.3153896774194,
       53.862161387096755
     ],
+    "motor_connections": 2,
+    "motor_weight": 7.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -7.0620003,
       -282.763,
@@ -2421,12 +2929,16 @@
       -290.85956235294117,
       49.105147352941174
     ],
+    "motor_connections": 5,
+    "motor_weight": 13.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       3.8,
       -282.67502,
@@ -2442,12 +2954,16 @@
       -290.85956235294117,
       49.105147352941174
     ],
+    "motor_connections": 4,
+    "motor_weight": 13.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.075001,
       -282.67502,
@@ -2463,12 +2979,16 @@
       -293.90937583333334,
       44.79479170833333
     ],
+    "motor_connections": 2,
+    "motor_weight": 9.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       2.25,
       -279.5,
@@ -2484,12 +3004,16 @@
       -293.90937583333334,
       44.79479170833333
     ],
+    "motor_connections": 2,
+    "motor_weight": 10.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -6.5499997,
       -279.5,
@@ -2505,10 +3029,14 @@
       -295.93437250000005,
       56.84479174999999
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       7.1000004,
       -287.47498,
@@ -2524,10 +3052,14 @@
       -295.93437250000005,
       56.84479174999999
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -11.35,
       -287.47498,
@@ -2543,10 +3075,14 @@
       -298.09062250000005,
       51.418750125
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       6.7500005,
       -285.0,
@@ -2562,10 +3098,14 @@
       -298.09062250000005,
       51.418750125
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -11.0,
       -285.0,
@@ -2581,10 +3121,14 @@
       -297.9119582608695,
       45.703260652173924
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       3.3,
       -288.875,
@@ -2600,10 +3144,14 @@
       -297.9119582608695,
       45.703260652173924
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -7.6,
       -288.875,
@@ -2619,10 +3167,14 @@
       390.23125375,
       -4.04218746875
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       1.35,
       403.80002,
@@ -2638,10 +3190,14 @@
       390.23125375,
       -4.04218746875
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.85,
       403.80002,
@@ -2657,10 +3213,14 @@
       -310.53235959999995,
       54.570840479999994
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.86700004,
       -252.135,
@@ -2676,10 +3236,14 @@
       -280.8277766666667,
       49.85833327777778
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.7,
       -254.34999,
@@ -2695,10 +3259,14 @@
       -280.8277766666667,
       49.85833327777778
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.0,
       -254.34999,
@@ -2714,11 +3282,15 @@
       -293.6864832432433,
       50.452702189189196
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor",
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.7500002,
       -295.4,
@@ -2734,11 +3306,15 @@
       -293.6864832432433,
       50.452702189189196
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor",
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.05,
       -295.4,
@@ -2754,10 +3330,14 @@
       -277.49267821428566,
       47.73508925000001
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.033,
       -288.93298,
@@ -2773,10 +3353,14 @@
       -250.14032580645147,
       39.35645196774193
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.2,
       -241.45,
@@ -2792,11 +3376,15 @@
       -292.52360888888893,
       52.49236066666667
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor",
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.2,
       -296.15,
@@ -2812,11 +3400,15 @@
       -292.52360888888893,
       52.49236066666667
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor",
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -7.25,
       -296.15,
@@ -2832,11 +3424,15 @@
       -290.12795523809524,
       52.04419085714286
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.1539998,
       -293.51202,
@@ -2852,11 +3448,15 @@
       -283.9439668965517,
       49.149138517241376
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor",
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       2.6000001,
       -292.25,
@@ -2872,11 +3472,15 @@
       -283.9439668965517,
       49.149138517241376
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor",
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -6.3500004,
       -292.25,
@@ -2892,10 +3496,14 @@
       -288.2255952380952,
       49.48095204761904
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       4.4,
       -283.9,
@@ -2911,10 +3519,14 @@
       -288.2255952380952,
       49.48095204761904
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.65,
       -283.9,
@@ -2930,11 +3542,15 @@
       -289.1524993333333,
       54.047500766666666
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       2.775,
       -280.0,
@@ -2950,11 +3566,15 @@
       -289.1524993333333,
       54.047500766666666
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -7.0249996,
       -280.0,
@@ -2970,11 +3590,15 @@
       -295.02826,
       46.45869547826088
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       4.2,
       -279.25,
@@ -2990,11 +3614,15 @@
       -295.02826,
       46.45869547826088
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.474999,
       -279.25,
@@ -3010,11 +3638,15 @@
       371.70344793103453,
       5.586206834482757
     ],
+    "motor_connections": 1,
+    "motor_weight": 2.0,
     "ntype": "motor",
     "ntypes": [
       "motor",
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.95,
       387.25,
@@ -3030,10 +3662,14 @@
       387.0583311111111,
       13.307638880555555
     ],
+    "motor_connections": 2,
+    "motor_weight": 2.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.3,
       384.65,
@@ -3049,10 +3685,14 @@
       90.69285688214286,
       -12.951785573214284
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       25.75,
       143.8,
@@ -3068,10 +3708,14 @@
       91.2434210421053,
       -12.665789349122807
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -27.35,
       143.8,
@@ -3087,10 +3731,14 @@
       397.0977268181818,
       0.5920454636363638
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       1.2,
       402.9,
@@ -3106,10 +3754,14 @@
       397.0977268181818,
       0.5920454636363638
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -3.8,
       402.9,
@@ -3125,10 +3777,14 @@
       398.2056890909091,
       1.1886363909090913
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       1.2,
       405.60004,
@@ -3144,10 +3800,14 @@
       398.2056890909091,
       1.1886363909090913
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -3.7250001,
       405.60004,
@@ -3163,10 +3823,14 @@
       403.049997037037,
       4.778703748148149
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       0.75,
       408.775,
@@ -3182,10 +3846,14 @@
       403.049997037037,
       4.778703748148149
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -3.425,
       408.775,
@@ -3201,10 +3869,14 @@
       254.39103692452827,
       7.431603735849056
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       2.5,
       410.15,
@@ -3220,10 +3892,14 @@
       254.39103692452827,
       7.431603735849056
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -3.675,
       410.15,
@@ -3239,10 +3915,14 @@
       94.08983125423732,
       -0.2220337616949171
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       4.225,
       402.3,
@@ -3258,10 +3938,14 @@
       99.00833456666668,
       -0.23708321500000124
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -6.225,
       402.3,
@@ -3277,10 +3961,14 @@
       399.1105757692307,
       1.4365382846153845
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -0.32500002,
       407.3,
@@ -3296,10 +3984,14 @@
       71.63291742333334,
       -7.615833384999999
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.85,
       404.15002,
@@ -3315,10 +4007,14 @@
       70.76975895806454,
       -7.023790409677422
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.4499998,
       404.15002,
@@ -3334,10 +4030,14 @@
       65.58475245689576,
       -4.830686079928221
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       24.749,
       175.151,
@@ -3353,10 +4053,14 @@
       65.5392302581316,
       -4.833150906974064
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -26.113998,
       175.151,
@@ -3372,10 +4076,14 @@
       74.16710514210529,
       -16.39934199736842
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       24.85,
       188.8,
@@ -3391,11 +4099,15 @@
       -86.37747850990993,
       15.329053895495493
     ],
+    "motor_connections": 1,
+    "motor_weight": 3.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.55,
       410.0,
@@ -3411,11 +4123,15 @@
       -52.81752633608246,
       10.753350288659798
     ],
+    "motor_connections": 2,
+    "motor_weight": 3.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.25,
       409.95,
@@ -3431,10 +4147,14 @@
       13.21650991320755,
       -9.370754750943394
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.1,
       366.65002,
@@ -3450,10 +4170,14 @@
       11.131371988235294,
       -10.133333368627449
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.15,
       356.55,
@@ -3469,10 +4193,14 @@
       76.42077063692307,
       -5.9330769399999985
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.85,
       402.40002,
@@ -3488,10 +4216,14 @@
       71.708203834375,
       -5.858593798437497
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.3,
       402.40002,
@@ -3507,10 +4239,14 @@
       80.76474404358976,
       0.7067306538461564
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -1.85,
       407.35,
@@ -3526,10 +4262,14 @@
       -35.39836155081967,
       -1.598770636065573
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.1,
       358.75,
@@ -3545,10 +4285,14 @@
       393.6486122222222,
       -1.7749999277777775
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.8,
       405.4,
@@ -3564,10 +4308,14 @@
       393.6486122222222,
       -1.7749999277777775
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.4,
       405.4,
@@ -3583,10 +4331,14 @@
       -272.95714428571426,
       43.76517832142857
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       4.0,
       -270.25,
@@ -3602,10 +4354,14 @@
       -272.95714428571426,
       43.76517832142857
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.2,
       -270.25,
@@ -3621,10 +4377,14 @@
       -272.3793482608696,
       43.58967360869565
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       5.5,
       -264.35,
@@ -3640,10 +4400,14 @@
       -272.3793482608696,
       43.58967360869565
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -9.8,
       -264.35,
@@ -3659,10 +4423,14 @@
       -270.71674074074076,
       40.235110666666664
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.737,
       -267.063,
@@ -3678,10 +4446,14 @@
       -270.7176666666667,
       40.235110666666664
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.563,
       -267.063,
@@ -3697,10 +4469,14 @@
       -145.95121155967746,
       37.79682276451613
     ],
+    "motor_connections": 2,
+    "motor_weight": 3.0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.225,
       -272.35,
@@ -3716,10 +4492,14 @@
       -261.49117411764706,
       33.97647023529412
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.0,
       -239.84999,
@@ -3735,10 +4515,14 @@
       -263.9235317647059,
       36.08088158823529
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -5.15,
       -245.5,
@@ -3754,10 +4538,14 @@
       -258.30625125,
       33.6281244375
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.0,
       -233.25,
@@ -3773,10 +4561,14 @@
       -261.60937875,
       35.265624375
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.7,
       -241.95001,
@@ -3792,10 +4584,14 @@
       -271.75069555555547,
       41.09999997222222
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.0,
       -267.35,
@@ -3811,10 +4607,14 @@
       -269.9346604545454,
       36.49261311363637
     ],
+    "motor_connections": 2,
+    "motor_weight": 4.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.5,
       -260.9,
@@ -3830,10 +4630,14 @@
       -269.9346604545454,
       36.49261311363637
     ],
+    "motor_connections": 4,
+    "motor_weight": 4.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -7.75,
       -260.9,
@@ -3849,10 +4653,14 @@
       -280.52662695652174,
       49.151630282608714
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.3750002,
       -278.57498,
@@ -3868,10 +4676,14 @@
       -280.52662695652174,
       49.151630282608714
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -7.625,
       -278.57498,
@@ -3887,10 +4699,14 @@
       -272.1758096774193,
       41.91774148387097
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -11.599999,
       -265.9,
@@ -3906,10 +4722,14 @@
       -269.16050125,
       40.21674941666667
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.8250003,
       -262.163,
@@ -3925,11 +4745,15 @@
       -272.42121575757574,
       43.667424303030316
     ],
+    "motor_connections": 3,
+    "motor_weight": 3.999999999,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       4.5,
       -265.30002,
@@ -3945,11 +4769,15 @@
       -272.42121575757574,
       43.667424303030316
     ],
+    "motor_connections": 5,
+    "motor_weight": 5.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.75,
       -265.30002,
@@ -3965,10 +4793,14 @@
       -272.9999976470588,
       44.68235229411765
     ],
+    "motor_connections": 6,
+    "motor_weight": 7.999999997999999,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.6,
       -269.07498,
@@ -3984,10 +4816,14 @@
       -272.9999976470588,
       44.68235229411765
     ],
+    "motor_connections": 7,
+    "motor_weight": 10.000000003,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -7.75,
       -269.07498,
@@ -4003,10 +4839,14 @@
       -273.54736947368417,
       45.31052589473685
     ],
+    "motor_connections": 9,
+    "motor_weight": 10.999999998,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.1,
       -271.0,
@@ -4022,10 +4862,14 @@
       -273.54736947368417,
       45.31052589473685
     ],
+    "motor_connections": 5,
+    "motor_weight": 4.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -7.4,
       -271.0,
@@ -4041,10 +4885,14 @@
       -273.5052589473684,
       45.57236768421054
     ],
+    "motor_connections": 9,
+    "motor_weight": 9.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       4.8500004,
       -271.19998,
@@ -4060,10 +4908,14 @@
       -273.5052589473684,
       45.57236768421054
     ],
+    "motor_connections": 11,
+    "motor_weight": 8.999999998,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -9.049999,
       -271.19998,
@@ -4079,10 +4931,14 @@
       -263.6029432352941,
       48.58749955882354
     ],
+    "motor_connections": 5,
+    "motor_weight": 10.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.5,
       -275.75,
@@ -4098,10 +4954,14 @@
       -274.23816000000005,
       45.709789052631585
     ],
+    "motor_connections": 4,
+    "motor_weight": 12.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       4.65,
       -274.4,
@@ -4117,10 +4977,14 @@
       -274.23816000000005,
       45.709789052631585
     ],
+    "motor_connections": 3,
+    "motor_weight": 15.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.900001,
       -274.4,
@@ -4136,10 +5000,14 @@
       -80.29072542898548,
       4.880941842028987
     ],
+    "motor_connections": 5,
+    "motor_weight": 5.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.033,
       -272.967,
@@ -4155,10 +5023,14 @@
       -272.13594187499996,
       42.392968312499995
     ],
+    "motor_connections": 3,
+    "motor_weight": 3.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       1.1,
       -265.05002,
@@ -4174,10 +5046,14 @@
       -272.13594187499996,
       42.392968312499995
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -5.4,
       -265.05002,
@@ -4193,10 +5069,14 @@
       -255.65952190476187,
       30.830952238095236
     ],
+    "motor_connections": 2,
+    "motor_weight": 4.0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       8.25,
       -238.29999,
@@ -4212,10 +5092,14 @@
       -255.65952190476187,
       30.830952238095236
     ],
+    "motor_connections": 3,
+    "motor_weight": 3.0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -12.5,
       -238.29999,
@@ -4231,10 +5115,14 @@
       -272.50859374999993,
       43.95781240625
     ],
+    "motor_connections": 3,
+    "motor_weight": 8.000000001,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       1.1,
       -265.9,
@@ -4250,10 +5138,14 @@
       -272.50859374999993,
       43.95781240625
     ],
+    "motor_connections": 4,
+    "motor_weight": 7.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -5.2999997,
       -265.9,
@@ -4269,10 +5161,14 @@
       -274.62134295454547,
       44.68490922727272
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.6879997,
       -270.169,
@@ -4288,10 +5184,14 @@
       -274.62134295454547,
       44.68490922727272
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.531,
       -270.169,
@@ -4307,10 +5207,14 @@
       -273.00312875,
       41.555625175
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.9,
       -270.90002,
@@ -4326,10 +5230,14 @@
       -273.00312875,
       41.555625175
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.175,
       -270.90002,
@@ -4345,10 +5253,14 @@
       -265.30957297872345,
       44.25638287234043
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.2,
       -234.8,
@@ -4364,10 +5276,14 @@
       -263.36249875,
       30.181249874999995
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.325,
       -249.25,
@@ -4383,10 +5299,14 @@
       -263.36249875,
       30.181249874999995
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.1,
       -249.25,
@@ -4402,10 +5322,14 @@
       -57.803380000000004,
       25.18648646486487
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       21.4,
       222.79999,
@@ -4421,10 +5345,14 @@
       -224.7431836363636,
       27.152272636363637
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -14.200001,
       -131.75,
@@ -4440,10 +5368,14 @@
       -104.93754612818181,
       29.166999800909092
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -3.958,
       -267.658,
@@ -4459,10 +5391,14 @@
       -105.07772612818181,
       29.13818161909091
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.38300002,
       -269.19998,
@@ -4478,10 +5414,14 @@
       -68.6021765,
       4.408695536956525
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       5.9500003,
       -259.80002,
@@ -4497,10 +5437,14 @@
       -68.6021765,
       4.408695536956525
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -10.2,
       -259.80002,
@@ -4516,10 +5460,14 @@
       -108.886875,
       28.293749871428577
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -5.2669997,
       -269.133,
@@ -4535,10 +5483,14 @@
       -108.886875,
       28.293749871428577
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.96699995,
       -269.133,
@@ -4554,10 +5506,14 @@
       -122.37000142493152,
       14.501232613698631
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.667,
       -269.867,
@@ -4573,10 +5529,14 @@
       -122.37000142493152,
       14.497807956164385
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.767,
       -269.867,
@@ -4592,11 +5552,15 @@
       -81.86198000000003,
       26.302603974999993
     ],
+    "motor_connections": 5,
+    "motor_weight": 8.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.1,
       -264.3,
@@ -4612,11 +5576,15 @@
       -81.86198000000003,
       26.302603974999993
     ],
+    "motor_connections": 6,
+    "motor_weight": 10.000000002,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -7.0,
       -264.3,
@@ -4632,11 +5600,15 @@
       -85.63940786474578,
       6.916101522033896
     ],
+    "motor_connections": 7,
+    "motor_weight": 5.999999999000001,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       0.425,
       -263.45,
@@ -4652,11 +5624,15 @@
       -85.63940786474578,
       6.916101522033896
     ],
+    "motor_connections": 6,
+    "motor_weight": 6.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -4.6,
       -263.45,
@@ -4672,11 +5648,15 @@
       -85.86530693877553,
       27.24030601632652
     ],
+    "motor_connections": 11,
+    "motor_weight": 5.0000000049999995,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       3.25,
       -266.25,
@@ -4692,11 +5672,15 @@
       -85.86530693877553,
       27.24030601632652
     ],
+    "motor_connections": 7,
+    "motor_weight": 3.0000000029999994,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -7.4500003,
       -266.25,
@@ -4712,11 +5696,15 @@
       -65.73679252867932,
       5.97735822264151
     ],
+    "motor_connections": 6,
+    "motor_weight": 3.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       4.7,
       -270.95,
@@ -4732,11 +5720,15 @@
       -65.73679252867932,
       5.97735822264151
     ],
+    "motor_connections": 4,
+    "motor_weight": 4.0,
     "ntype": "motor",
     "ntypes": [
       "interneuron",
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -8.900001,
       -270.95,
@@ -4752,10 +5744,14 @@
       -291.80600160000006,
       54.83099960000001
     ],
+    "motor_connections": 3,
+    "motor_weight": 6.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       5.0,
       -284.65,
@@ -4771,10 +5767,14 @@
       -291.80600160000006,
       54.83099960000001
     ],
+    "motor_connections": 3,
+    "motor_weight": 6.999999999,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -9.3,
       -284.65,
@@ -4790,10 +5790,14 @@
       -289.5630443478261,
       43.718478391304345
     ],
+    "motor_connections": 4,
+    "motor_weight": 9.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       0.32500002,
       -279.6,
@@ -4809,10 +5813,14 @@
       -289.5630443478261,
       43.718478391304345
     ],
+    "motor_connections": 4,
+    "motor_weight": 8.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -4.575,
       -279.6,
@@ -4828,10 +5836,14 @@
       -285.3921031578947,
       48.699999263157885
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       5.05,
       -279.95,
@@ -4847,10 +5859,14 @@
       -285.3921031578947,
       48.699999263157885
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -9.325,
       -279.95,
@@ -4866,11 +5882,15 @@
       -283.04166592592594,
       50.46944422222223
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       3.05,
       -269.875,
@@ -4886,11 +5906,15 @@
       -283.04166592592594,
       50.46944422222223
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "interneuron",
     "ntypes": [
       "interneuron",
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -7.35,
       -269.875,
@@ -4906,10 +5930,14 @@
       -291.89545212121214,
       54.97348515151516
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       4.125,
       -281.425,
@@ -4925,10 +5953,14 @@
       -291.89545212121214,
       54.97348515151516
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -8.4,
       -281.425,
@@ -4944,10 +5976,14 @@
       -290.53261391304346,
       45.86304373913043
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       3.4,
       -280.92502,
@@ -4963,10 +5999,14 @@
       -290.53261391304346,
       45.86304373913043
     ],
+    "motor_connections": 0,
+    "motor_weight": 0,
     "ntype": "sensory",
     "ntypes": [
       "sensory"
     ],
+    "sensory_connections": 1,
+    "sensory_weight": 1.0,
     "soma_loc": [
       -7.7,
       -280.92502,
@@ -4982,10 +6022,14 @@
       -257.36964392857146,
       20.8419645
     ],
+    "motor_connections": 4,
+    "motor_weight": 11.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.35,
       -235.55,
@@ -5001,10 +6045,14 @@
       230.10555888888888,
       -15.380555483333332
     ],
+    "motor_connections": 4,
+    "motor_weight": 18.702702704,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       254.62502,
@@ -5020,10 +6068,14 @@
       306.03571285714287,
       -24.899999214285714
     ],
+    "motor_connections": 4,
+    "motor_weight": 18.702702704,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.55,
       312.35,
@@ -5039,10 +6091,14 @@
       329.27500200000003,
       -21.364999700000002
     ],
+    "motor_connections": 7,
+    "motor_weight": 32.729729732,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.1,
       362.45,
@@ -5058,10 +6114,14 @@
       -232.00294,
       3.5411761999999993
     ],
+    "motor_connections": 4,
+    "motor_weight": 19.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       -217.1,
@@ -5077,10 +6137,14 @@
       -200.03999775000003,
       -16.419999549999996
     ],
+    "motor_connections": 6,
+    "motor_weight": 28.999999997999996,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.475,
       -184.09999,
@@ -5096,10 +6160,14 @@
       -151.81428847619048,
       -37.70000014285714
     ],
+    "motor_connections": 4,
+    "motor_weight": 25.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       -119.50001,
@@ -5115,10 +6183,14 @@
       -81.51249834000001,
       -53.13999815
     ],
+    "motor_connections": 4,
+    "motor_weight": 19.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       -54.3,
@@ -5134,10 +6206,14 @@
       -1.2232762000000041,
       -35.95603436034482
     ],
+    "motor_connections": 4,
+    "motor_weight": 20.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       21.55,
@@ -5153,10 +6229,14 @@
       52.695832813333325,
       -19.04416657666666
     ],
+    "motor_connections": 7,
+    "motor_weight": 26.999999999,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       98.049995,
@@ -5172,10 +6252,14 @@
       95.44396604827585,
       -12.999137986206899
     ],
+    "motor_connections": 4,
+    "motor_weight": 23.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8,
       150.3,
@@ -5191,10 +6275,14 @@
       128.624999,
       -12.874999881481482
     ],
+    "motor_connections": 4,
+    "motor_weight": 18.702702704,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8,
       208.825,
@@ -5210,10 +6298,14 @@
       -204.87195219024383,
       0.3018291463414601
     ],
+    "motor_connections": 4,
+    "motor_weight": 5.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.55,
       -246.45,
@@ -5229,10 +6321,14 @@
       259.9340859090909,
       -14.656818071818185
     ],
+    "motor_connections": 4,
+    "motor_weight": 18.731707316,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       218.07498,
@@ -5248,10 +6344,14 @@
       288.6210515789473,
       -20.72368421052631
     ],
+    "motor_connections": 7,
+    "motor_weight": 32.780487803,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8249999,
       262.325,
@@ -5267,10 +6367,14 @@
       -197.41578841052626,
       -3.0440786315789454
     ],
+    "motor_connections": 8,
+    "motor_weight": 26.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.0,
       -253.3,
@@ -5286,10 +6390,14 @@
       -100.89750135333335,
       -26.33249985666667
     ],
+    "motor_connections": 6,
+    "motor_weight": 34.999999998,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       -210.225,
@@ -5305,10 +6413,14 @@
       -49.96328033125001,
       -30.316406190625
     ],
+    "motor_connections": 4,
+    "motor_weight": 20.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -2.0,
       -173.25,
@@ -5324,10 +6436,14 @@
       -2.711718581249989,
       -34.167968556249996
     ],
+    "motor_connections": 4,
+    "motor_weight": 22.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       -109.55,
@@ -5343,10 +6459,14 @@
       38.02177403225806,
       -34.43790244516129
     ],
+    "motor_connections": 5,
+    "motor_weight": 28.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       -36.575,
@@ -5362,10 +6482,14 @@
       113.12142765357142,
       -19.076714564285716
     ],
+    "motor_connections": 2,
+    "motor_weight": 9.365853658,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -9.675,
       41.45,
@@ -5381,10 +6505,14 @@
       179.66874971428567,
       -8.641071407142856
     ],
+    "motor_connections": 6,
+    "motor_weight": 31.999999997999996,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8249999,
       108.8,
@@ -5400,10 +6528,14 @@
       232.6523790476191,
       -8.349999938095241
     ],
+    "motor_connections": 4,
+    "motor_weight": 24.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.85,
       159.55,
@@ -5419,10 +6551,14 @@
       -102.78671876874999,
       -28.964843687500004
     ],
+    "motor_connections": 1,
+    "motor_weight": 6.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.72499996,
       -170.02501,
@@ -5438,10 +6574,14 @@
       -73.75583318666666,
       -40.34250023333334
     ],
+    "motor_connections": 1,
+    "motor_weight": 10.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.625,
       -105.325,
@@ -5457,10 +6597,14 @@
       49.707565448684214,
       -12.289144915789468
     ],
+    "motor_connections": 1,
+    "motor_weight": 11.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.4499999,
       -6.45,
@@ -5476,10 +6620,14 @@
       48.67446804255318,
       -18.35585127659574
     ],
+    "motor_connections": 1,
+    "motor_weight": 7.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.15,
       43.85,
@@ -5495,10 +6643,14 @@
       58.972871680851064,
       -12.613829829787237
     ],
+    "motor_connections": 1,
+    "motor_weight": 2.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.15,
       66.549995,
@@ -5514,10 +6666,14 @@
       154.5109385,
       -0.2968749562500001
     ],
+    "motor_connections": 1,
+    "motor_weight": 1.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -1.8249999,
       174.175,
@@ -5533,10 +6689,14 @@
       -241.62374875,
       30.914999674999997
     ],
+    "motor_connections": 4,
+    "motor_weight": 12.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.70000005,
       -228.6,
@@ -5552,10 +6712,14 @@
       217.13333166666675,
       11.237500186111113
     ],
+    "motor_connections": 4,
+    "motor_weight": 22.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.75,
       236.1,
@@ -5571,10 +6735,14 @@
       260.32916944444446,
       -3.238888805555556
     ],
+    "motor_connections": 4,
+    "motor_weight": 22.976744188,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.8,
       283.80002,
@@ -5590,10 +6758,14 @@
       311.27708111111104,
       -8.72708326111111
     ],
+    "motor_connections": 4,
+    "motor_weight": 13.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.75,
       345.5,
@@ -5609,10 +6781,14 @@
       361.6999977142857,
       -4.882142942857139
     ],
+    "motor_connections": 7,
+    "motor_weight": 40.209302329,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.75,
       379.85,
@@ -5628,10 +6804,14 @@
       -229.07421875,
       25.178906156250004
     ],
+    "motor_connections": 4,
+    "motor_weight": 22.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.65000004,
       -226.04999,
@@ -5647,10 +6827,14 @@
       -197.80151242424245,
       5.078788009090907
     ],
+    "motor_connections": 4,
+    "motor_weight": 23.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.8,
       -188.1,
@@ -5666,10 +6850,14 @@
       -155.17499972222222,
       -22.173611275
     ],
+    "motor_connections": 4,
+    "motor_weight": 25.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.8,
       -137.2,
@@ -5685,10 +6873,14 @@
       -96.21944408333337,
       -43.18472230555557
     ],
+    "motor_connections": 2,
+    "motor_weight": 26.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.75,
       -68.3,
@@ -5704,10 +6896,14 @@
       -38.81111117500001,
       -41.68194456111112
     ],
+    "motor_connections": 6,
+    "motor_weight": 27.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.70000005,
       -1.4000001,
@@ -5723,10 +6919,14 @@
       20.480625015,
       -16.25812499
     ],
+    "motor_connections": 5,
+    "motor_weight": 24.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -12.349999,
       57.95,
@@ -5742,10 +6942,14 @@
       89.15639460465117,
       18.738953174418608
     ],
+    "motor_connections": 2,
+    "motor_weight": 25.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.75,
       135.09999,
@@ -5761,10 +6965,14 @@
       164.28571457142854,
       22.718571868571427
     ],
+    "motor_connections": 4,
+    "motor_weight": 28.0,
     "ntype": "motor",
     "ntypes": [
       "motor"
     ],
+    "sensory_connections": 0,
+    "sensory_weight": 0,
     "soma_loc": [
       -0.8,
       191.5,

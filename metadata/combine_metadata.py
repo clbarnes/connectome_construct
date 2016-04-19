@@ -41,7 +41,7 @@ def main():
     with open(join(src_root, 'morphologies.json')) as f:
         morphologies = json.load(f)
 
-    with open(join(tgt_root, 'sensorimotoy_connections.json')) as f:
+    with open(join(tgt_root, 'sensorimotor_connections.json')) as f:
         sensmo_conn = json.load(f)
 
     for node in set(birthtimes) | set(descs) | set(ntypes):

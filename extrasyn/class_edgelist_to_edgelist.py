@@ -11,6 +11,7 @@ from extrasyn.paths import src_root, tgt_root
 
 etypes = ['ma', 'np']
 Edge = namedtuple('Edge', ['src', 'tgt', 'transmitter', 'receptor'])
+NODELIST_PATH = join(src_root, 'nodelist.txt')
 
 
 def edge_gen_from_file(path):
@@ -22,6 +23,7 @@ def edge_gen_from_file(path):
         except ValueError as e:
             if 'unpack' in str(e):
                 raise StopIteration
+
 
 
 def main(etype, include_weak):

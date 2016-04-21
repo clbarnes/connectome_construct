@@ -23887,6 +23887,12 @@
           "min_distance": 0.0,
           "receptor": "npr-5",
           "transmitter": "flp-21"
+        },
+        "Neuropeptide_ASIL->ASIL_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         }
       },
       "ASIR": {
@@ -23900,6 +23906,12 @@
           "min_distance": 0.0,
           "receptor": "npr-5",
           "transmitter": "flp-21"
+        },
+        "Neuropeptide_ASIL->ASIR_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         }
       },
       "ASJL": {
@@ -23997,6 +24009,14 @@
           "min_distance": 0.0,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
+        }
+      },
+      "AVG": {
+        "Neuropeptide_ASIL->AVG_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 31.3183456535338,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         }
       },
       "AVM": {
@@ -24452,6 +24472,12 @@
           "receptor": "npr-1",
           "transmitter": "flp-21"
         },
+        "Neuropeptide_ASIL->PQR_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 626.0384060492199,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
+        },
         "Neuropeptide_ASIL->PQR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 626.0384060492199,
@@ -24499,12 +24525,34 @@
           "transmitter": "pdf-1"
         }
       },
+      "PVPL": {
+        "Neuropeptide_ASIL->PVPL_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
+        }
+      },
+      "PVPR": {
+        "Neuropeptide_ASIL->PVPR_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
+        }
+      },
       "PVQL": {
         "Neuropeptide_ASIL->PVQL_flp-21->npr-2": {
           "etype": "Neuropeptide",
           "min_distance": 0.0,
           "receptor": "npr-2",
           "transmitter": "flp-21"
+        },
+        "Neuropeptide_ASIL->PVQL_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         },
         "Neuropeptide_ASIL->PVQL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
@@ -24519,6 +24567,12 @@
           "min_distance": 0.0,
           "receptor": "npr-2",
           "transmitter": "flp-21"
+        },
+        "Neuropeptide_ASIL->PVQR_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         },
         "Neuropeptide_ASIL->PVQR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
@@ -25159,6 +25213,12 @@
           "min_distance": 0.0,
           "receptor": "npr-5",
           "transmitter": "flp-21"
+        },
+        "Neuropeptide_ASIR->ASIL_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         }
       },
       "ASIR": {
@@ -25167,6 +25227,12 @@
           "min_distance": 0.0,
           "receptor": "npr-5",
           "transmitter": "flp-21"
+        },
+        "Neuropeptide_ASIR->ASIR_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         }
       },
       "ASJL": {
@@ -25259,6 +25325,14 @@
           "min_distance": 0.0,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
+        }
+      },
+      "AVG": {
+        "Neuropeptide_ASIR->AVG_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 31.33952951877981,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         }
       },
       "AVM": {
@@ -25714,6 +25788,12 @@
           "receptor": "npr-1",
           "transmitter": "flp-21"
         },
+        "Neuropeptide_ASIR->PQR_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 626.0514777524386,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
+        },
         "Neuropeptide_ASIR->PQR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 626.0514777524386,
@@ -25761,12 +25841,34 @@
           "transmitter": "pdf-1"
         }
       },
+      "PVPL": {
+        "Neuropeptide_ASIR->PVPL_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
+        }
+      },
+      "PVPR": {
+        "Neuropeptide_ASIR->PVPR_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
+        }
+      },
       "PVQL": {
         "Neuropeptide_ASIR->PVQL_flp-21->npr-2": {
           "etype": "Neuropeptide",
           "min_distance": 0.0,
           "receptor": "npr-2",
           "transmitter": "flp-21"
+        },
+        "Neuropeptide_ASIR->PVQL_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         },
         "Neuropeptide_ASIR->PVQL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
@@ -25781,6 +25883,12 @@
           "min_distance": 0.0,
           "receptor": "npr-2",
           "transmitter": "flp-21"
+        },
+        "Neuropeptide_ASIR->PVQR_nlp-24->npr-17": {
+          "etype": "Neuropeptide",
+          "min_distance": 0.0,
+          "receptor": "npr-17",
+          "transmitter": "nlp-24"
         },
         "Neuropeptide_ASIR->PVQR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
@@ -112565,8 +112673,8 @@
     }
   },
   "graph": {
-    "commit_hash": "ac5df15",
-    "created": "2016-04-19T15:43:33.926775"
+    "commit_hash": "a4a9610",
+    "created": "2016-04-21T11:42:02.522527"
   },
   "nodes": {
     "ADAL": {

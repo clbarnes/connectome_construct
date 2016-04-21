@@ -1173,6 +1173,11 @@ DVA,DA,nlp-12,ckr-2
 DVA,DB,nlp-12,ckr-2
 DVA,VA,nlp-12,ckr-2
 DVA,VB,nlp-12,ckr-2
+ASI,ASI,nlp-24,npr-17
+ASI,AVG,nlp-24,npr-17
+ASI,PQR,nlp-24,npr-17
+ASI,PVP,nlp-24,npr-17
+ASI,PVQ,nlp-24,npr-17
 AFD,ADF,ntc-1,ntr-1
 AFD,ADL,ntc-1,ntr-1
 AFD,ASE,ntc-1,ntr-1

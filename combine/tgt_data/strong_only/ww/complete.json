@@ -2597,12 +2597,6 @@
         }
       },
       "RIFL": {
-        "Monoamine_ADEL->RIFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 1.0672656456065752,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Neuropeptide_ADEL->RIFL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 1.0672656456065752,
@@ -2616,12 +2610,6 @@
         }
       },
       "RIFR": {
-        "Monoamine_ADEL->RIFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 4.684996661619296,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Neuropeptide_ADEL->RIFR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 4.684996661619296,
@@ -5109,12 +5097,6 @@
         }
       },
       "RIFL": {
-        "Monoamine_ADER->RIFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 3.3880489168952144,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Neuropeptide_ADER->RIFL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 3.3880489168952144,
@@ -5123,12 +5105,6 @@
         }
       },
       "RIFR": {
-        "Monoamine_ADER->RIFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 1.0805173822826508,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Neuropeptide_ADER->RIFR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 1.0805173822826508,
@@ -46589,22 +46565,6 @@
           "transmitter": "dopamine"
         }
       },
-      "RIFL": {
-        "Monoamine_CEPDL->RIFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.08192833999997726,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        }
-      },
-      "RIFR": {
-        "Monoamine_CEPDL->RIFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 2.2197430569282606,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        }
-      },
       "RIH": {
         "Monoamine_CEPDL->RIH_dopamine->dop-6": {
           "etype": "Monoamine",
@@ -48701,21 +48661,7 @@
           "transmitter": "dopamine"
         }
       },
-      "RIFL": {
-        "Monoamine_CEPDR->RIFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 2.2930701133274383,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        }
-      },
       "RIFR": {
-        "Monoamine_CEPDR->RIFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.11913560274320198,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Synapse_CEPDR->RIFR": {
           "etype": "Synapse",
           "min_distance": 0.11913560274320198,
@@ -50805,22 +50751,6 @@
           "etype": "Monoamine",
           "min_distance": 0.0,
           "receptor": "dop-2",
-          "transmitter": "dopamine"
-        }
-      },
-      "RIFL": {
-        "Monoamine_CEPVL->RIFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.0,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        }
-      },
-      "RIFR": {
-        "Monoamine_CEPVL->RIFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 5.685814980746686,
-          "receptor": "dop-5",
           "transmitter": "dopamine"
         }
       },
@@ -52944,22 +52874,6 @@
           "etype": "Monoamine",
           "min_distance": 5.581335779747552,
           "receptor": "dop-2",
-          "transmitter": "dopamine"
-        }
-      },
-      "RIFL": {
-        "Monoamine_CEPVR->RIFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 5.55957089744415,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        }
-      },
-      "RIFR": {
-        "Monoamine_CEPVR->RIFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.0,
-          "receptor": "dop-5",
           "transmitter": "dopamine"
         }
       },
@@ -78247,22 +78161,6 @@
           "transmitter": "dopamine"
         }
       },
-      "RIFL": {
-        "Monoamine_PDEL->RIFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 2.5034972830574795,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        }
-      },
-      "RIFR": {
-        "Monoamine_PDEL->RIFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 6.301299287112832,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        }
-      },
       "RIH": {
         "Monoamine_PDEL->RIH_dopamine->dop-6": {
           "etype": "Monoamine",
@@ -80290,22 +80188,6 @@
           "etype": "Monoamine",
           "min_distance": 20.915547284677643,
           "receptor": "dop-2",
-          "transmitter": "dopamine"
-        }
-      },
-      "RIFL": {
-        "Monoamine_PDER->RIFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 2.5034972830574795,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        }
-      },
-      "RIFR": {
-        "Monoamine_PDER->RIFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 6.301299287112832,
-          "receptor": "dop-5",
           "transmitter": "dopamine"
         }
       },
@@ -127791,8 +127673,8 @@
     }
   },
   "graph": {
-    "commit_hash": "3d8e231",
-    "created": "2016-04-26T11:15:04.064526"
+    "commit_hash": "1757130",
+    "created": "2016-04-26T12:55:00.465159"
   },
   "nodes": {
     "ADAL": {

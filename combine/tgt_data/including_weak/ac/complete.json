@@ -992,12 +992,6 @@
         }
       },
       "ADFL": {
-        "Monoamine_ADEL->ADFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.15005514328429284,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_ADEL->ADFL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.15005514328429284,
@@ -1006,12 +1000,6 @@
         }
       },
       "ADFR": {
-        "Monoamine_ADEL->ADFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.3373506470689851,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_ADEL->ADFR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.3373506470689851,
@@ -2812,6 +2800,12 @@
         }
       },
       "URXL": {
+        "Monoamine_ADEL->URXL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.5213718318275304,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->URXL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 1.5213718318275304,
@@ -2820,6 +2814,12 @@
         }
       },
       "URXR": {
+        "Monoamine_ADEL->URXR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 9.040687259987466,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->URXR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 9.040687259987466,
@@ -2828,6 +2828,12 @@
         }
       },
       "URYDL": {
+        "Monoamine_ADEL->URYDL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 0.9560017706483235,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->URYDL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 0.9560017706483235,
@@ -2836,6 +2842,12 @@
         }
       },
       "URYDR": {
+        "Monoamine_ADEL->URYDR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 7.509972055603436,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->URYDR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 7.509972055603436,
@@ -2844,6 +2856,12 @@
         }
       },
       "URYVL": {
+        "Monoamine_ADEL->URYVL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 2.497322289023887,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->URYVL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 2.497322289023887,
@@ -2852,6 +2870,12 @@
         }
       },
       "URYVR": {
+        "Monoamine_ADEL->URYVR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 8.934166685063886,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->URYVR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 8.934166685063886,
@@ -3402,12 +3426,6 @@
         }
       },
       "ADFL": {
-        "Monoamine_ADER->ADFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.3373506470689851,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_ADER->ADFL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.3373506470689851,
@@ -3416,12 +3434,6 @@
         }
       },
       "ADFR": {
-        "Monoamine_ADER->ADFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.15005514328429284,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_ADER->ADFR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.15005514328429284,
@@ -5181,6 +5193,12 @@
         }
       },
       "URXL": {
+        "Monoamine_ADER->URXL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 9.124690645957921,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->URXL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 9.124690645957921,
@@ -5189,6 +5207,12 @@
         }
       },
       "URXR": {
+        "Monoamine_ADER->URXR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.5749239166728566,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->URXR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 1.5749239166728566,
@@ -5197,6 +5221,12 @@
         }
       },
       "URYDL": {
+        "Monoamine_ADER->URYDL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 7.587139188610653,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->URYDL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 7.587139188610653,
@@ -5205,6 +5235,12 @@
         }
       },
       "URYDR": {
+        "Monoamine_ADER->URYDR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 1.079779586487325,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->URYDR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 1.079779586487325,
@@ -5213,6 +5249,12 @@
         }
       },
       "URYVL": {
+        "Monoamine_ADER->URYVL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 8.968412196968078,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->URYVL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 8.968412196968078,
@@ -5221,6 +5263,12 @@
         }
       },
       "URYVR": {
+        "Monoamine_ADER->URYVR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 2.4842389166736463,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->URYVR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 2.4842389166736463,
@@ -43173,12 +43221,6 @@
         }
       },
       "ADFL": {
-        "Monoamine_CEPDL->ADFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.08192833999997723,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_CEPDL->ADFL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.08192833999997723,
@@ -43187,12 +43229,6 @@
         }
       },
       "ADFR": {
-        "Monoamine_CEPDL->ADFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 2.3175276639462137,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_CEPDL->ADFR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 2.3175276639462137,
@@ -44682,11 +44718,57 @@
           "weight": 4
         }
       },
+      "URXL": {
+        "Monoamine_CEPDL->URXL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URXR": {
+        "Monoamine_CEPDL->URXR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 3.2638333651608815,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
       "URYDL": {
+        "Monoamine_CEPDL->URYDL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPDL->URYDL": {
           "etype": "Synapse",
           "min_distance": 0.0,
           "weight": 2
+        }
+      },
+      "URYDR": {
+        "Monoamine_CEPDL->URYDR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 3.1397678819738073,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVL": {
+        "Monoamine_CEPDL->URYVL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 2.652617726577168,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVR": {
+        "Monoamine_CEPDL->URYVR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 6.051727692277797,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
         }
       },
       "VA1": {
@@ -45222,12 +45304,6 @@
         }
       },
       "ADFL": {
-        "Monoamine_CEPDR->ADFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 2.2930701133274383,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_CEPDR->ADFL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 2.2930701133274383,
@@ -45236,12 +45312,6 @@
         }
       },
       "ADFR": {
-        "Monoamine_CEPDR->ADFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.14360737499997725,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_CEPDR->ADFR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.14360737499997725,
@@ -46750,11 +46820,57 @@
           "weight": 2
         }
       },
+      "URXL": {
+        "Monoamine_CEPDR->URXL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 3.190065598658816,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URXR": {
+        "Monoamine_CEPDR->URXR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYDL": {
+        "Monoamine_CEPDR->URYDL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 3.12214822541482,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
       "URYDR": {
+        "Monoamine_CEPDR->URYDR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPDR->URYDR": {
           "etype": "Synapse",
           "min_distance": 0.0,
           "weight": 1
+        }
+      },
+      "URYVL": {
+        "Monoamine_CEPDR->URYVL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 5.981247831673819,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVR": {
+        "Monoamine_CEPDR->URYVR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 2.652617542987516,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
         }
       },
       "VA1": {
@@ -47290,12 +47406,6 @@
         }
       },
       "ADFL": {
-        "Monoamine_CEPVL->ADFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.0,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_CEPVL->ADFL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.0,
@@ -47304,12 +47414,6 @@
         }
       },
       "ADFR": {
-        "Monoamine_CEPVL->ADFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 3.8305385724105308,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_CEPVL->ADFR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 3.8305385724105308,
@@ -48775,6 +48879,54 @@
           "transmitter": "dopamine"
         }
       },
+      "URXL": {
+        "Monoamine_CEPVL->URXL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.8939544343538085,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URXR": {
+        "Monoamine_CEPVL->URXR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 5.9294339703165955,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYDL": {
+        "Monoamine_CEPVL->URYDL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 3.889324603314819,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYDR": {
+        "Monoamine_CEPVL->URYDR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 5.884410995356954,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVL": {
+        "Monoamine_CEPVL->URYVL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVR": {
+        "Monoamine_CEPVL->URYVR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 2.6414516187286154,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
       "VA1": {
         "Monoamine_CEPVL->VA1_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -49308,12 +49460,6 @@
         }
       },
       "ADFL": {
-        "Monoamine_CEPVR->ADFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 3.7743050874105304,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_CEPVR->ADFL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 3.7743050874105304,
@@ -49322,12 +49468,6 @@
         }
       },
       "ADFR": {
-        "Monoamine_CEPVR->ADFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 0.0,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_CEPVR->ADFR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.0,
@@ -50801,6 +50941,54 @@
           "etype": "Synapse",
           "min_distance": 0.0,
           "weight": 1
+        }
+      },
+      "URXL": {
+        "Monoamine_CEPVR->URXL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 5.920917525316596,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URXR": {
+        "Monoamine_CEPVR->URXR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.7885986372909224,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYDL": {
+        "Monoamine_CEPVR->URYDL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 5.886929201354487,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYDR": {
+        "Monoamine_CEPVR->URYDR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 3.885355003159625,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVL": {
+        "Monoamine_CEPVR->URYVL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 2.7079965118686116,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVR": {
+        "Monoamine_CEPVR->URYVR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
         }
       },
       "VA1": {
@@ -72949,12 +73137,6 @@
         }
       },
       "ADFL": {
-        "Monoamine_PDEL->ADFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 21.21376426324007,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_PDEL->ADFL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 21.21376426324007,
@@ -72963,12 +73145,6 @@
         }
       },
       "ADFR": {
-        "Monoamine_PDEL->ADFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 21.29632907719071,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_PDEL->ADFR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 21.29632907719071,
@@ -74398,6 +74574,54 @@
           "transmitter": "dopamine"
         }
       },
+      "URXL": {
+        "Monoamine_PDEL->URXL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 36.131068990769,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URXR": {
+        "Monoamine_PDEL->URXR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 36.31898877745695,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYDL": {
+        "Monoamine_PDEL->URYDL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 41.290169824000984,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYDR": {
+        "Monoamine_PDEL->URYDR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 41.47458287944723,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVL": {
+        "Monoamine_PDEL->URYVL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 32.99495269390606,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVR": {
+        "Monoamine_PDEL->URYVR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 32.97235513210393,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
       "VA1": {
         "Monoamine_PDEL->VA1_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -74941,12 +75165,6 @@
         }
       },
       "ADFL": {
-        "Monoamine_PDER->ADFL_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 21.21376426324007,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_PDER->ADFL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 21.21376426324007,
@@ -74955,12 +75173,6 @@
         }
       },
       "ADFR": {
-        "Monoamine_PDER->ADFR_dopamine->dop-5": {
-          "etype": "Monoamine",
-          "min_distance": 21.29632907719071,
-          "receptor": "dop-5",
-          "transmitter": "dopamine"
-        },
         "Monoamine_PDER->ADFR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 21.29632907719071,
@@ -76377,6 +76589,54 @@
           "etype": "Monoamine",
           "min_distance": 32.038196240059904,
           "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URXL": {
+        "Monoamine_PDER->URXL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 36.131068990769,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URXR": {
+        "Monoamine_PDER->URXR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 36.31898877745695,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYDL": {
+        "Monoamine_PDER->URYDL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 41.290169824000984,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYDR": {
+        "Monoamine_PDER->URYDR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 41.47458287944723,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVL": {
+        "Monoamine_PDER->URYVL_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 32.99495269390606,
+          "receptor": "lgc-53",
+          "transmitter": "dopamine"
+        }
+      },
+      "URYVR": {
+        "Monoamine_PDER->URYVR_dopamine->lgc-53": {
+          "etype": "Monoamine",
+          "min_distance": 32.97235513210393,
+          "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
       },
@@ -119367,8 +119627,8 @@
     }
   },
   "graph": {
-    "commit_hash": "a4a9610",
-    "created": "2016-04-21T11:42:02.522527"
+    "commit_hash": "3d8e231",
+    "created": "2016-04-26T11:15:04.064526"
   },
   "nodes": {
     "ADAL": {

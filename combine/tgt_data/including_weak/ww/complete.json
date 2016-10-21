@@ -2439,14 +2439,6 @@
           "transmitter": "pdf-1"
         }
       },
-      "PVPR": {
-        "Monoamine_ADEL->PVPR_dopamine->lgc-53": {
-          "etype": "Monoamine",
-          "min_distance": 1.6212051585544174,
-          "receptor": "lgc-53",
-          "transmitter": "dopamine"
-        }
-      },
       "PVQL": {
         "Monoamine_ADEL->PVQL_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -4932,14 +4924,6 @@
           "min_distance": 105.29125523391194,
           "receptor": "pdfr-1",
           "transmitter": "pdf-1"
-        }
-      },
-      "PVPR": {
-        "Monoamine_ADER->PVPR_dopamine->lgc-53": {
-          "etype": "Monoamine",
-          "min_distance": 1.0805173822826508,
-          "receptor": "lgc-53",
-          "transmitter": "dopamine"
         }
       },
       "PVQL": {
@@ -49022,14 +49006,6 @@
           "transmitter": "dopamine"
         }
       },
-      "PVPR": {
-        "Monoamine_CEPDL->PVPR_dopamine->lgc-53": {
-          "etype": "Monoamine",
-          "min_distance": 2.2197430569282606,
-          "receptor": "lgc-53",
-          "transmitter": "dopamine"
-        }
-      },
       "PVQL": {
         "Monoamine_CEPDL->PVQL_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -51123,14 +51099,6 @@
           "transmitter": "dopamine"
         }
       },
-      "PVPR": {
-        "Monoamine_CEPDR->PVPR_dopamine->lgc-53": {
-          "etype": "Monoamine",
-          "min_distance": 0.11913560274320198,
-          "receptor": "lgc-53",
-          "transmitter": "dopamine"
-        }
-      },
       "PVQL": {
         "Monoamine_CEPDR->PVQL_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -53195,14 +53163,6 @@
         "Monoamine_CEPVL->PVDR_dopamine->lgc-53": {
           "etype": "Monoamine",
           "min_distance": 31.556722317400943,
-          "receptor": "lgc-53",
-          "transmitter": "dopamine"
-        }
-      },
-      "PVPR": {
-        "Monoamine_CEPVL->PVPR_dopamine->lgc-53": {
-          "etype": "Monoamine",
-          "min_distance": 4.816698717076787,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -55325,14 +55285,6 @@
         "Monoamine_CEPVR->PVDR_dopamine->lgc-53": {
           "etype": "Monoamine",
           "min_distance": 26.75425006263231,
-          "receptor": "lgc-53",
-          "transmitter": "dopamine"
-        }
-      },
-      "PVPR": {
-        "Monoamine_CEPVR->PVPR_dopamine->lgc-53": {
-          "etype": "Monoamine",
-          "min_distance": 0.0,
           "receptor": "lgc-53",
           "transmitter": "dopamine"
         }
@@ -81298,14 +81250,6 @@
           "weight": 11
         }
       },
-      "PVPR": {
-        "Monoamine_PDEL->PVPR_dopamine->lgc-53": {
-          "etype": "Monoamine",
-          "min_distance": 1.7757358599999997,
-          "receptor": "lgc-53",
-          "transmitter": "dopamine"
-        }
-      },
       "PVQL": {
         "Monoamine_PDEL->PVQL_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -83321,14 +83265,6 @@
           "etype": "GapJunction",
           "min_distance": 0.0,
           "weight": 8
-        }
-      },
-      "PVPR": {
-        "Monoamine_PDER->PVPR_dopamine->lgc-53": {
-          "etype": "Monoamine",
-          "min_distance": 1.7757358599999997,
-          "receptor": "lgc-53",
-          "transmitter": "dopamine"
         }
       },
       "PVQL": {
@@ -134343,8 +134279,8 @@
     }
   },
   "graph": {
-    "commit_hash": "1757130",
-    "created": "2016-04-26T12:55:00.465159"
+    "commit_hash": "3cc1c03",
+    "created": "2016-10-21T15:57:34.073506"
   },
   "nodes": {
     "ADAL": {

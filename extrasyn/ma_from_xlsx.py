@@ -11,6 +11,7 @@ from extrasyn.paths import src_root, tgt_root
 
 LATEST_DATA = join(src_root, 'monoamine_spreadsheet.xlsx')
 
+IGNORE_RECEPTORS = ['dop-5', 'dop-6']
 
 Edge = namedtuple('Edge', ['src', 'tgt', 'transmitter', 'receptor'])
 monoamines = ['serotonin', 'dopamine', 'octopamine', 'tyramine']
@@ -79,6 +80,8 @@ def main(include_weak):
     def generate_edges():
         for ma, src_nodes in ma_expr.items():
             for rec in ma_to_rec[ma]:
+                if rec in IGNORE_RECEPTORS:
+                    continue
                 for src, tgt in product(src_nodes, rec_expr[rec]):
                     yield Edge(src, tgt, ma, rec)
 

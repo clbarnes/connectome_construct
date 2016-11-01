@@ -1388,6 +1388,12 @@
         }
       },
       "ASIL": {
+        "Monoamine_ADEL->ASIL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.15005514328429284,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_ADEL->ASIL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.15005514328429284,
@@ -1396,6 +1402,12 @@
         }
       },
       "ASIR": {
+        "Monoamine_ADEL->ASIR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.3373506470689851,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_ADEL->ASIR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.3373506470689851,
@@ -1425,6 +1437,12 @@
           "min_distance": 0.17559820613284668,
           "receptor": "dop-1",
           "transmitter": "dopamine"
+        },
+        "Monoamine_ADEL->AUAL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.17559820613284668,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "AUAR": {
@@ -1432,6 +1450,12 @@
           "etype": "Monoamine",
           "min_distance": 0.3519868150188401,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        },
+        "Monoamine_ADEL->AUAR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.3519868150188401,
+          "receptor": "dop-6",
           "transmitter": "dopamine"
         }
       },
@@ -1923,6 +1947,14 @@
           "transmitter": "dopamine"
         }
       },
+      "DVC": {
+        "Monoamine_ADEL->DVC_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "FLPL": {
         "Monoamine_ADEL->FLPL_dopamine->lgc-53": {
           "etype": "Monoamine",
@@ -2376,6 +2408,12 @@
         }
       },
       "PVCL": {
+        "Monoamine_ADEL->PVCL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->PVCL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 0.0,
@@ -2384,6 +2422,12 @@
         }
       },
       "PVCR": {
+        "Monoamine_ADEL->PVCR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.16503690521293418,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->PVCR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 0.16503690521293418,
@@ -2586,9 +2630,21 @@
           "min_distance": 1.0998870106065752,
           "receptor": "dop-2",
           "transmitter": "dopamine"
+        },
+        "Monoamine_ADEL->RID_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.0998870106065752,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "RIFL": {
+        "Monoamine_ADEL->RIFL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 1.0672656456065752,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->RIFL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 1.0672656456065752,
@@ -2602,6 +2658,12 @@
         }
       },
       "RIFR": {
+        "Monoamine_ADEL->RIFR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 4.684996661619296,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADEL->RIFR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 4.684996661619296,
@@ -2679,11 +2741,57 @@
           "weight": 2
         }
       },
+      "RMDDL": {
+        "Monoamine_ADEL->RMDDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.0672656456065752,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDDR": {
+        "Monoamine_ADEL->RMDDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.11435236764538,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
       "RMDL": {
+        "Monoamine_ADEL->RMDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.0672656456065752,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Synapse_ADEL->RMDL": {
           "etype": "Synapse",
           "min_distance": 1.0672656456065752,
           "weight": 11
+        }
+      },
+      "RMDR": {
+        "Monoamine_ADEL->RMDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.120077981563133,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVL": {
+        "Monoamine_ADEL->RMDVL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.1032180492642394,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVR": {
+        "Monoamine_ADEL->RMDVR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.0998870106065752,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "RMED": {
@@ -2724,10 +2832,24 @@
         }
       },
       "RMGL": {
+        "Monoamine_ADEL->RMGL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.2890099576735393,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Synapse_ADEL->RMGL": {
           "etype": "Synapse",
           "min_distance": 0.2890099576735393,
           "weight": 7
+        }
+      },
+      "RMGR": {
+        "Monoamine_ADEL->RMGR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 1.0922353187878269,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RMHL": {
@@ -2903,6 +3025,12 @@
         }
       },
       "URXL": {
+        "Monoamine_ADEL->URXL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 1.5213718318275304,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_ADEL->URXL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 1.5213718318275304,
@@ -2917,6 +3045,12 @@
         }
       },
       "URXR": {
+        "Monoamine_ADEL->URXR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 9.040687259987466,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_ADEL->URXR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 9.040687259987466,
@@ -3853,6 +3987,12 @@
         }
       },
       "ASIL": {
+        "Monoamine_ADER->ASIL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.3373506470689851,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_ADER->ASIL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.3373506470689851,
@@ -3861,6 +4001,12 @@
         }
       },
       "ASIR": {
+        "Monoamine_ADER->ASIR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.15005514328429284,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_ADER->ASIR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.15005514328429284,
@@ -3895,6 +4041,12 @@
           "min_distance": 0.35198681501884,
           "receptor": "dop-1",
           "transmitter": "dopamine"
+        },
+        "Monoamine_ADER->AUAL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.35198681501884,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "AUAR": {
@@ -3902,6 +4054,12 @@
           "etype": "Monoamine",
           "min_distance": 0.17559820613284668,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        },
+        "Monoamine_ADER->AUAR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.17559820613284668,
+          "receptor": "dop-6",
           "transmitter": "dopamine"
         }
       },
@@ -4400,6 +4558,14 @@
           "transmitter": "dopamine"
         }
       },
+      "DVC": {
+        "Monoamine_ADER->DVC_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.32552708885000814,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "FLPL": {
         "Monoamine_ADER->FLPL_dopamine->lgc-53": {
           "etype": "Monoamine",
@@ -4863,6 +5029,12 @@
         }
       },
       "PVCL": {
+        "Monoamine_ADER->PVCL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.9757360600000001,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->PVCL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 0.9757360600000001,
@@ -4871,6 +5043,12 @@
         }
       },
       "PVCR": {
+        "Monoamine_ADER->PVCR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 1.0467425930102716,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->PVCR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 1.0467425930102716,
@@ -5078,9 +5256,21 @@
           "min_distance": 3.3391062489204515,
           "receptor": "dop-2",
           "transmitter": "dopamine"
+        },
+        "Monoamine_ADER->RID_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 3.3391062489204515,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "RIFL": {
+        "Monoamine_ADER->RIFL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 3.3880489168952144,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->RIFL_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 3.3880489168952144,
@@ -5089,6 +5279,12 @@
         }
       },
       "RIFR": {
+        "Monoamine_ADER->RIFR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 1.0805173822826508,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Neuropeptide_ADER->RIFR_pdf-1->pdfr-1": {
           "etype": "Neuropeptide",
           "min_distance": 1.0805173822826508,
@@ -5142,7 +5338,29 @@
           "transmitter": "dopamine"
         }
       },
+      "RMDDL": {
+        "Monoamine_ADER->RMDDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.1131387472826508,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDDR": {
+        "Monoamine_ADER->RMDDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.0918531941492033,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
       "RMDL": {
+        "Monoamine_ADER->RMDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.1131387472826508,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Synapse_ADER->RMDL": {
           "etype": "Synapse",
           "min_distance": 1.1131387472826508,
@@ -5150,10 +5368,32 @@
         }
       },
       "RMDR": {
+        "Monoamine_ADER->RMDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.0805173822826508,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Synapse_ADER->RMDR": {
           "etype": "Synapse",
           "min_distance": 1.0805173822826508,
           "weight": 6
+        }
+      },
+      "RMDVL": {
+        "Monoamine_ADER->RMDVL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.1131387472826508,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVR": {
+        "Monoamine_ADER->RMDVR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 1.1166932779699854,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "RMED": {
@@ -5188,7 +5428,21 @@
           "transmitter": "pdf-1"
         }
       },
+      "RMGL": {
+        "Monoamine_ADER->RMGL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 1.0922353187878273,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "RMGR": {
+        "Monoamine_ADER->RMGR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.2500111611754128,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Synapse_ADER->RMGR": {
           "etype": "Synapse",
           "min_distance": 0.2500111611754128,
@@ -5330,6 +5584,12 @@
         }
       },
       "URXL": {
+        "Monoamine_ADER->URXL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 9.124690645957921,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_ADER->URXL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 9.124690645957921,
@@ -5344,6 +5604,12 @@
         }
       },
       "URXR": {
+        "Monoamine_ADER->URXR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 1.5749239166728566,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_ADER->URXR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 1.5749239166728566,
@@ -48158,6 +48424,12 @@
         }
       },
       "ASIL": {
+        "Monoamine_CEPDL->ASIL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.08192833999997723,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPDL->ASIL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.08192833999997723,
@@ -48166,6 +48438,12 @@
         }
       },
       "ASIR": {
+        "Monoamine_CEPDL->ASIR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 2.3175276639462137,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPDL->ASIR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 2.3175276639462137,
@@ -48195,6 +48473,12 @@
           "min_distance": 0.11080245225579613,
           "receptor": "dop-1",
           "transmitter": "dopamine"
+        },
+        "Monoamine_CEPDL->AUAL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.11080245225579613,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "AUAR": {
@@ -48202,6 +48486,12 @@
           "etype": "Monoamine",
           "min_distance": 3.3193967886563662,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        },
+        "Monoamine_CEPDL->AUAR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 3.3193967886563662,
+          "receptor": "dop-6",
           "transmitter": "dopamine"
         }
       },
@@ -48617,6 +48907,14 @@
           "transmitter": "dopamine"
         }
       },
+      "DVC": {
+        "Monoamine_CEPDL->DVC_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.13736775958629335,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "FLPL": {
         "Monoamine_CEPDL->FLPL_dopamine->lgc-53": {
           "etype": "Monoamine",
@@ -48966,6 +49264,22 @@
           "transmitter": "dopamine"
         }
       },
+      "PVCL": {
+        "Monoamine_CEPDL->PVCL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.08192833999997726,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "PVCR": {
+        "Monoamine_CEPDL->PVCR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 2.4154298681098716,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "PVDL": {
         "Monoamine_CEPDL->PVDL_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -49135,6 +49449,28 @@
           "min_distance": 0.11454970499997727,
           "receptor": "dop-2",
           "transmitter": "dopamine"
+        },
+        "Monoamine_CEPDL->RID_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.11454970499997727,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFL": {
+        "Monoamine_CEPDL->RIFL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.08192833999997726,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFR": {
+        "Monoamine_CEPDL->RIFR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 2.2197430569282606,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RIH": {
@@ -49186,18 +49522,78 @@
           "weight": 3
         }
       },
+      "RMDDL": {
+        "Monoamine_CEPDL->RMDDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.08192833999997726,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDDR": {
+        "Monoamine_CEPDL->RMDDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.11957965677123375,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDL": {
+        "Monoamine_CEPDL->RMDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.08192833999997726,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDR": {
+        "Monoamine_CEPDL->RMDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.14503297031032356,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
       "RMDVL": {
+        "Monoamine_CEPDL->RMDVL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPDL->RMDVL": {
           "etype": "Synapse",
           "min_distance": 0.0,
           "weight": 13
         }
       },
+      "RMDVR": {
+        "Monoamine_CEPDL->RMDVR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.11454970499997727,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
       "RMGL": {
+        "Monoamine_CEPDL->RMGL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.08192833999997726,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPDL->RMGL": {
           "etype": "Synapse",
           "min_distance": 0.08192833999997726,
           "weight": 6
+        }
+      },
+      "RMGR": {
+        "Monoamine_CEPDL->RMGR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 8.486352355198031,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RMHL": {
@@ -49369,6 +49765,12 @@
         }
       },
       "URXL": {
+        "Monoamine_CEPDL->URXL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPDL->URXL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.0,
@@ -49377,6 +49779,12 @@
         }
       },
       "URXR": {
+        "Monoamine_CEPDL->URXR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 3.2638333651608815,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPDL->URXR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 3.2638333651608815,
@@ -50244,6 +50652,12 @@
         }
       },
       "ASIL": {
+        "Monoamine_CEPDR->ASIL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 2.2930701133274383,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPDR->ASIL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 2.2930701133274383,
@@ -50252,6 +50666,12 @@
         }
       },
       "ASIR": {
+        "Monoamine_CEPDR->ASIR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.14360737499997725,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPDR->ASIR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.14360737499997725,
@@ -50281,6 +50701,12 @@
           "min_distance": 2.5018530770529934,
           "receptor": "dop-1",
           "transmitter": "dopamine"
+        },
+        "Monoamine_CEPDR->AUAL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 2.5018530770529934,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "AUAR": {
@@ -50288,6 +50714,12 @@
           "etype": "Monoamine",
           "min_distance": 0.13305217355410404,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        },
+        "Monoamine_CEPDR->AUAR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.13305217355410404,
+          "receptor": "dop-6",
           "transmitter": "dopamine"
         }
       },
@@ -50708,6 +51140,14 @@
           "transmitter": "dopamine"
         }
       },
+      "DVC": {
+        "Monoamine_CEPDR->DVC_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.1743200282465405,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "FLPL": {
         "Monoamine_CEPDR->FLPL_dopamine->lgc-53": {
           "etype": "Monoamine",
@@ -51059,6 +51499,22 @@
           "transmitter": "dopamine"
         }
       },
+      "PVCL": {
+        "Monoamine_CEPDR->PVCL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 2.2930701133274383,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "PVCR": {
+        "Monoamine_CEPDR->PVCR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.13776826669601713,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "PVDL": {
         "Monoamine_CEPDR->PVDL_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -51223,9 +51679,29 @@
           "min_distance": 2.007699752321021,
           "receptor": "dop-2",
           "transmitter": "dopamine"
+        },
+        "Monoamine_CEPDR->RID_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 2.007699752321021,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFL": {
+        "Monoamine_CEPDR->RIFL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 2.2930701133274383,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RIFR": {
+        "Monoamine_CEPDR->RIFR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.11913560274320198,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPDR->RIFR": {
           "etype": "Synapse",
           "min_distance": 0.11913560274320198,
@@ -51269,21 +51745,79 @@
           "transmitter": "dopamine"
         }
       },
+      "RMDDL": {
+        "Monoamine_CEPDR->RMDDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.151756967743202,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDDR": {
+        "Monoamine_CEPDR->RMDDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.15304633316077634,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDL": {
+        "Monoamine_CEPDR->RMDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.151756967743202,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
       "RMDR": {
+        "Monoamine_CEPDR->RMDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.11913560274320198,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPDR->RMDR": {
           "etype": "Synapse",
           "min_distance": 0.11913560274320198,
           "weight": 1
         }
       },
+      "RMDVL": {
+        "Monoamine_CEPDR->RMDVL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.151756967743202,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
       "RMDVR": {
+        "Monoamine_CEPDR->RMDVR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPDR->RMDVR": {
           "etype": "Synapse",
           "min_distance": 0.0,
           "weight": 3
         }
       },
+      "RMGL": {
+        "Monoamine_CEPDR->RMGL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 8.48635225959716,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "RMGR": {
+        "Monoamine_CEPDR->RMGR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.14360737499997725,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPDR->RMGR": {
           "etype": "Synapse",
           "min_distance": 0.14360737499997725,
@@ -51449,6 +51983,12 @@
         }
       },
       "URXL": {
+        "Monoamine_CEPDR->URXL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 3.190065598658816,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPDR->URXL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 3.190065598658816,
@@ -51457,6 +51997,12 @@
         }
       },
       "URXR": {
+        "Monoamine_CEPDR->URXR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPDR->URXR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.0,
@@ -52329,6 +52875,12 @@
         }
       },
       "ASIL": {
+        "Monoamine_CEPVL->ASIL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPVL->ASIL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.0,
@@ -52337,6 +52889,12 @@
         }
       },
       "ASIR": {
+        "Monoamine_CEPVL->ASIR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 3.7496999892099687,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPVL->ASIR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 3.7496999892099687,
@@ -52366,6 +52924,12 @@
           "min_distance": 0.0,
           "receptor": "dop-1",
           "transmitter": "dopamine"
+        },
+        "Monoamine_CEPVL->AUAL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "AUAR": {
@@ -52373,6 +52937,12 @@
           "etype": "Monoamine",
           "min_distance": 3.789758535734574,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        },
+        "Monoamine_CEPVL->AUAR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 3.789758535734574,
+          "receptor": "dop-6",
           "transmitter": "dopamine"
         }
       },
@@ -52783,6 +53353,14 @@
           "transmitter": "dopamine"
         }
       },
+      "DVC": {
+        "Monoamine_CEPVL->DVC_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "FLPL": {
         "Monoamine_CEPVL->FLPL_dopamine->lgc-53": {
           "etype": "Monoamine",
@@ -53127,6 +53705,22 @@
           "transmitter": "dopamine"
         }
       },
+      "PVCL": {
+        "Monoamine_CEPVL->PVCL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "PVCR": {
+        "Monoamine_CEPVL->PVCR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 5.437090456365767,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "PVDL": {
         "Monoamine_CEPVL->PVDL_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -53308,6 +53902,28 @@
           "min_distance": 0.0,
           "receptor": "dop-2",
           "transmitter": "dopamine"
+        },
+        "Monoamine_CEPVL->RID_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFL": {
+        "Monoamine_CEPVL->RIFL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFR": {
+        "Monoamine_CEPVL->RIFR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 5.685814980746686,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RIH": {
@@ -53355,13 +53971,57 @@
         }
       },
       "RMDDL": {
+        "Monoamine_CEPVL->RMDDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPVL->RMDDL": {
           "etype": "Synapse",
           "min_distance": 0.0,
           "weight": 7
         }
       },
+      "RMDDR": {
+        "Monoamine_CEPVL->RMDDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDL": {
+        "Monoamine_CEPVL->RMDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDR": {
+        "Monoamine_CEPVL->RMDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVL": {
+        "Monoamine_CEPVL->RMDVL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
       "RMDVR": {
+        "Monoamine_CEPVL->RMDVR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPVL->RMDVR": {
           "etype": "Synapse",
           "min_distance": 0.0,
@@ -53369,10 +54029,24 @@
         }
       },
       "RMGL": {
+        "Monoamine_CEPVL->RMGL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPVL->RMGL": {
           "etype": "Synapse",
           "min_distance": 0.0,
           "weight": 2
+        }
+      },
+      "RMGR": {
+        "Monoamine_CEPVL->RMGR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 5.295268527299532,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RMHL": {
@@ -53539,6 +54213,12 @@
         }
       },
       "URXL": {
+        "Monoamine_CEPVL->URXL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.8939544343538085,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPVL->URXL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.8939544343538085,
@@ -53552,6 +54232,12 @@
         }
       },
       "URXR": {
+        "Monoamine_CEPVL->URXR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 5.9294339703165955,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPVL->URXR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 5.9294339703165955,
@@ -54436,6 +55122,12 @@
         }
       },
       "ASIL": {
+        "Monoamine_CEPVR->ASIL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 3.747249715598001,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPVR->ASIL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 3.747249715598001,
@@ -54444,6 +55136,12 @@
         }
       },
       "ASIR": {
+        "Monoamine_CEPVR->ASIR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPVR->ASIR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.0,
@@ -54473,6 +55171,12 @@
           "min_distance": 3.7820870700266753,
           "receptor": "dop-1",
           "transmitter": "dopamine"
+        },
+        "Monoamine_CEPVR->AUAL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 3.7820870700266753,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "AUAR": {
@@ -54480,6 +55184,12 @@
           "etype": "Monoamine",
           "min_distance": 0.0,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        },
+        "Monoamine_CEPVR->AUAR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
           "transmitter": "dopamine"
         }
       },
@@ -54895,6 +55605,14 @@
           "transmitter": "dopamine"
         }
       },
+      "DVC": {
+        "Monoamine_CEPVR->DVC_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "FLPL": {
         "Monoamine_CEPVR->FLPL_dopamine->lgc-53": {
           "etype": "Monoamine",
@@ -55249,6 +55967,22 @@
           "transmitter": "dopamine"
         }
       },
+      "PVCL": {
+        "Monoamine_CEPVR->PVCL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 5.27141191252096,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "PVCR": {
+        "Monoamine_CEPVR->PVCR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "PVDL": {
         "Monoamine_CEPVR->PVDL_dopamine->dop-1": {
           "etype": "Monoamine",
@@ -55423,6 +56157,28 @@
           "min_distance": 5.581335779747552,
           "receptor": "dop-2",
           "transmitter": "dopamine"
+        },
+        "Monoamine_CEPVR->RID_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 5.581335779747552,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFL": {
+        "Monoamine_CEPVR->RIFL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 5.55957089744415,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFR": {
+        "Monoamine_CEPVR->RIFR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RIH": {
@@ -55471,11 +56227,73 @@
           "weight": 2
         }
       },
+      "RMDDL": {
+        "Monoamine_CEPVR->RMDDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
       "RMDDR": {
+        "Monoamine_CEPVR->RMDDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        },
         "Synapse_CEPVR->RMDDR": {
           "etype": "Synapse",
           "min_distance": 0.0,
           "weight": 4
+        }
+      },
+      "RMDL": {
+        "Monoamine_CEPVR->RMDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDR": {
+        "Monoamine_CEPVR->RMDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVL": {
+        "Monoamine_CEPVR->RMDVL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVR": {
+        "Monoamine_CEPVR->RMDVR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMGL": {
+        "Monoamine_CEPVR->RMGL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 5.262095137274179,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMGR": {
+        "Monoamine_CEPVR->RMGR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RMHR": {
@@ -55630,6 +56448,12 @@
         }
       },
       "URXL": {
+        "Monoamine_CEPVR->URXL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 5.920917525316596,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPVR->URXL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 5.920917525316596,
@@ -55638,6 +56462,12 @@
         }
       },
       "URXR": {
+        "Monoamine_CEPVR->URXR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.7885986372909224,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_CEPVR->URXR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 0.7885986372909224,
@@ -80390,6 +81220,12 @@
         }
       },
       "ASIL": {
+        "Monoamine_PDEL->ASIL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 21.21376426324007,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_PDEL->ASIL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 21.21376426324007,
@@ -80398,6 +81234,12 @@
         }
       },
       "ASIR": {
+        "Monoamine_PDEL->ASIR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 21.29632907719071,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_PDEL->ASIR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 21.29632907719071,
@@ -80427,6 +81269,12 @@
           "min_distance": 21.212862169410123,
           "receptor": "dop-1",
           "transmitter": "dopamine"
+        },
+        "Monoamine_PDEL->AUAL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 21.212862169410123,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "AUAR": {
@@ -80434,6 +81282,12 @@
           "etype": "Monoamine",
           "min_distance": 21.294474312715053,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        },
+        "Monoamine_PDEL->AUAR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 21.294474312715053,
+          "receptor": "dop-6",
           "transmitter": "dopamine"
         }
       },
@@ -80861,6 +81715,14 @@
           "weight": 1
         }
       },
+      "DVC": {
+        "Monoamine_PDEL->DVC_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "FLPL": {
         "Monoamine_PDEL->FLPL_dopamine->lgc-53": {
           "etype": "Monoamine",
@@ -81196,11 +82058,25 @@
           "transmitter": "dopamine"
         }
       },
+      "PVCL": {
+        "Monoamine_PDEL->PVCL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "PVCR": {
         "GapJunction_PDEL->PVCR": {
           "etype": "GapJunction",
           "min_distance": 0.0,
           "weight": 2
+        },
+        "Monoamine_PDEL->PVCR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "PVDL": {
@@ -81371,6 +82247,28 @@
           "min_distance": 20.915547284677643,
           "receptor": "dop-2",
           "transmitter": "dopamine"
+        },
+        "Monoamine_PDEL->RID_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 20.915547284677643,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFL": {
+        "Monoamine_PDEL->RIFL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 2.5034972830574795,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFR": {
+        "Monoamine_PDEL->RIFR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 6.301299287112832,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RIH": {
@@ -81402,6 +82300,70 @@
           "etype": "Monoamine",
           "min_distance": 14.879983083592872,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDDL": {
+        "Monoamine_PDEL->RMDDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 28.17179830828615,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDDR": {
+        "Monoamine_PDEL->RMDDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 28.369036941792707,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDL": {
+        "Monoamine_PDEL->RMDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 32.152154925742266,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDR": {
+        "Monoamine_PDEL->RMDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 33.107504183126416,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVL": {
+        "Monoamine_PDEL->RMDVL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 31.018610893442542,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVR": {
+        "Monoamine_PDEL->RMDVR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 31.008272987419684,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMGL": {
+        "Monoamine_PDEL->RMGL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.2890099576735393,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMGR": {
+        "Monoamine_PDEL->RMGR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 1.587092595505588,
+          "receptor": "dop-5",
           "transmitter": "dopamine"
         }
       },
@@ -81526,6 +82488,12 @@
         }
       },
       "URXL": {
+        "Monoamine_PDEL->URXL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 36.131068990769,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_PDEL->URXL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 36.131068990769,
@@ -81534,6 +82502,12 @@
         }
       },
       "URXR": {
+        "Monoamine_PDEL->URXR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 36.31898877745695,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_PDEL->URXR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 36.31898877745695,
@@ -82411,6 +83385,12 @@
         }
       },
       "ASIL": {
+        "Monoamine_PDER->ASIL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 21.21376426324007,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_PDER->ASIL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 21.21376426324007,
@@ -82419,6 +83399,12 @@
         }
       },
       "ASIR": {
+        "Monoamine_PDER->ASIR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 21.29632907719071,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_PDER->ASIR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 21.29632907719071,
@@ -82448,6 +83434,12 @@
           "min_distance": 21.212862169410123,
           "receptor": "dop-1",
           "transmitter": "dopamine"
+        },
+        "Monoamine_PDER->AUAL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 21.212862169410123,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
         }
       },
       "AUAR": {
@@ -82455,6 +83447,12 @@
           "etype": "Monoamine",
           "min_distance": 21.294474312715053,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        },
+        "Monoamine_PDER->AUAR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 21.294474312715053,
+          "receptor": "dop-6",
           "transmitter": "dopamine"
         }
       },
@@ -82868,6 +83866,14 @@
           "weight": 7
         }
       },
+      "DVC": {
+        "Monoamine_PDER->DVC_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
       "FLPL": {
         "Monoamine_PDER->FLPL_dopamine->lgc-53": {
           "etype": "Monoamine",
@@ -83213,6 +84219,20 @@
           "etype": "GapJunction",
           "min_distance": 0.0,
           "weight": 1
+        },
+        "Monoamine_PDER->PVCL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "PVCR": {
+        "Monoamine_PDER->PVCR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.0,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "PVDL": {
@@ -83393,6 +84413,28 @@
           "min_distance": 20.915547284677643,
           "receptor": "dop-2",
           "transmitter": "dopamine"
+        },
+        "Monoamine_PDER->RID_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 20.915547284677643,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFL": {
+        "Monoamine_PDER->RIFL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 2.5034972830574795,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "RIFR": {
+        "Monoamine_PDER->RIFR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 6.301299287112832,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
         }
       },
       "RIH": {
@@ -83424,6 +84466,70 @@
           "etype": "Monoamine",
           "min_distance": 14.879983083592872,
           "receptor": "dop-1",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDDL": {
+        "Monoamine_PDER->RMDDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 28.17179830828615,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDDR": {
+        "Monoamine_PDER->RMDDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 28.369036941792707,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDL": {
+        "Monoamine_PDER->RMDL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 32.152154925742266,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDR": {
+        "Monoamine_PDER->RMDR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 33.107504183126416,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVL": {
+        "Monoamine_PDER->RMDVL_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 31.018610893442542,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMDVR": {
+        "Monoamine_PDER->RMDVR_dopamine->dop-6": {
+          "etype": "Monoamine",
+          "min_distance": 31.008272987419684,
+          "receptor": "dop-6",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMGL": {
+        "Monoamine_PDER->RMGL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 0.2890099576735393,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        }
+      },
+      "RMGR": {
+        "Monoamine_PDER->RMGR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 1.587092595505588,
+          "receptor": "dop-5",
           "transmitter": "dopamine"
         }
       },
@@ -83548,6 +84654,12 @@
         }
       },
       "URXL": {
+        "Monoamine_PDER->URXL_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 36.131068990769,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_PDER->URXL_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 36.131068990769,
@@ -83556,6 +84668,12 @@
         }
       },
       "URXR": {
+        "Monoamine_PDER->URXR_dopamine->dop-5": {
+          "etype": "Monoamine",
+          "min_distance": 36.31898877745695,
+          "receptor": "dop-5",
+          "transmitter": "dopamine"
+        },
         "Monoamine_PDER->URXR_dopamine->dop-6": {
           "etype": "Monoamine",
           "min_distance": 36.31898877745695,
@@ -134279,8 +135397,8 @@
     }
   },
   "graph": {
-    "commit_hash": "3cc1c03",
-    "created": "2016-10-21T15:57:34.073506"
+    "commit_hash": "dba6214",
+    "created": "2016-11-01T19:04:40.425314"
   },
   "nodes": {
     "ADAL": {

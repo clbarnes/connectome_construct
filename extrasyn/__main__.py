@@ -5,7 +5,9 @@ Constructs monoamine and neuropeptide edge lists from gene expression spreadshee
 from extrasyn import np_from_xlsx
 from extrasyn import ma_from_xlsx
 from extrasyn import class_edgelist_to_edgelist
+from extrasyn import get_spreadsheets
 
+get_spreadsheets.main()
 
 for include_weak in [True, False]:
     ma_from_xlsx.main(include_weak)

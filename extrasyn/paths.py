@@ -1,2 +1,6 @@
-src_root = '/home/cbarnes/work/code/connectome/construct2/extrasyn/src_data'
-tgt_root = '/home/cbarnes/work/code/connectome/construct2/extrasyn/tgt_data'
+import os
+
+EXTRASYN_ROOT = os.path.dirname(os.path.realpath(__file__))
+
+src_root = os.path.join(EXTRASYN_ROOT, 'src_data')
+tgt_root = os.path.join(EXTRASYN_ROOT, 'tgt_data')

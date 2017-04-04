@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-source activate construct
+#source activate construct
 echo Constructing physical network...
 python -m physical
 echo Constructing extrasynaptic network...

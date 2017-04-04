@@ -8,8 +8,9 @@ zero_re = re.compile('(?<=[A-Z])0(?=[1-9])')
 def ensure_mid_zero(s):
     return zero_re.sub('', s)
 
+TEST_ROOT = os.path.dirname(os.path.realpath(__file__))
 
-barry_root = '/home/cbarnes/work/code/connectome/construct2/test/barry_data'
+barry_root = os.path.join(TEST_ROOT, 'barry_data')
 
 
 def get_node_tuples():
